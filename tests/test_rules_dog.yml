@@ -1,0 +1,64 @@
+stories:
+- story: dog_age
+  steps:
+  - user: |
+      i want a puppy
+    intent: dog_age
+  - action: utter_dog_age
+
+- story: dog_color
+  steps:
+  - user: |
+      brown
+    intent: dog_color
+  - action: utter_dog_color
+
+- story: dog_breed
+  steps:
+  - user: |
+      golden retriever
+    intent: dog_breed
+  - action: utter_dog_breed
+
+- story: dog_gender
+  steps:
+  - user: |
+      i want a girl dog
+    intent: dog_gender
+  - action: utter_dog_gender
+
+- story: dog_group
+  steps:
+  - user: |
+      herding
+    intent: dog_group
+  - action: utter_dog_group
+
+- story: dog_health
+  steps:
+  - user: |
+      im allergic to dogs
+    intent: dog_health
+  - action: utter_dog_health
+
+- story: dog_maintenance
+  steps:
+  - user: |
+      i want a low maintenance dog
+    intent: dog_maintenance
+  - action: utter_dog_maintenance
+
+- story: dog_size
+  steps:
+  - user: |
+      big dog
+    intent: dog_size
+  - action: utter_dog_size
+
+- story: dog_temperament
+  steps:
+  - user: |
+      i want a kind dog
+    intent: dog_temperament
+  - action: utter_dog_temperament
+
