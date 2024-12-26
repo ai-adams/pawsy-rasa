@@ -8,6 +8,11 @@ rules:
     - intent: EXTERNAL_welcome
     - action: utter_welcome
 
+- rule: Greet user anytime they say hello
+  steps:
+    - intent: greet
+    - action: utter_greet
+
 - rule: Say goodbye anytime the user says goodbye
   steps:
     - intent: goodbye
