@@ -1,0 +1,47 @@
+version: "3.1"
+
+rules:
+  - rule: inform_admire
+    steps:
+      - intent: inform_admire
+      - action: utter_inform_admire
+
+  - rule: inform_affirm
+    steps:
+      - intent: inform_affirm
+      - action: utter_inform_affirm
+
+  - rule: inform_appreciate
+    steps:
+      - intent: inform_appreciate
+      - action: utter_inform_appreciate
+
+  - rule: inform_decline
+    steps:
+      - intent: inform_decline
+      - action: utter_inform_decline
+
+  - rule: inform_goodbye
+    steps:
+      - intent: inform_goodbye
+      - action: utter_inform_goodbye
+
+  - rule: inform_greet
+    steps:
+      - intent: inform_greet
+      - action: utter_inform_greet
+
+  - rule: inform_hesitancy
+    steps:
+      - intent: inform_hesitancy
+      - action: utter_inform_hesitancy
+
+  - rule: inform_interest
+    steps:
+      - intent: inform_interest
+      - action: utter_inform_interest
+
+  - rule: inform_remorse
+    steps:
+      - intent: inform_remorse
+      - action: utter_inform_remorse

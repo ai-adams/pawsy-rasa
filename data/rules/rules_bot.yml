@@ -1,0 +1,23 @@
+version: "3.1"
+
+rules:
+  - rule: bot_challenge
+    steps:
+      - intent: bot_challenge
+      - action: utter_bot_challenge
+
+  - rule: bot_clarify
+    steps:
+      - intent: bot_clarify
+      - action: utter_bot_clarify
+
+  - rule: bot_feedback
+    steps:
+      - intent: bot_feedback
+      - action: utter_bot_feedback
+
+  - rule: bot_resources
+    steps:
+      - intent: bot_resources
+      - action: utter_bot_resources
+

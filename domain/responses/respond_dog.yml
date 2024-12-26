@@ -1,0 +1,30 @@
+version: "3.1"
+
+responses:
+  utter_dog_age:
+    - text: "dog_age"
+
+  utter_dog_color:
+    - text: "dog_color"
+
+  utter_dog_breed:
+    - text: "dog_breed"
+
+  utter_dog_gender:
+    - text: "dog_gender"
+
+  utter_dog_group:
+    - text: "dog_group"
+
+  utter_dog_health:
+    - text: "dog_health"
+
+  utter_dog_maintenance:
+    - text: "dog_maintenance"
+
+  utter_dog_size:
+    - text: "dog_size"
+
+  utter_dog_temperament:
+    - text: "dog_temperament"
+

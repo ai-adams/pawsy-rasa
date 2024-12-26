@@ -1,0 +1,27 @@
+version: "3.1"
+
+nlu:
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: bot_clarify
+    examples: |
+      - clarify
+      - can you clarify
+      - clarify that please
+
+  - intent: bot_feedback
+    examples: |
+      - feedback
+      - website is slow
+      - you are unresponsive
+
+  - intent: bot_resources
+    examples: |
+      - resources
+      - can you give me some recommendations
+      - i want some suggestions

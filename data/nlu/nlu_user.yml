@@ -1,0 +1,38 @@
+version: "3.1"
+
+nlu:
+  - intent: owner_budget
+    examples: |
+      - budget
+      - frugal
+      - lavish
+
+  - intent: owner_commitment
+    examples: |
+      - busy
+      - available
+      - weekends
+
+  - intent: owner_compatibility
+    examples: |
+      - compatible
+      - preference
+      - children
+
+  - intent: owner_environment
+    examples: |
+      - apartment
+      - florida
+      - alaska
+
+  - intent: owner_experience
+    examples: |
+      - new
+      - experienced
+      - dog owner
+
+  - intent: owner_lifestyle
+    examples: |
+      - active
+      - relaxed
+      - outdoors

@@ -1,0 +1,5 @@
+version: "3.1"
+
+responses:
+  utter_welcome:
+    - text: "Hi, I'm Pawsy. Welcome to my website!"

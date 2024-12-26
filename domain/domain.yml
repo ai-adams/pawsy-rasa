@@ -4,10 +4,36 @@ actions:
   - action_hello_world
 
 intents:
-  - EXTERNAL_welcome
-  - greet
-  - goodbye
   - bot_challenge
+  - bot_clarify
+  - bot_feedback
+  - bot_resources
+  - dog_age
+  - dog_color
+  - dog_breed
+  - dog_gender
+  - dog_group
+  - dog_health
+  - dog_maintenance
+  - dog_size
+  - dog_temperament
+  - inform_admire
+  - inform_affirm
+  - inform_appreciate
+  - inform_decline
+  - inform_goodbye
+  - inform_greet
+  - inform_hesitancy
+  - inform_interest
+  - inform_remorse
+  - owner_budget
+  - owner_commitment
+  - owner_compatibility
+  - owner_environment
+  - owner_experience
+  - owner_lifestyle
+  - EXTERNAL_welcome
+
 
 session_config:
   session_expiration_time: 60

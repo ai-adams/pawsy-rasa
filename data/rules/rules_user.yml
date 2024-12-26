@@ -1,0 +1,32 @@
+version: "3.1"
+
+rules:
+  - rule: owner_budget
+    steps:
+      - intent: owner_budget
+      - action: utter_owner_budget
+
+  - rule: owner_commitment
+    steps:
+      - intent: owner_commitment
+      - action: utter_owner_commitment
+
+  - rule: owner_compatibility
+    steps:
+      - intent: owner_compatibility
+      - action: utter_owner_compatibility
+
+  - rule: owner_environment
+    steps:
+      - intent: owner_environment
+      - action: utter_owner_environment
+
+  - rule: owner_experience
+    steps:
+      - intent: owner_experience
+      - action: utter_owner_experience
+
+  - rule: owner_lifestyle
+    steps:
+      - intent: owner_lifestyle
+      - action: utter_owner_lifestyle
