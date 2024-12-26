@@ -1,6 +1,10 @@
 version: "3.1"
 
+actions:
+  - action_hello_world
+
 intents:
+  - EXTERNAL_welcome
   - greet
   - goodbye
   - affirm
@@ -10,6 +14,9 @@ intents:
   - bot_challenge
 
 responses:
+  utter_welcome:
+    - text: "Hi, I'm Pawsy. Welcome to my website!"
+
   utter_greet:
   - text: "Hey! How are you?"
 
