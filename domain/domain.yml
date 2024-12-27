@@ -27,6 +27,9 @@ intents:
   - climate_hot
   - climate_humid
   - climate_mild
+  - compatibility_high
+  - compatibility_low
+  - compatibility_moderate
   - experience_high
   - experience_low
   - experience_moderate
@@ -53,9 +56,6 @@ intents:
   - misc_other
   - misc_remorse
   - misc_unsure
-  - preference_high
-  - preference_low
-  - preference_moderate
   - size_large
   - size_medium
   - size_small

@@ -6,3 +6,299 @@ rules:
     steps:
       - intent: EXTERNAL_welcome
       - action: utter_welcome
+
+  - rule: adoption_reason_family
+    steps:
+      - intent: adoption_reason_family
+      - action: utter_adoption_reason_family
+
+  - rule: adoption_reason_lifestyle
+    steps:
+      - intent: adoption_reason_lifestyle
+      - action: utter_adoption_reason_lifestyle
+
+  - rule: adoption_reason_security
+    steps:
+      - intent: adoption_reason_security
+      - action: utter_adoption_reason_security
+
+  - rule: age_middle
+    steps:
+      - intent: age_middle
+      - action: utter_age_middle
+
+  - rule: age_old
+    steps:
+      - intent: age_old
+      - action: utter_age_old
+
+  - rule: age_young
+    steps:
+      - intent: age_young
+      - action: utter_age_young
+
+  - rule: allergies_mild
+    steps:
+      - intent: allergies_mild
+      - action: utter_allergies_mild
+
+  - rule: allergies_none
+    steps:
+      - intent: allergies_none
+      - action: utter_allergies_none
+
+  - rule: allergies_severe
+    steps:
+      - intent: allergies_severe
+      - action: utter_allergies_severe
+
+  - rule: availability_high
+    steps:
+      - intent: availability_high
+      - action: utter_availability_high
+
+  - rule: availability_low
+    steps:
+      - intent: availability_low
+      - action: utter_availability_low
+
+  - rule: availability_moderate
+    steps:
+      - intent: availability_moderate
+      - action: utter_availability_moderate
+
+  - rule: budget_high
+    steps:
+      - intent: budget_high
+      - action: utter_budget_high
+
+  - rule: budget_low
+    steps:
+      - intent: budget_low
+      - action: utter_budget_low
+
+  - rule: budget_moderate
+    steps:
+      - intent: budget_moderate
+      - action: utter_budget_moderate
+
+  - rule: children_grown
+    steps:
+      - intent: children_grown
+      - action: utter_children_grown
+
+  - rule: children_none
+    steps:
+      - intent: children_none
+      - action: utter_children_none
+
+  - rule: children_young
+    steps:
+      - intent: children_young
+      - action: utter_children_young
+
+  - rule: climate_cold
+    steps:
+      - intent: climate_cold
+      - action: utter_climate_cold
+
+  - rule: climate_dry
+    steps:
+      - intent: climate_dry
+      - action: utter_climate_dry
+
+  - rule: climate_hot
+    steps:
+      - intent: climate_hot
+      - action: utter_climate_hot
+
+  - rule: climate_humid
+    steps:
+      - intent: climate_humid
+      - action: utter_climate_humid
+
+  - rule: climate_mild
+    steps:
+      - intent: climate_mild
+      - action: utter_climate_mild
+
+  - rule: compatibility_high
+    steps:
+      - intent: compatibility_high
+      - action: utter_compatibility_high
+
+  - rule: compatibility_low
+    steps:
+      - intent: compatibility_low
+      - action: utter_compatibility_low
+
+  - rule: compatibility_moderate
+    steps:
+      - intent: compatibility_moderate
+      - action: utter_compatibility_moderate
+
+  - rule: experience_high
+    steps:
+      - intent: experience_high
+      - action: utter_experience_high
+
+  - rule: experience_low
+    steps:
+      - intent: experience_low
+      - action: utter_experience_low
+
+  - rule: experience_moderate
+    steps:
+      - intent: experience_moderate
+      - action: utter_experience_moderate
+
+  - rule: gender_female
+    steps:
+      - intent: gender_female
+      - action: utter_gender_female
+
+  - rule: gender_male
+    steps:
+      - intent: gender_male
+      - action: utter_gender_male
+
+  - rule: home_apartment
+    steps:
+      - intent: home_apartment
+      - action: utter_home_apartment
+
+  - rule: home_large
+    steps:
+      - intent: home_large
+      - action: utter_home_large
+
+  - rule: home_small
+    steps:
+      - intent: home_small
+      - action: utter_home_small
+
+  - rule: lifestyle_active
+    steps:
+      - intent: lifestyle_active
+      - action: utter_lifestyle_active
+
+  - rule: lifestyle_balanced
+    steps:
+      - intent: lifestyle_balanced
+      - action: utter_lifestyle_balanced
+
+  - rule: lifestyle_relaxed
+    steps:
+      - intent: lifestyle_relaxed
+      - action: utter_lifestyle_relaxed
+
+  - rule: maintenance_high
+    steps:
+      - intent: maintenance_high
+      - action: utter_maintenance_high
+
+  - rule: maintenance_low
+    steps:
+      - intent: maintenance_low
+      - action: utter_maintenance_low
+
+  - rule: maintenance_moderate
+    steps:
+      - intent: maintenance_moderate
+      - action: utter_maintenance_moderate
+
+  - rule: misc_admire
+    steps:
+      - intent: misc_admire
+      - action: utter_misc_admire
+
+  - rule: misc_affirm
+    steps:
+      - intent: misc_affirm
+      - action: utter_misc_affirm
+
+  - rule: misc_appreciate
+    steps:
+      - intent: misc_appreciate
+      - action: utter_misc_appreciate
+
+  - rule: misc_bot_challenge
+    steps:
+      - intent: misc_bot_challenge
+      - action: utter_misc_bot_challenge
+
+  - rule: misc_clarify
+    steps:
+      - intent: misc_clarify
+      - action: utter_misc_clarify
+
+  - rule: misc_decline
+    steps:
+      - intent: misc_decline
+      - action: utter_misc_decline
+
+  - rule: misc_flexible
+    steps:
+      - intent: misc_flexible
+      - action: utter_misc_flexible
+
+  - rule: misc_goodbye
+    steps:
+      - intent: misc_goodbye
+      - action: utter_misc_goodbye
+
+  - rule: misc_greet
+    steps:
+      - intent: misc_greet
+      - action: utter_misc_greet
+
+  - rule: misc_other
+    steps:
+      - intent: misc_other
+      - action: utter_misc_other
+
+  - rule: misc_remorse
+    steps:
+      - intent: misc_remorse
+      - action: utter_misc_remorse
+
+  - rule: misc_unsure
+    steps:
+      - intent: misc_unsure
+      - action: utter_misc_unsure
+
+  - rule: size_large
+    steps:
+      - intent: size_large
+      - action: utter_size_large
+
+  - rule: size_medium
+    steps:
+      - intent: size_medium
+      - action: utter_size_medium
+
+  - rule: size_small
+    steps:
+      - intent: size_small
+      - action: utter_size_small
+
+  - rule: temperament_adaptable
+    steps:
+      - intent: temperament_adaptable
+      - action: utter_temperament_adaptable
+
+  - rule: temperament_confident
+    steps:
+      - intent: temperament_confident
+      - action: utter_temperament_confident
+
+  - rule: temperament_friendly
+    steps:
+      - intent: temperament_friendly
+      - action: utter_temperament_friendly
+
+  - rule: temperament_independent
+    steps:
+      - intent: temperament_independent
+      - action: utter_temperament_independent
+
