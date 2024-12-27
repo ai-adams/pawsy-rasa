@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: lifestyle_active
+    examples: |
+      - I’m very active and enjoy outdoor activities daily.
+      - I love running and hiking regularly.
+      - I exercise a lot and want an active dog.
+      - I need a dog that can keep up with my active lifestyle.
+      - I’m always outdoors and want a dog that loves adventure.
+      - I stay active and want a dog that enjoys physical activity.
+      - My lifestyle is very energetic, and I need a dog to match.
+      - I enjoy jogging every day and need a dog that can join me.
+      - I’m constantly on the move and want a dog that’s up for it.
+      - Hiking, running, and staying active are important to me, so I need an active dog.
+      - I’d like a dog that loves spending time outdoors.
+      - I’m very physically active and need a dog with similar energy levels.
+      - My lifestyle is all about staying fit, and I’d like a dog to join me.
+      - I’m always outdoors, so I need a dog that thrives on activity.
+      - I love adventurous activities and want a dog that’s energetic.
+      - I exercise daily, so an active dog is the right fit for me.
+      - A high-energy dog would be perfect for my active routine.
+      - I’m into sports and outdoor activities, and I need a dog that can keep up.
+      - My routine involves a lot of physical activity, so I’d like a dog to match.
+      - I enjoy long walks and runs, so I want a dog that’s just as active.

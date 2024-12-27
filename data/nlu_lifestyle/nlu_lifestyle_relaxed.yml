@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: lifestyle_relaxed
+    examples: |
+      - I’m not very active and prefer staying indoors.
+      - I only exercise occasionally.
+      - I lead a sedentary lifestyle most of the time.
+      - I enjoy quiet time at home and don’t move around much.
+      - My routine is relaxed, and I don’t do a lot of physical activity.
+      - I’m looking for a dog that doesn’t require too much exercise.
+      - I’m not very energetic, and I prefer a calm lifestyle.
+      - My lifestyle is laid-back, so I need a dog that’s low-energy.
+      - I prefer relaxing indoors over going out for exercise.
+      - I don’t spend much time outdoors or doing physical activities.
+      - I have a sedentary lifestyle and want a dog that matches it.
+      - I prefer spending most of my time at home.
+      - My routine doesn’t involve much movement or exercise.
+      - I’m not very physically active and want a dog that’s the same.
+      - A calm, low-energy dog would fit my relaxed lifestyle.
+      - I don’t go outside much and prefer a quieter home environment.
+      - My lifestyle is peaceful, with minimal physical activity.
+      - I don’t do a lot of walking or outdoor activities.
+      - I’m more of a homebody and want a dog that’s content with that.
+      - A dog that’s okay with a low-activity lifestyle would be ideal for me.

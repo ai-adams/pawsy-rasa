@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: budget_low
+    examples: |
+      - My budget is pretty tight.
+      - I need to keep costs as low as possible.
+      - I have a limited budget for a dog.
+      - I’m looking for a low-cost option for adoption and care.
+      - My resources are minimal, so I need something affordable.
+      - I can’t spend much on a dog and its care.
+      - I need a dog that doesn’t require high expenses.
+      - I’m searching for a cost-effective option for a pet.
+      - My finances are limited, so I need an affordable solution.
+      - I’m on a tight budget but still want to adopt.
+      - I’d prefer a dog with low maintenance costs.
+      - I can only afford basic expenses for a dog.
+      - My spending capacity is minimal, so I’m looking for an economical choice.
+      - I have financial constraints, so I need a low-budget option.
+      - I’m focused on finding an affordable breed or adoption process.
+      - I can’t afford high fees for a dog or its care.
+      - My budget is very frugal, so I’m looking for an inexpensive dog.
+      - I’m looking for a pet that won’t require significant financial resources.
+      - I need to adopt within a strict budget.
+      - An affordable option that fits my financial situation is necessary.

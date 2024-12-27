@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: adoption_reason_family
+    examples: |
+      - I want a dog that will be a loving companion for my children.
+      - I’m looking for a dog to bring emotional support to my family.
+      - A dog that can bond with the whole family is what we need.
+      - We want a dog that will fit in well with our kids.
+      - I’m searching for a dog that will complete our family.
+      - Our family would love a dog to share experiences with.
+      - A family-oriented dog is exactly what we’re looking for.
+      - I want a dog that’s great with kids and family life.
+      - We’re looking for a dog that will play with and protect our children.
+      - A dog that can make my home feel more loving is what I want.
+      - I need a dog that is good with children of all ages.
+      - I want to find a dog that brings comfort and joy to our family.
+      - A dog that gets along with everyone in the house is essential.
+      - I want a dog that can grow up with my kids.
+      - We need a family-friendly dog that is gentle and affectionate.
+      - A dog that helps bring our family closer together is ideal.
+      - I’m looking for a dog to provide companionship for my family.
+      - Our family wants a dog that is playful and kind.
+      - A dog that thrives in a family environment is what we need.
+      - We’d like a dog that becomes part of the family.

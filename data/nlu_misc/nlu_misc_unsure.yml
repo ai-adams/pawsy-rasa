@@ -1,0 +1,26 @@
+version: "3.1"
+
+nlu:
+  - intent: misc_unsure
+    examples: |
+      - I don't know
+      - I'm not sure
+      - Not sure about that
+      - I’m not sure how active I am.
+      - It varies depending on the day.
+      - I don’t know if I’d call myself active or not.
+      - I’m not sure about grooming or training needs.
+      - I’m uncertain about my preference.
+      - I don’t really know what I want yet.
+      - I’m not sure how important compatibility is for me.
+      - I don’t know if I care about this or not.
+      - I’m still deciding if this matters.
+      - I’m unsure about what I prefer.
+      - It depends; I haven’t decided yet.
+      - I haven’t thought about this much.
+      - I’m on the fence about it.
+      - I’m unsure how I feel about this topic.
+      - I don’t know enough to make a decision.
+      - I need more time to think about this.
+      - I’m not certain what’s best for me.
+      - I’m unclear about what I prefer in this case.

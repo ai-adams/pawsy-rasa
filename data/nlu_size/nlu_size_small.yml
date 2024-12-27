@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: size_small
+    examples: |
+      - I’d love to adopt a small dog, like a Chihuahua or Maltese.
+      - I prefer smaller dogs that are easier to manage in a smaller space.
+      - A small dog would be perfect for my lifestyle.
+      - I’m looking for a small breed that’s easy to care for.
+      - A small dog, like a Dachshund or Pomeranian, is what I want.
+      - I’d like a dog that’s compact and easy to handle.
+      - A tiny or small-sized dog would fit my living situation best.
+      - I’m drawn to smaller dogs because they’re more manageable.
+      - I want a dog that’s small enough to fit comfortably in my home.
+      - Small breeds, like a Yorkie or Shih Tzu, are my preference.
+      - I prefer a small dog because they’re easier to take on trips.
+      - I’d like a small dog that doesn’t take up much space.
+      - A small breed is ideal for my apartment or smaller house.
+      - I think a small dog would be a great fit for me.
+      - I’m interested in adopting a smaller dog that’s easier to transport.
+      - I want a dog that’s small but still full of personality.
+      - A small dog, like a French Bulldog, would be perfect for my needs.
+      - I’m looking for a petite breed that’s easy to care for and manage.
+      - Small dogs work better for my lifestyle and space limitations.
+      - I’d prefer a small-sized dog that’s easy to pick up and cuddle.

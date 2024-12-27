@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: lifestyle_balanced
+    examples: |
+      - I’m moderately active and go outside a few times a week.
+      - I like going on occasional walks or jogs.
+      - I’m somewhat active but not every day.
+      - My lifestyle is a mix of activity and relaxation.
+      - I’m not super active, but I enjoy regular walks or light exercise.
+      - I like to go outside for exercise a few times a week.
+      - My routine is balanced between being active and relaxing.
+      - I need a dog that matches my moderately active lifestyle.
+      - I enjoy occasional outdoor activities, but I’m not overly active.
+      - I’m not very active every day, but I like to stay somewhat engaged.
+      - I go for walks and spend time outside, but not every day.
+      - I’m moderately energetic and want a dog to match that balance.
+      - My activity level is steady but not intense.
+      - I’d like a dog that enjoys occasional exercise but isn’t overly energetic.
+      - I’m active enough to take a dog for regular walks but not every day.
+      - My routine involves moderate outdoor activities a few times a week.
+      - I enjoy a mix of light exercise and quiet time at home.
+      - A dog that’s moderately active would suit my balanced lifestyle.
+      - I like to stay fit but prefer light to moderate activity levels.
+      - I’m not sedentary, but I’m also not constantly active.

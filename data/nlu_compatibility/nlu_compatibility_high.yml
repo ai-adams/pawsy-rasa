@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: compatibility_high
+    examples: |
+      - It’s very important that the dog is compatible with kids and pets.
+      - Compatibility is essential for me.
+      - I need a dog that works well with my family.
+      - The dog must get along well with children and other animals.
+      - I want a dog that’s friendly and adaptable to everyone in the house.
+      - A dog that fits perfectly into my family dynamic is a must.
+      - I need a dog that’s safe and gentle around kids and other pets.
+      - Compatibility with the entire household is a top priority.
+      - The dog has to be friendly and easygoing with everyone in my home.
+      - It’s crucial that the dog gets along with all family members, including pets.
+      - A dog that’s sociable and gets along with others is very important.
+      - I’m only interested in a dog that fits well into a family environment.
+      - A dog that’s calm and gentle around children and other pets is necessary.
+      - I need a dog that’s compatible with both kids and animals.
+      - The dog has to be family-friendly and non-aggressive.
+      - Compatibility with everyone in the household is the most important factor.
+      - I’m looking for a dog that’s loving and patient with kids and pets.
+      - The dog must have a temperament that works well with families.
+      - A dog that’s easy to integrate into my family setup is essential.
+      - It’s critical that the dog is a good fit with all members of the household.

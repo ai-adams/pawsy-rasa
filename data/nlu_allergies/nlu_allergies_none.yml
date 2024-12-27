@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: allergies_none
+    examples: |
+      - No one in my household has any allergies to dogs.
+      - We don’t have any issues with dog allergies.
+      - Allergies aren’t a concern for us when choosing a dog.
+      - None of us are allergic to dogs.
+      - My family doesn’t have any sensitivities to dogs.
+      - We don’t need to worry about dog allergies in our household.
+      - I don’t have any allergies to dogs.
+      - Allergies are not a factor for us in picking a breed.
+      - No one here is allergic to dogs.
+      - We have no concerns about dog dander or allergies.
+      - I’m not allergic to dogs at all.
+      - Dog allergies are not something we have to deal with.
+      - None of my family members have dog-related allergies.
+      - We’re lucky to have no allergies to dogs.
+      - Dog allergens don’t affect us, so we’re open to any breed.
+      - No one in my house reacts to dogs.
+      - Allergies don’t play a role in our decision to adopt a dog.
+      - We don’t have to consider allergies when choosing a dog.
+      - Dog allergies aren’t an issue for me or my family.
+      - I don’t need to factor in allergies when selecting a dog.

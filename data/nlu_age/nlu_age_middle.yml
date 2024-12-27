@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: age_middle
+    examples: |
+      - I’d prefer a dog that’s in its middle years.
+      - A dog that’s not too young or too old would be perfect for me.
+      - I’m looking for a dog that’s already grown but still active.
+      - I’d like to adopt a dog that’s past the puppy stage but not too old.
+      - A middle-aged dog would fit well with my lifestyle.
+      - I want a dog that’s mature but still has plenty of energy.
+      - A dog that’s in its prime age would work best for me.
+      - I’d like a dog that’s neither too playful like a puppy nor too slow like a senior.
+      - A dog that’s past the chewing and training phase is what I need.
+      - I prefer a dog that’s calm but still up for adventures.
+      - A middle-aged dog would be a great balance for my family.
+      - I’m searching for a dog that’s grown out of the puppy stage.
+      - A dog that’s not a puppy anymore but still has a lot of life left is ideal.
+      - I’d love a dog that’s mature and well-mannered but not elderly.
+      - A dog that’s steady and balanced in age would be perfect for me.
+      - I think a dog that’s in the middle of its life is the right choice.
+      - A dog that’s past the training challenges of puppyhood suits me.
+      - I’m looking for a dog that’s grown but still playful and active.
+      - A dog that’s well-adjusted and in its middle years is what I want.
+      - A middle-aged dog feels like the perfect companion for me.

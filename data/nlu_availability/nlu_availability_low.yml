@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: availability_low
+    examples: |
+      - I work long hours, so my time with a dog would be limited.
+      - I travel frequently, so I can’t be with my dog all the time.
+      - My schedule is busy, so I need a dog that doesn’t require constant attention.
+      - I’m away from home most of the day and can’t always be with a dog.
+      - I have a demanding job, so I won’t have much time for a dog.
+      - My lifestyle doesn’t allow for spending a lot of time with a dog.
+      - I’d like a dog that can be independent while I’m at work.
+      - I’m out of the house most of the day, so I need a low-maintenance dog.
+      - I can’t dedicate much time to training or playing with a dog.
+      - I travel a lot for work, so a dog that’s okay alone would be better.
+      - I have a packed schedule, so I need a dog that doesn’t need constant attention.
+      - My job keeps me busy, so I can’t always be around for a dog.
+      - I need a dog that doesn’t mind being alone for extended periods.
+      - I’m not home often, so my dog will need to be okay without a lot of interaction.
+      - I have a busy routine that doesn’t allow much free time for a dog.
+      - I need a dog that can handle being on its own for most of the day.
+      - I’m usually gone for long stretches during the day.
+      - A dog that is fine being left alone is ideal for me.
+      - My schedule limits the amount of attention I can give to a dog.
+      - I need a low-maintenance dog that doesn’t require a lot of supervision.

@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: children_young
+    examples: |
+      - I have young kids under 5 years old.
+      - There are toddlers in my household.
+      - I live with small children.
+      - My family includes young kids.
+      - I need a dog that’s good with very young children.
+      - My household has babies or toddlers.
+      - I have a toddler at home, so I need a dog that’s patient.
+      - We have small kids, so a family-friendly dog is important.
+      - I’m looking for a dog that’s good with kids under 5.
+      - I live with little kids who love dogs.
+      - My children are still very young.
+      - I need a dog that’s gentle around toddlers.
+      - My kids are all under the age of 5.
+      - We have young children in our home.
+      - I have babies or small kids in the house.
+      - My household has little ones who love animals.
+      - A dog that’s safe around young kids is important to us.
+      - My family includes small children who are curious about dogs.
+      - I’m looking for a dog that can handle being around toddlers.
+      - Our house has babies and young children.

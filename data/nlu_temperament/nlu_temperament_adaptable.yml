@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: temperament_adaptable
+    examples: |
+      - I want a dog that is curious and eager to explore new things.
+      - I’m looking for a dog that can easily adapt to different situations.
+      - An active and adventurous dog is perfect for me.
+      - I’d like a dog that thrives in new environments and activities.
+      - A dog that’s flexible and open to change is ideal for me.
+      - I need a dog that can adjust to different people and places easily.
+      - A curious and playful dog that enjoys exploring sounds great.
+      - I’m searching for a dog that’s adventurous and adaptable.
+      - I’d like a dog that’s happy to join me in various activities.
+      - A dog that’s comfortable in different settings is what I’m looking for.
+      - I prefer dogs that are eager to try new things and environments.
+      - A flexible and adaptable dog would fit my lifestyle perfectly.
+      - I want a dog that’s comfortable traveling or exploring new places.
+      - A dog that enjoys variety and adapts well is what I need.
+      - I’d love a dog that’s active and curious about its surroundings.
+      - A versatile dog that fits different routines would be great for me.
+      - I want a dog that’s comfortable in both busy and quiet environments.
+      - A dog that can go with the flow and adjust to my lifestyle is important.
+      - I prefer dogs that are open-minded and not easily stressed by change.
+      - A dog that’s eager to explore and adaptable to my activities is ideal.

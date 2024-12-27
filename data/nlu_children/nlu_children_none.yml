@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: children_none
+    examples: |
+      - I don’t have kids or pets at home.
+      - It’s just me, no other animals or kids.
+      - My household is quiet with no children or pets.
+      - I live alone without any children or other pets.
+      - There are no kids or animals in my home.
+      - My household is child-free and pet-free.
+      - I don’t have children or any other animals at home.
+      - It’s just adults in my house, no kids or pets.
+      - My home is quiet because there are no children here.
+      - I don’t have kids living with me.
+      - My household doesn’t include any children.
+      - There are no little ones running around my house.
+      - I don’t have any kids in my family.
+      - I’m looking for a dog because I don’t have children.
+      - My house is calm and quiet since I don’t have kids.
+      - I’m single and child-free.
+      - I don’t share my home with children or pets.
+      - It’s only adults living in my house.
+      - I have no kids and no other responsibilities at home.
+      - My lifestyle doesn’t involve children or other animals.

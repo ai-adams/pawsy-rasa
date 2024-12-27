@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: home_small
+    examples: |
+      - I live in a small house with just a few rooms.
+      - My home isn’t very big, but there’s a small yard.
+      - We live in a compact house, and outdoor space is limited.
+      - My house is small, with only a few rooms and a tiny yard.
+      - We live in a smaller house, but we make it work.
+      - My home is compact, with limited indoor and outdoor space.
+      - I live in a small house that doesn’t have much room.
+      - Our house is cozy, but there’s not much space for a dog to run around.
+      - My house is small, but it has enough space for a small dog.
+      - We have a compact home with a small garden.
+      - I live in a modest-sized house without a lot of extra room.
+      - My home is small, but I have a little outdoor area for a dog.
+      - We live in a compact house with only a tiny yard.
+      - My house isn’t very big, so I need a dog that fits the space.
+      - We have a small home, so space is limited for a large dog.
+      - Our house is small but cozy, with minimal outdoor space.
+      - I live in a small home with no backyard but access to a nearby park.
+      - My house is on the smaller side, with limited space for activity.
+      - We live in a smaller home, so we’d prefer a low-energy dog.
+      - I live in a compact house without much room for a dog to roam.

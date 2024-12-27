@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: climate_dry
+    examples: |
+      - The air here is dry, and it rarely rains.
+      - I live in a desert-like climate with very little humidity.
+      - It’s dry year-round where I live, with very little moisture.
+      - My area has a dry climate with almost no rain.
+      - I live in a region that’s arid and dry most of the time.
+      - The weather here is hot and dry, with little to no humidity.
+      - My climate is very dry, and rain is infrequent.
+      - It’s a desert-like area where I live, with dry air all year.
+      - We don’t get much rain, and the air is usually dry.
+      - The climate here is very dry, even during the cooler months.
+      - I live in a dry environment with little rainfall or humidity.
+      - The air where I live is arid, and the weather is often dusty.
+      - My region is known for being dry and having almost no moisture.
+      - It’s very arid where I live, and rain is extremely rare.
+      - The climate here is mostly dry, with almost no wet seasons.
+      - The environment where I live is hot, dry, and often dusty.
+      - We experience dry weather conditions most of the year.
+      - I live in a dry, desert-like region with no humidity.
+      - The weather here is always dry, and the air has little moisture.
+      - My area has a dry, arid climate with minimal rain throughout the year.

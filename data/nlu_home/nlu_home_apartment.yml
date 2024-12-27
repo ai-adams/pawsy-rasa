@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: home_apartment
+    examples: |
+      - I live in an apartment without much room indoors.
+      - I have a small living space but access to a park nearby.
+      - I live in a condo, so there’s limited space for a dog.
+      - My home is an apartment with no yard.
+      - I live in a small flat, so space is limited.
+      - I don’t have a backyard since I live in an apartment.
+      - My living situation is an apartment without outdoor access.
+      - I live in a condo that’s not very large.
+      - My apartment doesn’t have much room for a big dog.
+      - I live in a high-rise building, so space is tight.
+      - My home is a studio apartment with no outdoor area.
+      - I live in a small apartment but there’s a park nearby for walks.
+      - I’m in a city apartment without much room for a dog.
+      - I live in a complex with shared outdoor areas.
+      - My apartment has limited indoor space, so I need a small dog.
+      - I live in a condo without direct access to a yard.
+      - I have a small urban apartment that isn’t very spacious.
+      - My living space is compact since I’m in an apartment.
+      - I live in an apartment and don’t have much room for a pet.
+      - My home is a small flat without a garden.

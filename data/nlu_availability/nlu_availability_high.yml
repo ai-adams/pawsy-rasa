@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: availability_high
+    examples: |
+      - I’m home most of the day and can spend a lot of time with my dog.
+      - I have plenty of time to dedicate to training, playing, and caring for a dog.
+      - I’m very available to give my dog the attention they need.
+      - I can spend a lot of quality time with a dog every day.
+      - I work from home, so I’m always around to take care of a dog.
+      - I’m free most of the day and can give my dog lots of attention.
+      - I have lots of time to take care of a dog properly.
+      - I’m at home most days, so I can be with my dog frequently.
+      - I’m fully available to train and bond with a dog.
+      - I have all the time I need to provide for a dog’s needs.
+      - I’m looking for a dog I can spend most of my day with.
+      - I’ll have time to walk, play with, and care for my dog every day.
+      - I’m available throughout the day to keep a dog company.
+      - I’ll always be around to take my dog for walks and playtime.
+      - I have the time to focus on raising a happy and healthy dog.
+      - I want a dog I can care for and be with all day long.
+      - I’m at home nearly all the time, so my dog won’t be left alone.
+      - I’m ready to dedicate as much time as needed to a dog.
+      - I have a very open schedule to give attention to a dog.
+      - I’m available to be with a dog almost 24/7.

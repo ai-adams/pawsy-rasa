@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: misc_bot_challenge
+    examples: |
+      - are you a bot?
+      - am i speaking to a human?
+      - what is your name?
+      - are you real?
+      - are you a chatbot?
+      - who am I talking to?
+      - is this a person or a bot?
+      - are you an AI?
+      - are you automated?
+      - what kind of bot are you?
+      - how do you work?
+      - are you programmed to answer questions?
+      - are you human or machine?
+      - what do you do?
+      - are you a real person?
+      - can you understand me?
+      - are you intelligent?
+      - are you just a computer program?
+      - how do you know what to say?
+      - are you part of some AI system?

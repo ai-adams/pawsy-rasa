@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: allergies_severe
+    examples: |
+      - Someone in my household has severe allergies to dogs.
+      - I need a dog that is hypoallergenic because of strong allergies.
+      - We have severe allergic reactions to dogs, so shedding must be minimal.
+      - Severe dog allergies in my family mean we need a specific breed.
+      - A hypoallergenic breed is a must for us due to severe allergies.
+      - My allergies to dogs are very strong, so I need a low-allergy breed.
+      - We have to be extremely cautious because of severe reactions to dogs.
+      - A dog that won’t trigger severe allergies is essential for us.
+      - My household cannot tolerate dogs that shed a lot due to allergies.
+      - Severe allergies in my home mean we need a dog that doesn’t produce much dander.
+      - Someone in my family gets strong allergic reactions to dogs.
+      - I can only adopt a dog that’s hypoallergenic because of our severe allergies.
+      - We require a breed that’s very allergy-friendly because of strong sensitivities.
+      - Severe dog allergies in our house mean we need a very specific breed.
+      - I have strong allergies to dogs and need a breed with minimal shedding.
+      - It’s critical to find a hypoallergenic dog because of severe allergies.
+      - Severe reactions to dog dander mean we can only adopt a hypoallergenic breed.
+      - Someone in my household reacts very strongly to dogs.
+      - We need a dog that’s as allergen-free as possible due to severe sensitivities.
+      - A breed that doesn’t aggravate severe allergies is non-negotiable for us.

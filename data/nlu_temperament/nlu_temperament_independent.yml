@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: temperament_independent
+    examples: |
+      - I want an independent dog.
+      - I don’t need a clingy dog.
+      - A dog that’s fine on its own is ideal.
+      - I prefer a dog that doesn’t need constant attention.
+      - A dog that’s comfortable being alone sometimes would work for me.
+      - I’m looking for a dog that’s self-reliant.
+      - I’d like a dog that’s happy to have its own space.
+      - A dog that’s not overly needy or demanding is what I want.
+      - I’m searching for a dog that can entertain itself.
+      - I’d prefer a dog that doesn’t require constant interaction.
+      - A dog that’s independent but still affectionate is ideal.
+      - I need a dog that’s okay being on its own for parts of the day.
+      - I’m not looking for a dog that always needs to be by my side.
+      - A low-maintenance, independent dog would suit my lifestyle.
+      - A dog that’s content being left alone while I’m at work is perfect.
+      - I’m interested in a dog that’s not overly attached or clingy.
+      - A dog with an independent personality is what I need.
+      - I want a dog that can enjoy its own company as well as mine.
+      - A dog that’s fine with occasional alone time fits my needs.
+      - I’d prefer a dog that’s self-sufficient and easygoing.

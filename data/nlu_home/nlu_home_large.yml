@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: home_large
+    examples: |
+      - I live in a big house with plenty of space for a dog to roam.
+      - We have a large home with a big backyard.
+      - My house is spacious, and there’s lots of room indoors and outdoors for a dog.
+      - My home is a big house with ample indoor and outdoor space.
+      - We have a large yard and a spacious home for a dog.
+      - I live in a house with plenty of room for a dog to play.
+      - Our property is big, with lots of space for a dog to run around.
+      - My house is large, and we have a fenced backyard.
+      - I have a big house, so there’s no shortage of space for a dog.
+      - We live in a large home with multiple rooms and a big yard.
+      - My home has a lot of open space for a dog to enjoy.
+      - I live in a large house with a garden for the dog to explore.
+      - We have a big property with plenty of space indoors and out.
+      - Our home is spacious and ideal for a larger dog.
+      - I have a large house with a private backyard for a dog.
+      - My house is big enough to comfortably accommodate a dog.
+      - I live in a large home with lots of space for a dog to roam freely.
+      - Our house is big and perfect for an active dog.
+      - We have a big house and a yard that’s perfect for a dog.
+      - My home has enough space for a dog to play both indoors and outdoors.
