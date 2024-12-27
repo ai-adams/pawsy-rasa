@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: misc_goodbye
+    examples: |
+      - good bye
+      - see you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - take care
+      - talk to you later
+      - catch you later
+      - farewell
+      - until next time
+      - see you next time
+      - later
+      - so long
+      - have a great day
+      - bye for now
+      - I’ll be back
+      - see you soon

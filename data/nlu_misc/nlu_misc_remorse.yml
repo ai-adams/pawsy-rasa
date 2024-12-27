@@ -1,0 +1,26 @@
+version: "3.1"
+
+nlu:
+  - intent: misc_remorse
+    examples: |
+      - sad
+      - terrible
+      - horrible
+      - I feel awful
+      - this is heartbreaking
+      - I’m really sorry
+      - I regret this
+      - I feel bad about it
+      - this makes me feel terrible
+      - I’m so sad
+      - I’m full of regret
+      - this feels wrong
+      - I feel guilty
+      - this is making me emotional
+      - I can’t stop feeling bad about it
+      - I feel horrible about this
+      - it’s such a shame
+      - this is so upsetting
+      - I’m really down about this
+      - I can’t believe this happened
+      - I feel so sorry about this

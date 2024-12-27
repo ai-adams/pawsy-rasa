@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: budget_high
+    examples: |
+      - My budget is flexible, and I’m willing to spend generously.
+      - I have plenty of resources to invest in a dog.
+      - Cost isn’t an issue; I can afford the best for my dog.
+      - I’m ready to spend lavishly on a high-quality dog and its care.
+      - My budget is expansive, so I can cover all expenses comfortably.
+      - I want the best options, and I’m not concerned about the price.
+      - I’m open to spending whatever it takes for a great dog.
+      - I can afford to invest in a dog with high care needs.
+      - Money isn’t a factor; I want the best breed for me.
+      - I’m willing to pay extra for a premium breed or care services.
+      - I have the financial freedom to spend as needed for my dog.
+      - Price is not a barrier; I just want the ideal match.
+      - I’m ready to spend generously on a high-quality adoption.
+      - A higher price tag doesn’t bother me if the dog is right.
+      - I have a large budget for both adoption and ongoing care.
+      - I’m okay with premium options for my dog’s needs.
+      - I want a dog that meets all my needs, regardless of cost.
+      - My budget is very comfortable; I can handle any necessary expenses.
+      - Quality and compatibility matter more to me than the price.
+      - I have a lavish budget and can afford whatever is required.

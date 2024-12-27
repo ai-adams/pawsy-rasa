@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: misc_admire
+    examples: |
+      - wow
+      - amazing
+      - wonderful
+      - that’s awesome
+      - incredible
+      - so cool
+      - beautiful
+      - that’s great
+      - I love that
+      - fantastic
+      - how wonderful
+      - impressive
+      - that’s extraordinary
+      - wow, I didn’t know that
+      - outstanding
+      - that’s so interesting
+      - marvelous
+      - unbelievable
+      - that’s lovely
+      - absolutely amazing

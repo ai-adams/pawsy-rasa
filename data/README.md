@@ -24,6 +24,12 @@ The `availability_low` intent captures users who have limited time to dedicate t
 
 The `availability_moderate` intent captures users who have a balanced schedule, with some free time to care for a dog but also other commitments that limit their availability. It reflects the need for breeds that can adapt to a mix of interaction and independence. This intent ensures the chatbot can recognize various ways users describe their partially open schedules and guide them toward breeds with moderate care and attention requirements.
 
+The `budget_high` intent captures users who have a flexible or expansive budget and are willing to spend generously on adoption and ongoing care for their dog. These users prioritize quality and suitability over cost, often seeking premium breeds or services. This intent ensures the chatbot can identify users unconstrained by financial limitations and recommend high-quality options that match their expectations.
+
+The `budget_low` intent captures users who have a constrained or frugal budget, seeking affordable options for adopting and caring for a dog. These users may prioritize breeds or individual dogs that are low-maintenance and come with minimal upfront and ongoing costs. This intent ensures the chatbot can recognize and appropriately assist users with limited financial resources by recommending cost-effective solutions.
+
+The `budget_moderate` intent captures users with a balanced and fair budget for adopting and caring for a dog. These users are comfortable spending a reasonable amount but aim to avoid unnecessary or extravagant costs. This intent ensures the chatbot recognizes users with a mid-range budget and provides suitable options that align with their financial comfort.
+
 The `children_grown` intent captures users with older children (school-aged or teenagers) who are responsible enough to interact with and care for a dog. It reflects the need for breeds that are playful, patient, and compatible with more independent and active kids. This intent ensures the chatbot can understand various ways users describe households with older children, helping recommend suitable breeds for their family dynamics.
 
 The `children_none` intent captures users who do not have children or pets in their household. It reflects a quiet or child-free environment, which may be ideal for breeds that prefer calmer, less chaotic homes. This intent ensures the chatbot understands various ways users can describe their lack of children or pets, helping recommend suitable breeds for their living situation.
@@ -74,7 +80,11 @@ The `maintenance_low` intent captures users who prefer dogs with minimal groomin
 
 The `maintenance_moderate` intent captures users who are comfortable with light to moderate grooming routines. These users are willing to brush, bathe, or visit the groomer occasionally but prefer a dog that doesn’t require intensive care. This intent ensures the chatbot can interpret various ways users describe their preference for breeds with average grooming needs, helping recommend breeds that align with their lifestyle.
 
+The `misc_admire` intent captures user expressions of admiration, amazement, or positive emotional reactions. These responses often reflect excitement, appreciation, or enthusiasm about something the chatbot has shared or suggested. Recognizing this intent allows the chatbot to maintain a positive conversational tone, acknowledge the user’s reaction, and continue engaging effectively.
+
 The `misc_affirm` intent captures positive responses or confirmations from users, indicating agreement or acknowledgment. These examples reflect the various ways users might affirmatively respond to the chatbot's questions or statements. This intent ensures the chatbot can recognize and respond appropriately to affirmations, enhancing conversational flow and understanding.
+
+The `misc_appreciate` intent captures user expressions of gratitude or appreciation, which are often a response to helpful information or support provided by the chatbot. These examples reflect a range of ways users say "thank you," from casual to heartfelt. Recognizing this intent enables the chatbot to acknowledge gratitude graciously, fostering positive user engagement and a friendly conversational tone.
 
 The `misc_bot_challenge` intent captures user queries that challenge or inquire about the identity, nature, or functioning of the chatbot. These questions often reflect curiosity, skepticism, or a desire for clarification about whether the user is interacting with a human or an AI. This intent ensures the chatbot can recognize and appropriately respond to such challenges, enhancing user trust and engagement.
 
@@ -84,7 +94,13 @@ The `misc_decline` intent captures negative or declining responses from users, i
 
 The `misc_flexible` intent captures user responses that indicate openness or flexibility in making a choice. These users do not have a strong preference and are willing to go along with any suggestion or option. This intent ensures the chatbot can recognize and respond effectively to users who express flexibility, allowing for seamless decision-making and suggestions.
 
+The `misc_goodbye` intent captures user expressions signaling the end of a conversation or departure. These examples reflect various ways users might say goodbye, ranging from formal to casual. Recognizing this intent allows the chatbot to respond appropriately to users concluding the interaction, fostering a polite and friendly experience.
+
+The `misc_greet` intent captures user expressions of greetings, which initiate the conversation in various formal and informal tones. This list accommodates different contexts and personal styles of saying hello, including casual, friendly, and inquisitive greetings. Recognizing this intent ensures the chatbot can respond warmly, setting a positive tone for the interaction.
+
 The `misc_other` intent captures user responses that fall outside predefined categories, indicating unique or unusual circumstances or preferences. This intent reflects situations where users feel their specific needs or living arrangements don’t align with standard options. Recognizing this intent allows the chatbot to handle exceptions gracefully and offer flexibility in recommendations.
+
+The `misc_remorse` intent captures user expressions of sadness, regret, or emotional discomfort. These examples reflect various ways users might convey feelings of remorse, guilt, or disappointment. Recognizing this intent allows the chatbot to respond with empathy and support, creating a compassionate interaction that acknowledges the user’s emotions.
 
 The `misc_unsure` intent captures user responses that indicate uncertainty, indecision, or lack of knowledge about a particular question or preference. These users might need more information or time to think before providing a definitive answer. Recognizing this intent allows the chatbot to provide support, clarification, or guidance to help the user make a more informed choice.
 
@@ -101,4 +117,3 @@ The `temperament_confident` intent captures users who prefer dogs with bold, sel
 The `temperament_friendly` intent captures users who prioritize adopting a dog with an outgoing, sociable, and gentle personality. These users value breeds that are affectionate, approachable, and comfortable in family and social settings. This intent ensures the chatbot can interpret various ways users express their preference for friendly dogs, helping recommend breeds that thrive in sociable and interactive environments.
 
 The `temperament_independent` intent captures users who prefer dogs with a self-reliant and low-maintenance personality. These users value breeds that are comfortable being alone for portions of the day and don’t require constant attention or interaction. This intent ensures the chatbot can recognize various ways users express their preference for independent dogs, helping recommend breeds suited to their lifestyle and availability.
-

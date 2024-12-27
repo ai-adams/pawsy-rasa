@@ -1,0 +1,35 @@
+version: "3.1"
+
+nlu:
+  - intent: misc_greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - hey there
+      - hey dude
+      - good afternoon
+      - hi there
+      - howdy
+      - hey, what’s up?
+      - hello, how are you?
+      - hiya
+      - greetings
+      - yo
+      - hi there, how’s it going?
+      - hello, nice to meet you
+      - hey, how’s everything?
+      - hi, what’s new?
+      - hello, how can you help me?
+      - hi, what’s up?
+      - hey, long time no see
+      - hi, what’s going on?
+      - hello, what’s up?
+      - hey, glad to chat with you
+      - hi, good to see you
+      - hello, how are things?
+      - hey, how have you been?
+      - hi, how’s it going?

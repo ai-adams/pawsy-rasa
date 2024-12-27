@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: misc_appreciate
+    examples: |
+      - appreciate
+      - thank you
+      - thanks
+      - I appreciate it
+      - many thanks
+      - thanks a lot
+      - thank you so much
+      - I’m grateful
+      - much appreciated
+      - thanks a ton
+      - thanks a bunch
+      - I’m really thankful
+      - I truly appreciate it
+      - I’m so grateful
+      - cheers
+      - big thanks
+      - I can’t thank you enough
+      - a heartfelt thank you
+      - that means a lot, thank you
+      - I’m very appreciative

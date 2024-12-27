@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: budget_moderate
+    examples: |
+      - I have a reasonable budget for a dog.
+      - My budget is moderate, with some flexibility.
+      - I can spend a fair amount but need to keep costs manageable.
+      - I’m okay with some expenses but prefer to avoid anything excessive.
+      - My budget is balanced; I can invest but not extravagantly.
+      - I want to make sure my spending stays reasonable.
+      - I can afford a moderate amount for adoption and care.
+      - I have a balanced budget that allows for fair spending.
+      - My spending limit is average, and I’d like to stick to it.
+      - I’m fine with moderate costs but don’t want to overspend.
+      - I’m comfortable with some expenses as long as they’re not too high.
+      - My budget allows for flexibility but isn’t overly generous.
+      - I’m open to moderate costs as long as they’re justifiable.
+      - I prefer to keep costs reasonable while ensuring quality.
+      - I have a moderate budget and am willing to spend accordingly.
+      - My budget is fair, and I’d like to find a good balance of cost and care.
+      - I’m looking for something that fits within a mid-range budget.
+      - I want to find a dog that matches my reasonable financial plan.
+      - My budget is neither tight nor lavish—just somewhere in the middle.
+      - I can manage moderate expenses for a dog’s care and adoption.

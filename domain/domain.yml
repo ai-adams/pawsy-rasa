@@ -16,6 +16,9 @@ intents:
   - availability_high
   - availability_low
   - availability_moderate
+  - budget_high
+  - budget_low
+  - budget_moderate
   - children_grown
   - children_none
   - children_young
@@ -38,12 +41,17 @@ intents:
   - maintenance_high
   - maintenance_low
   - maintenance_moderate
+  - misc_admire
   - misc_affirm
+  - misc_appreciate
   - misc_bot_challenge
   - misc_clarify
   - misc_decline
   - misc_flexible
+  - misc_goodbye
+  - misc_greet
   - misc_other
+  - misc_remorse
   - misc_unsure
   - preference_high
   - preference_low
