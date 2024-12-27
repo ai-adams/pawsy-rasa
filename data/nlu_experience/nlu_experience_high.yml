@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: experience_high
+    examples: |
+      - I’ve had several dogs before and currently own a few.
+      - I’ve always had multiple dogs at home.
+      - I’m very experienced with dogs and have cared for many over the years.
+      - I’ve owned several dogs throughout my life.
+      - I have a lot of experience raising and training dogs.
+      - Dogs have always been a big part of my life.
+      - I’m used to having multiple dogs in my household.
+      - I’ve been around dogs for as long as I can remember.
+      - I’ve had many dogs over the years and feel confident caring for them.
+      - I’ve raised a variety of breeds and know what to expect.
+      - I have years of experience caring for different types of dogs.
+      - I’ve had multiple dogs at once and know how to manage them.
+      - I’ve owned dogs all my life and am very familiar with their needs.
+      - I’ve cared for dogs with all kinds of personalities and temperaments.
+      - I’m very comfortable with dogs because I’ve owned so many.
+      - I’ve trained and taken care of dogs for years.
+      - I have experience handling dogs of different sizes and energy levels.
+      - I’ve fostered and adopted many dogs in the past.
+      - Dogs have always been a major part of my family.
+      - I’ve had extensive experience with dogs and know how to care for them.

@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: climate_humid
+    examples: |
+      - The climate here is humid and sticky most of the year.
+      - I live in a tropical area with high humidity levels.
+      - It’s very moist and humid where I live, especially in the summer.
+      - The air is very humid where I live, and it feels sticky most days.
+      - My region is known for its high humidity and muggy weather.
+      - It’s warm and humid for most of the year where I live.
+      - Summers here are extremely humid and wet.
+      - The weather where I live is hot and humid most of the time.
+      - My area has very high humidity and moist conditions year-round.
+      - It’s always humid here, even during the cooler months.
+      - The air feels moist and heavy because of the high humidity where I live.
+      - I live in a tropical climate with constant humidity.
+      - It’s muggy and humid almost every day where I live.
+      - My home is in a region with frequent rain and high humidity.
+      - The weather here is often sticky and damp due to the humidity.
+      - It’s hard to escape the humidity where I live.
+      - We experience warm, humid conditions most of the year.
+      - My area has a lot of moisture in the air, making it very humid.
+      - It’s both warm and wet where I live, with high humidity.
+      - The climate here is tropical and humid most of the time.

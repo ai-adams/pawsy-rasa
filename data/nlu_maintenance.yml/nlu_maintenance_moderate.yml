@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: maintenance_moderate
+    examples: |
+      - I’m fine with occasional brushing and grooming.
+      - I’ll do some grooming but not too much.
+      - I’m okay with a moderate grooming routine.
+      - I can handle a dog that needs occasional grooming.
+      - Moderate grooming needs are fine with me.
+      - I’m fine with brushing my dog every now and then.
+      - I don’t mind occasional trips to the groomer.
+      - I’m willing to do some grooming, but not every day.
+      - A dog with a moderate grooming routine would work for me.
+      - I’d like a dog that needs brushing or bathing once in a while.
+      - Occasional grooming is something I’m comfortable with.
+      - I’m okay with a dog that has average grooming needs.
+      - I prefer a dog that doesn’t need too much grooming but isn’t completely low-maintenance.
+      - Grooming every now and then is manageable for me.
+      - I’m comfortable with a dog that needs light to moderate care.
+      - I’m okay with regular but not intensive grooming routines.
+      - A dog with manageable grooming needs suits my lifestyle.
+      - I’m willing to groom my dog as long as it’s not too demanding.
+      - Moderate maintenance requirements are perfect for me.
+      - I can manage a dog that needs occasional brushing and cleaning.

@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: size_large
+    examples: |
+      - I’d like to adopt a large dog.
+      - A bigger dog, like a Labrador or Great Dane, would be perfect for me.
+      - I prefer dogs that are on the larger side.
+      - I want a dog that’s big and strong.
+      - A large dog would fit best with my lifestyle.
+      - I’m looking for a dog that’s larger in size.
+      - I’d like a big breed, such as a German Shepherd or Golden Retriever.
+      - I prefer larger dogs over smaller ones.
+      - A dog with a big, sturdy build is what I want.
+      - I’m more interested in adopting a bigger dog.
+      - I’d love a large dog that can match my active lifestyle.
+      - I like big dogs because they feel more protective and loyal.
+      - A dog like a Saint Bernard or Mastiff would be ideal for me.
+      - I want a dog that’s big enough to go on adventures with me.
+      - I’m looking for a larger breed that has a strong presence.
+      - A large-sized dog is exactly what I’m looking for.
+      - I’m more comfortable with bigger dogs.
+      - A large dog would be the best match for me and my family.
+      - I’m drawn to bigger dogs for their size and personality.
+      - I’d prefer a large dog because they feel more companionable.

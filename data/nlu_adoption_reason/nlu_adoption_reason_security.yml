@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: adoption_reason_security
+    examples: |
+      - I want a dog for protection and security.
+      - I need a guard dog to keep my home safe.
+      - I’m looking for a dog that can protect my property.
+      - I’d like a dog that will alert me to any intruders.
+      - I’m looking for a dog that can serve as a protector for my family.
+      - I need a dog that is good at guarding my home.
+      - A dog that is alert and defensive is what I want.
+      - I’m searching for a dog that can deter strangers.
+      - I’d like a dog that makes me feel safer at home.
+      - I’m interested in adopting a dog that is protective and loyal.
+      - I need a dog that can watch over my property.
+      - A dog with strong guarding instincts is important to me.
+      - I want a dog that can help me feel secure when I’m alone.
+      - I’m looking for a dog that’s naturally protective of its owners.
+      - I want a dog that will bark if someone approaches my house.
+      - A protective dog that’s also good with my family would be ideal.
+      - I’d like a dog that can provide both companionship and security.
+      - I want a dog that can defend me if needed.
+      - I’m looking for a breed known for being a good guard dog.
+      - A dog that can act as an extra layer of security for my home is what I need.

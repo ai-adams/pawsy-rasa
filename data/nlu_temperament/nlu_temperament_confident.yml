@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: temperament_confident
+    examples: |
+      - I want a dog that is bold and self-assured.
+      - A confident and brave dog is what I’m looking for.
+      - I need a dog that is alert and not easily frightened.
+      - A dog with a strong and fearless personality is ideal for me.
+      - I’d like a dog that exudes confidence and composure.
+      - A dog that’s bold and not timid is what I’m looking for.
+      - I need a dog that’s self-reliant and sure of itself.
+      - A courageous and poised dog would suit me well.
+      - I prefer dogs that are naturally assertive and strong-willed.
+      - A confident dog that can handle challenges is what I need.
+      - I’m looking for a dog that’s brave and alert in new situations.
+      - A dog that stands tall and carries itself with confidence is ideal.
+      - I want a dog that’s not easily intimidated or nervous.
+      - A strong and self-assured temperament is what I’m searching for in a dog.
+      - I’d love a dog that’s brave and protective when needed.
+      - A dog that’s calm under pressure and not easily rattled suits me.
+      - I prefer dogs that are fearless and ready to take on the world.
+      - I’m looking for a dog that’s naturally confident and secure in itself.
+      - A dog that’s sure-footed and doesn’t hesitate is what I want.
+      - I want a dog with a confident and commanding presence.

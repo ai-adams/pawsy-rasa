@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: allergies_mild
+    examples: |
+      - Someone in my family has mild allergies to dogs.
+      - We’d prefer a low-shedding dog since our allergies aren’t too bad.
+      - I have mild allergies, but I can manage with the right breed.
+      - A dog that doesn’t shed much would work for us because of mild allergies.
+      - My allergies to dogs are mild, so I need a breed that won’t aggravate them.
+      - I’d like a dog that doesn’t trigger my mild allergic reactions.
+      - We can handle a dog with minimal shedding due to mild allergies.
+      - I have mild sensitivities to dog dander, so a hypoallergenic breed would be nice.
+      - Our family has mild dog allergies, so we’re looking for a low-allergy breed.
+      - I can live with mild allergies, but I’d prefer a breed that’s easier to manage.
+      - We’d like a breed that minimizes allergens in the home due to mild sensitivities.
+      - A dog with lower allergen production would be better for our mild allergies.
+      - I have mild reactions to some dogs, so I want to choose carefully.
+      - A low-shedding breed would be ideal for our household with mild allergies.
+      - I have slight allergic reactions, so I’m searching for a compatible breed.
+      - A dog that won’t make my mild allergies worse is what I need.
+      - We need a dog that’s suitable for someone with minor sensitivities to dogs.
+      - I can manage mild allergies, but shedding control is important.
+      - Our mild dog allergies mean we need to choose a breed carefully.
+      - I’m looking for a breed that reduces allergy risks for my mild sensitivities.

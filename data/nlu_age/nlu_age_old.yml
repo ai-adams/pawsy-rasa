@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: age_old
+    examples: |
+      - I’d like to adopt an older dog.
+      - A senior dog would be a great fit for me.
+      - I’m looking for a dog that’s older and calmer.
+      - I’d prefer a dog that’s past its most active years.
+      - An older dog that’s relaxed and experienced is what I want.
+      - I’m more interested in giving a home to a senior dog.
+      - I’d love to provide a loving home to an older dog.
+      - A dog that’s lived most of its life and is ready to relax is ideal for me.
+      - I prefer a senior dog that’s already settled and easygoing.
+      - I’m looking for an older dog that doesn’t need as much activity.
+      - A senior dog would fit perfectly with my quiet lifestyle.
+      - I want to adopt a dog that’s calm and has been through life’s ups and downs.
+      - An older dog that’s already well-trained and behaved would be ideal.
+      - I’m drawn to dogs that are mature and ready to relax in a peaceful home.
+      - I want to adopt a senior dog that deserves a comfortable retirement.
+      - An older dog with a gentle and calm demeanor suits me best.
+      - I think senior dogs are the best choice for my situation.
+      - I’d prefer a dog that’s beyond the energetic puppy or active adult stage.
+      - A relaxed, senior dog that’s easy to care for is exactly what I’m looking for.
+      - I want to give an older dog the chance to spend its golden years in comfort.

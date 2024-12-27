@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: size_medium
+    examples: |
+      - I’m looking for a medium-sized dog, like a Border Collie or Cocker Spaniel.
+      - A dog that’s not too big or too small is ideal for me.
+      - I prefer medium-sized dogs over large or small ones.
+      - I want a dog that’s medium-sized and easy to handle.
+      - A medium-sized breed would be perfect for my home.
+      - I’m looking for a dog that’s right in the middle in terms of size.
+      - A medium-sized dog, like an Australian Shepherd, is what I want.
+      - I prefer dogs that aren’t too big but not too tiny either.
+      - I’d like a dog that’s somewhere between small and large.
+      - Medium-sized dogs feel like the perfect balance for me.
+      - I think a medium-sized dog would fit my lifestyle best.
+      - I want a dog that’s medium in size and adaptable.
+      - A dog like a Beagle or Bulldog, medium in size, is what I prefer.
+      - I’m more drawn to dogs that are medium-sized.
+      - A dog that’s not too large or too small would be ideal for my family.
+      - I want a dog that’s moderate in size and easy to manage.
+      - A medium-sized breed, like a Whippet, suits my needs.
+      - I prefer a medium dog because they’re easy to care for and versatile.
+      - I’m looking for a breed that’s medium-sized and balanced in size and energy.
+      - A dog that’s medium-sized feels just right for my home and activities.

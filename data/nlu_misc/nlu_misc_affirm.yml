@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: misc_affirm
+    examples: |
+      - yes
+      - yeah
+      - sure
+      - absolutely
+      - definitely
+      - of course
+      - yup
+      - okay
+      - alright
+      - you bet
+      - for sure
+      - that’s correct
+      - agreed
+      - sure thing
+      - sounds good
+      - totally
+      - right
+      - exactly
+      - uh-huh
+      - that’s right

@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: misc_decline
+    examples: |
+      - no
+      - nope
+      - nah
+      - not at all
+      - I don’t think so
+      - no way
+      - absolutely not
+      - not really
+      - I’m not interested
+      - no, thank you
+      - that’s not right
+      - I’d rather not
+      - negative
+      - not happening
+      - no, that’s not what I mean
+      - I’m going to pass
+      - not at this time
+      - no, I’m good
+      - no, I don’t agree
+      - definitely not

@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: misc_clarify
+    examples: |
+      - can you clarify that?
+      - I don't understand
+      - what do you mean?
+      - can you explain that?
+      - I’m not sure I follow.
+      - could you elaborate?
+      - I don’t get it.
+      - what does that mean?
+      - can you make that clearer?
+      - I need more details.
+      - I’m confused, could you explain?
+      - what are you trying to say?
+      - that wasn’t clear to me.
+      - could you provide more information?
+      - can you simplify that for me?
+      - I don’t quite understand what you mean.
+      - could you rephrase that?
+      - can you help me understand that better?
+      - I didn’t catch that.
+      - can you repeat that in simpler terms?

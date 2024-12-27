@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: compatibility_moderate
+    examples: |
+      - It’s somewhat important that the dog is compatible.
+      - I care about compatibility, but it’s not a dealbreaker.
+      - I’d like a dog that works well with others, but I can manage.
+      - Compatibility is a consideration, but it’s not the most important thing.
+      - I’d prefer a dog that gets along with others, but it’s not essential.
+      - It matters that the dog can adjust to people or pets, but I can be flexible.
+      - I’d like a dog that’s somewhat sociable, but I don’t need perfection.
+      - The dog doesn’t need to be perfectly compatible, but it would help.
+      - It’s nice if the dog can get along with others, but I can handle it if they don’t.
+      - I care about the dog’s compatibility, but I can work on any issues that arise.
+      - A dog that’s reasonably compatible is what I’m looking for.
+      - I’d like a dog that’s somewhat friendly but doesn’t need to get along with everyone.
+      - Compatibility is a factor, but I can manage if the dog is a bit independent.
+      - It’s not a dealbreaker if the dog isn’t fully sociable, but it’s nice to have.
+      - I’d prefer a dog that can adjust to others but can handle some quirks.
+      - It’s somewhat important for the dog to be friendly with other pets or kids.
+      - I can handle a dog that’s not always friendly, but it’s nice if they are.
+      - A dog that’s moderately compatible with my lifestyle is what I need.
+      - I’d like a dog that’s adaptable enough but doesn’t need to be perfect.
+      - It’s somewhat important for the dog to fit in, but I’m okay with managing a bit.

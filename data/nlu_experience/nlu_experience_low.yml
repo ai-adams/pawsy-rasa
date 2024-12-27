@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: experience_low
+    examples: |
+      - I’ve never owned a dog before, but I’m excited to start.
+      - I have very little experience with dogs.
+      - I’m new to dog ownership and don’t have much knowledge yet.
+      - I’ve never had a dog before and want to learn how to care for one.
+      - This will be my first time owning a dog.
+      - I don’t have much experience with dogs, but I’m ready to try.
+      - I’m a first-time dog owner and still learning about them.
+      - I’ve never taken care of a dog before.
+      - I’m completely new to dogs and want a breed that’s easy to manage.
+      - I don’t know much about dogs, but I’m eager to learn.
+      - I’ve never raised a dog before and would like an easy start.
+      - I’m not familiar with dog ownership yet but want to give it a try.
+      - I’m starting fresh with no previous dog experience.
+      - I have no experience with dogs and need guidance on what to expect.
+      - I’m a beginner when it comes to owning and training dogs.
+      - This will be my first dog, and I’m looking for one that’s beginner-friendly.
+      - I don’t know much about handling dogs but am eager to learn.
+      - I’ve never been responsible for a dog before.
+      - I’m completely new to the world of dog ownership.
+      - I want to adopt a dog, but I don’t have any prior experience with them.

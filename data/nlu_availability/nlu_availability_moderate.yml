@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: availability_moderate
+    examples: |
+      - I have some time for a dog, but my schedule isn’t completely open.
+      - I’m available most evenings and weekends to spend time with my dog.
+      - I can manage some quality time with my dog, but I have other commitments too.
+      - I have a balanced schedule and can spend some time with a dog.
+      - I’m busy during the day but have free time in the evenings.
+      - I can spend time with my dog on weekends and some weekdays.
+      - My schedule allows for moderate interaction with a dog.
+      - I can’t be with my dog all the time, but I’ll make time regularly.
+      - I have some free hours each day for walks and playtime.
+      - I can care for a dog during my free time after work.
+      - My availability varies, but I’ll make time for a dog regularly.
+      - I have a few hours each day to dedicate to a dog.
+      - I can spend quality time with a dog when I’m not working.
+      - My schedule is not too restrictive, so I can balance caring for a dog.
+      - I have some commitments, but I’m still able to spend time with a dog.
+      - I’m home part of the day and can give my dog regular attention.
+      - I’m not always available, but I can provide consistent care for a dog.
+      - My availability is moderate, and I can dedicate time to a dog every day.
+      - I’m looking for a dog that fits with my partially open schedule.
+      - I have enough time to care for a dog, but not constantly throughout the day.

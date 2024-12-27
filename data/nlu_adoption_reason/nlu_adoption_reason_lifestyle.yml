@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: adoption_reason_lifestyle
+    examples: |
+      - I need a dog that matches my active and outdoor-focused lifestyle.
+      - I want a dog that fits my relaxed and balanced routine.
+      - A dog that can keep up with my lifestyle is important to me.
+      - I’m looking for a dog that complements my busy lifestyle.
+      - I need a dog that suits my laid-back way of living.
+      - A dog that enjoys outdoor adventures with me would be perfect.
+      - I want a dog that can relax when I’m home but stay active outdoors.
+      - I’m searching for a dog that loves hikes and long walks.
+      - A dog that fits my routine, whether it’s active or quiet, is ideal.
+      - I need a dog that can adjust to my mix of work and leisure.
+      - I’d like a dog that’s just as energetic as I am.
+      - I want a dog that’s happy with a calm and quiet life.
+      - A dog that can go jogging with me would be great.
+      - I need a dog that can balance activity and downtime.
+      - A dog that thrives in a relaxed and low-stress environment is what I want.
+      - I’m looking for a dog that can be independent when I’m working but active when I’m free.
+      - I want a dog that matches my love for exploring the outdoors.
+      - I’m searching for a dog that can easily adapt to my lifestyle.
+      - A dog that enjoys spending time outside but can relax indoors is ideal.
+      - I’d like a dog that fits seamlessly into my daily habits.

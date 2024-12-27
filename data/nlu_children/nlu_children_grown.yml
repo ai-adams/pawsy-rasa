@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: children_grown
+    examples: |
+      - I have older kids at home.
+      - There are school-aged children in my household.
+      - I live with kids who are over 5.
+      - My kids are older and responsible enough to help care for a dog.
+      - We have children in the house who are no longer toddlers.
+      - My kids are all school-aged or teenagers.
+      - There are older children in my family who want a dog.
+      - My children are over the age of 5 and can handle being around a dog.
+      - We’re looking for a dog that’s good with older kids.
+      - My kids are grown enough to interact with a dog safely.
+      - A dog that can bond with older children would be ideal.
+      - We have children in the house who are mature and active.
+      - Our kids are older and can play responsibly with a dog.
+      - I have teenagers who want a dog for companionship.
+      - We’re searching for a dog that fits with our older kids’ lifestyle.
+      - My children are all in elementary school or older.
+      - We’re ready for a dog that can thrive in a household with older children.
+      - My kids are independent enough to care for and play with a dog.
+      - A dog that enjoys being around active, older kids would work well.
+      - Our family includes older children who love animals.

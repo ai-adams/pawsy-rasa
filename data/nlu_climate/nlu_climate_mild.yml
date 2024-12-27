@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: climate_mild
+    examples: |
+      - The weather here is mild, with moderate temperatures year-round.
+      - I live in a region where it’s not too hot or too cold.
+      - The climate is mild and comfortable most of the time.
+      - It’s never too extreme here; the weather is always mild.
+      - I live in a region with moderate temperatures throughout the year.
+      - The weather here is pleasant, not too hot or freezing.
+      - The climate in my area is usually comfortable and mild.
+      - My area doesn’t experience extreme temperatures; it’s always mild.
+      - I live in a region with consistent, moderate weather.
+      - The seasons here are gentle, and the weather is always mild.
+      - My region has a very temperate climate all year.
+      - It’s rarely too hot or too cold where I live.
+      - The weather where I live is consistently pleasant and mild.
+      - I live in an area with balanced, comfortable weather.
+      - The temperatures in my region are moderate most of the time.
+      - My area has a mild climate that’s easy to adjust to.
+      - We don’t experience harsh winters or sweltering summers where I live.
+      - The weather here is calm and enjoyable most of the year.
+      - My climate is very balanced, with no extreme heat or cold.
+      - I live in a region with a comfortable and temperate climate.

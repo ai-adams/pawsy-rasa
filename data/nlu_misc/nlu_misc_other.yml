@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: misc_other
+    examples: |
+      - None of the above
+      - I have a unique situation
+      - Neither option works for me
+      - I have a different household situation.
+      - It’s not the usual setup with pets or kids.
+      - My living arrangement is unique.
+      - My preferences don’t fit into these options.
+      - I have something else in mind.
+      - My situation is a little different.
+      - I don’t think these choices match my needs.
+      - I have a non-standard living setup.
+      - My household setup isn’t covered here.
+      - It’s hard to explain my exact situation.
+      - My circumstances are a bit unusual.
+      - None of these really apply to me.
+      - I can’t pick either of these options.
+      - My needs are outside these categories.
+      - I don’t see an option that matches me.
+      - My situation doesn’t fit the usual patterns.
+      - I need to share a unique preference or detail.

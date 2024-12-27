@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: climate_hot
+    examples: |
+      - It’s hot and sunny most of the time here.
+      - We have very warm summers, and it rarely cools down.
+      - I live in a hot climate with high temperatures year-round.
+      - The weather here is always warm and sunny.
+      - My region is hot for most of the year, with little relief.
+      - The climate here is hot, and the temperature rarely drops.
+      - I live in a warm area with high temperatures all year.
+      - Summers are extremely hot where I live, and winters are mild.
+      - It’s hot almost every day where I live.
+      - The weather is consistently warm, and we rarely see cooler days.
+      - It’s a very warm climate where I live, with lots of sun.
+      - My area is known for its high temperatures and hot weather.
+      - The temperature here stays warm even at night.
+      - It’s usually hot and sunny, with very little variation.
+      - We have long, hot summers, and winters are barely noticeable.
+      - The climate is hot here, and there’s not much shade or cooling.
+      - It’s a very warm area, and we get little relief from the heat.
+      - The weather here is almost always hot and dry.
+      - My home is in a hot region, where it’s sunny year-round.
+      - It’s hot where I live, and the temperature doesn’t change much.

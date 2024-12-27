@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: climate_cold
+    examples: |
+      - It’s cold for most of the year where I live.
+      - We have long winters, so the climate is usually cold.
+      - I live in a cold region with snow and freezing temperatures.
+      - The weather here is mostly cold and snowy.
+      - Winters are harsh and long where I live.
+      - It’s freezing here for most of the year.
+      - I live in an area where it’s cold almost year-round.
+      - Snow and icy conditions are common where I live.
+      - My region is known for its long and chilly winters.
+      - It rarely gets warm where I live, and it’s often cold.
+      - I live in a place with heavy snowfall and cold weather.
+      - The climate here is very cold, especially in the winter.
+      - We deal with freezing temperatures most of the year.
+      - It’s cold and frosty where I live.
+      - My home is in a region with frequent snow and ice.
+      - It’s typically cold, and we don’t have long summers.
+      - The winters are very cold and last a long time in my area.
+      - I live in a cold climate where temperatures often drop below freezing.
+      - Cold weather is the norm where I live.
+      - My area experiences freezing temperatures and lots of snow.

@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: misc_flexible
+    examples: |
+      - I don't care
+      - I'm open to anything
+      - Either one is good
+      - I’m flexible
+      - It doesn’t matter to me
+      - I don’t have a strong preference
+      - I’m fine with whatever
+      - I’m okay with any option
+      - I’m good with anything
+      - I’ll leave it up to you
+      - I don’t mind either way
+      - Any choice works for me
+      - I’m open to suggestions
+      - Whatever you think is best
+      - I’m not picky
+      - Both options sound good
+      - I’m good with either one
+      - I don’t really have a preference
+      - Anything is fine by me
+      - I’m okay with whatever works

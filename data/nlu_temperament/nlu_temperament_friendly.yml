@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: temperament_friendly
+    examples: |
+      - I want a dog that is outgoing and loves meeting new people.
+      - I’m looking for a dog that gets along with everyone.
+      - A kind and gentle dog is ideal for my family.
+      - I need a dog that is sociable and enjoys being around people.
+      - A friendly and warm personality in a dog is important to me.
+      - I’d love a dog that greets everyone with enthusiasm.
+      - A dog that’s gentle and loving towards children is what I want.
+      - I prefer dogs that are easygoing and get along with strangers.
+      - A dog that is playful and welcoming suits me best.
+      - I’m searching for a dog that loves socializing with people and pets.
+      - A dog that’s naturally kind and approachable is perfect for me.
+      - I’d like a dog that’s cheerful and happy to meet new faces.
+      - I want a dog that enjoys being around families and visitors.
+      - A dog that’s affectionate and friendly with everyone is ideal.
+      - I prefer a dog that’s loving and eager to make new friends.
+      - A sociable dog that’s good with kids and adults is important for my household.
+      - A dog that is welcoming and non-aggressive fits my lifestyle.
+      - I need a dog that thrives in social settings and loves interaction.
+      - A dog with a gentle and friendly nature is perfect for my family environment.
+      - I’m looking for a dog that spreads positivity and warmth wherever it goes.

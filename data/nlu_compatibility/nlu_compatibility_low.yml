@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: compatibility_low
+    examples: |
+      - Compatibility isn’t important for me.
+      - I’m okay with a dog that isn’t always friendly with kids or pets.
+      - I don’t care much about compatibility.
+      - A dog’s compatibility with other pets or people doesn’t matter to me.
+      - I’m fine with a dog that needs some time to adjust to others.
+      - It’s not a priority for the dog to be friendly with everyone.
+      - I’m okay with a dog that prefers to be more independent.
+      - The dog doesn’t have to get along with everyone in the house.
+      - I don’t mind if the dog has a more reserved temperament.
+      - It’s not essential for the dog to interact well with other pets.
+      - I’m comfortable with a dog that’s not overly sociable.
+      - The dog doesn’t need to be compatible with children or other animals.
+      - A dog’s behavior with others isn’t a big concern for me.
+      - I’m okay with a dog that keeps to itself.
+      - Compatibility with kids or pets isn’t a dealbreaker for me.
+      - The dog’s ability to mix well with others isn’t important to me.
+      - I don’t prioritize compatibility when choosing a dog.
+      - I’m not worried about how well the dog gets along with others.
+      - A dog’s sociability isn’t something I consider necessary.
+      - It’s fine if the dog isn’t very friendly or adaptable.

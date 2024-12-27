@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: age_young
+    examples: |
+      - I’d love to adopt a puppy.
+      - A young dog with lots of energy is what I want.
+      - I’m looking for a dog that’s still a puppy or very young.
+      - I’d prefer a young dog that I can train and grow with.
+      - A puppy would be perfect for my family.
+      - I’m interested in adopting a dog that’s just starting its life.
+      - I want a dog that’s young and full of life.
+      - I’d like a puppy that I can train from the beginning.
+      - A young dog that’s playful and energetic is what I want.
+      - I prefer adopting a dog that’s just starting its journey.
+      - A puppy or very young dog would be the best fit for me.
+      - I’m looking for a dog that’s still in its early stages of life.
+      - I’d love to have a puppy to bond with and raise.
+      - A playful and energetic puppy is what I’m looking for.
+      - I’d prefer a dog that’s young and adaptable to training.
+      - A young dog that’s ready to learn and grow with me is ideal.
+      - I want a puppy that can grow up as part of my family.
+      - I’m interested in a young dog that’s full of curiosity and energy.
+      - A puppy would be perfect because I can shape its behavior from the start.
+      - I’m drawn to young dogs that have their whole lives ahead of them.

@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: maintenance_low
+    examples: |
+      - I want a low-maintenance dog.
+      - I don’t want to groom a lot.
+      - Minimal grooming is ideal for me.
+      - I prefer a dog that doesn’t require much upkeep.
+      - A low-maintenance dog would suit me best.
+      - I’d like a dog that doesn’t need frequent brushing or grooming.
+      - I don’t want to spend much time on grooming.
+      - I prefer a dog that’s easy to care for.
+      - A dog with minimal grooming needs is what I’m looking for.
+      - I don’t have the time for a dog that needs a lot of grooming.
+      - I want a dog that’s simple to maintain.
+      - Low grooming requirements are important for me.
+      - I’d rather not have to brush or bathe my dog too often.
+      - A dog that doesn’t shed much or need grooming is ideal.
+      - I need a dog that doesn’t require frequent trips to the groomer.
+      - Grooming isn’t something I want to spend a lot of time on.
+      - I’d like a dog with a short coat that’s easy to care for.
+      - I’m looking for a dog that’s naturally low-maintenance.
+      - A dog that’s easy to clean and groom is best for me.
+      - I don’t want to deal with extensive grooming routines.
