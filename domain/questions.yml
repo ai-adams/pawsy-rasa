@@ -1,8 +1,140 @@
-#version: "3.1"
-#
-#responses:
-#  utter_ask_adoption_quiz_form_adoption_reason:
-#    - text: "Why are you adopting a dog?"
-#
-#  utter_ask_adoption_quiz_form_age_preference:
-#    - text: "What age range do you prefer?"
+version: "3.1"
+
+responses:
+  utter_ask_adoption_quiz_form_adoption_reason:
+    - text: "Why are you adopting a dog?"
+      buttons:
+        - title: "To enhance family life."
+          payload: "/adoption_reason_family"
+        - title: "To fit my lifestyle."
+          payload: "/adoption_reason_lifestyle"
+        - title: "For security purposes."
+          payload: "/adoption_reason_security"
+        - title: "Another reason.."
+          payload: "/misc_other"
+
+  utter_ask_adoption_quiz_form_age_preference:
+    - text: "What age range do you prefer?"
+      buttons:
+        - title: "Puppy"
+          payload: "/age_young"
+        - title: "Middle-aged dog"
+          payload: "/age_middle"
+        - title: "Senior dog"
+          payload: "/age_old"
+        - title: "No preference"
+          payload: "/misc_flexible"
+
+  utter_ask_adoption_quiz_form_allergies_present:
+    - text: "Do you or anyone in your household have allergies to dogs?"
+      buttons:
+        - title: "No allergies."
+          payload: "/allergies_none"
+        - title: "Mild allergies."
+          payload: "/allergies_mild"
+        - title: "Severe allergies."
+          payload: "/allergies_severe"
+        - title: "Unsure."
+          payload: "/misc_unsure"
+
+  utter_ask_adoption_quiz_form_time_commitment:
+    - text: "How much time can you dedicate to your dog daily?"
+      buttons:
+        - title: "A lot of time"
+          payload: "/availability_high"
+        - title: "Moderate time"
+          payload: "/availability_moderate"
+        - title: "Limited time"
+          payload: "/availability_low"
+        - title: "It depends on the day."
+          payload: "/misc_flexible"
+
+  utter_ask_adoption_quiz_form_budget_limit:
+    - text: "What is your budget for dog care and maintenance?"
+      buttons:
+        - title: "Low"
+          payload: "/budget_low"
+        - title: "Moderate"
+          payload: "/budget_moderate"
+        - title: "High"
+          payload: "/budget_high"
+        - title: "Not sure."
+          payload: "/misc_unsure"
+
+  utter_ask_adoption_quiz_form_children_at_home:
+    - text: "Do you have children?"
+      buttons:
+        - title: "No children"
+          payload: "/children_none"
+        - title: "Young children"
+          payload: "/children_young"
+        - title: "Grown children"
+          payload: "/children_grown"
+        - title: "Maybe some day.."
+          payload: "/misc_other"
+
+  utter_ask_adoption_quiz_form_home_type:
+    - text: "What type of home do you live in?"
+      buttons:
+        - title: "Apartment"
+          payload: "/home_apartment"
+        - title: "Small house"
+          payload: "/home_small"
+        - title: "Large house with a yard"
+          payload: "/home_large"
+        - title: "Other"
+          payload: "/misc_other"
+
+  utter_ask_adoption_quiz_form_climate_type:
+    - text: "What's the worst thing about the weather where you live?"
+      buttons:
+        - title: "Winters are too cold."
+          payload: "/climate_cold"
+        - title: "It can get really dry."
+          payload: "/climate_dry"
+        - title: "Summers are too hot."
+          payload: "/climate_hot"
+        - title: "Humidity is unbearable."
+          payload: "/climate_humid"
+        - title: "Temperate climate is boring."
+          payload: "/climate_mild"
+        - title: "No complains."
+          payload: "/misc_other"
+
+  utter_ask_adoption_quiz_form_size_preference:
+    - text: "What size of dog do you prefer?"
+      buttons:
+        - title: "Small"
+          payload: "/size_small"
+        - title: "Medium"
+          payload: "/size_medium"
+        - title: "Large"
+          payload: "/size_large"
+        - title: "No preference"
+          payload: "/misc_flexible"
+
+  utter_ask_adoption_quiz_form_lifestyle:
+    - text: "Describe your lifestyle."
+      buttons:
+        - title: "Active"
+          payload: "/lifestyle_active"
+        - title: "Balanced"
+          payload: "/lifestyle_balanced"
+        - title: "Relaxed"
+          payload: "/lifestyle_relaxed"
+        - title: "Other"
+          payload: "/misc_other"
+
+  utter_ask_adoption_quiz_form_temperament_preference:
+    - text: "What type of temperament do you prefer in a dog?"
+      buttons:
+        - title: "Friendly and Outgoing"
+          payload: "/temperament_friendly"
+        - title: "Confident and Strong"
+          payload: "/temperament_confident"
+        - title: "Independent and Easygoing"
+          payload: "/temperament_independent"
+        - title: "Adaptable and Adventurous"
+          payload: "/temperament_adaptable"
+        - title: "Surprise me!"
+          payload: "/misc_flexible"

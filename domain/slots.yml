@@ -52,14 +52,14 @@ slots:
       - unsure
     mappings:
       - type: from_intent
-        value: severe
-        intent: allergies_severe
+        value: none
+        intent: allergies_none
       - type: from_intent
         value: mild
         intent: allergies_mild
       - type: from_intent
-        value: none
-        intent: allergies_none
+        value: severe
+        intent: allergies_severe
       - type: from_intent
         value: unsure
         intent: misc_unsure
@@ -115,14 +115,14 @@ slots:
       - other
     mappings:
       - type: from_intent
-        value: grown
-        intent: children_grown
+        value: none
+        intent: children_none
       - type: from_intent
         value: young
         intent: children_young
       - type: from_intent
-        value: none
-        intent: children_none
+        value: grown
+        intent: children_grown
       - type: from_intent
         value: other
         intent: misc_other
