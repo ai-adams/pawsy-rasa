@@ -1,0 +1,158 @@
+version: "3.1"
+
+responses:
+  # ADOPTION REASON QUIZ ACKNOWLEDGEMENTS
+  utter_ack_adoption_reason_family:
+    - text: "That’s wonderful! Dogs can bring so much joy to families."
+
+  utter_ack_adoption_reason_lifestyle:
+    - text: "Got it! Finding a dog that matches your routine and energy level is so important."
+
+  utter_ack_adoption_reason_security:
+    - text: "Got it! I’ll look for breeds known for their protective and alert nature."
+
+  # AGE QUIZ ACKNOWLEDGEMENTS
+  utter_ack_age_preference_middle:
+    - text: "Middle-aged dogs are great—they’ve often outgrown the puppy stage but still have plenty of energy!"
+
+  utter_ack_age_preference_old:
+    - text: "Senior dogs are wonderful—they’re calm, experienced, and often great companions."
+
+  utter_ack_age_preference_young:
+    - text: "Puppies are so much fun! Let’s find the right one for you."
+
+  # ALLERGIES QUIZ ACKNOWLEDGEMENTS
+  utter_ack_allergies_present_mild:
+    - text: "Thanks for letting me know. I’ll focus on breeds that are more allergy-friendly."
+
+  utter_ack_allergies_present_none:
+    - text: "Great! That gives us plenty of options to explore."
+
+  utter_ack_allergies_present_severe:
+    - text: "Thanks for letting me know. I’ll focus on hypoallergenic breeds to minimize allergens."
+
+  # AVAILABILITY QUIZ ACKNOWLEDGEMENTS
+  utter_ack_time_commitment_high:
+    - text: "That’s fantastic! Many dogs will thrive with so much attention."
+
+  utter_ack_time_commitment_low:
+    - text: "No problem! I’ll look for independent breeds that can handle some alone time."
+
+  utter_ack_time_commitment_moderate:
+    - text: "That’s a good balance! I’ll look for breeds that are okay with some alone time but still enjoy your company."
+
+  # BUDGET QUIZ ACKNOWLEDGEMENTS
+  utter_ack_budget_limit_high:
+    - text: "Got it! This opens up more options for breeds with specific care needs."
+
+  utter_ack_budget_limit_low:
+    - text: "Thanks for sharing. We'll look for options that fit your budget."
+
+  utter_ack_budget_limit_moderate:
+    - text: "Thanks for sharing. We’ll focus on breeds that fit comfortably within your budget."
+
+  # CHILDREN QUIZ ACKNOWLEDGEMENTS
+  utter_ack_children_at_home_grown:
+    - text: "Great! I’ll focus on breeds that can keep up with older family members."
+
+  utter_ack_children_at_home_none:
+    - text: "Got it! Let’s find a dog that fits your household."
+
+  utter_ack_children_at_home_young:
+    - text: "Got it! I’ll look for breeds known to be patient and gentle with kids."
+
+  # CLIMATE QUIZ ACKNOWLEDGEMENTS
+  utter_ack_climate_type_cold:
+    - text: "Got it. We’ll focus on breeds that handle cold climates well."
+
+  utter_ack_climate_type_dry:
+    - text: "Understood. I’ll look for breeds that do well in dry conditions."
+
+  utter_ack_climate_type_hot:
+    - text: "Thanks for sharing. I’ll look for breeds that do well in warm climates."
+
+  utter_ack_climate_type_humid:
+    - text: "Got it! I’ll focus on breeds that do well in humid conditions."
+
+  utter_ack_climate_type_mild:
+    - text: "Temperate climates are great for most breeds! I’ll consider versatile options for you."
+
+  # HOME QUIZ ACKNOWLEDGEMENTS
+  utter_ack_home_type_apartment:
+    - text: "Understood. We’ll focus on breeds that do well in smaller spaces."
+
+  utter_ack_home_type_large:
+    - text: "Perfect! I’ll focus on breeds that enjoy having space to roam and play."
+
+  utter_ack_home_type_small:
+    - text: "Thanks for letting me know. I’ll focus on breeds that don’t need too much space to thrive."
+
+  # LIFESTYLE QUIZ ACKNOWLEDGEMENTS
+  utter_ack_lifestyle_active:
+    - text: "Perfect! We’ll look for a dog that loves staying active."
+
+  utter_ack_lifestyle_balanced:
+    - text: "Great! I’ll focus on breeds that match your steady, balanced lifestyle."
+
+  utter_ack_lifestyle_relaxed:
+    - text: "Thanks for sharing. I’ll focus on calm and low-energy breeds that match your pace."
+
+  # MISC QUIZ ACKNOWLEDGEMENTS
+  utter_ack_misc_1:
+    - text: "That’s great! Every reason to adopt a dog is special. Let’s continue."
+
+  utter_ack_misc_2:
+    - text: "Got it! I’ll keep all age ranges in mind for the best match."
+
+  utter_ack_misc_3:
+    - text: "No worries! If you’re unsure, I’ll include hypoallergenic breeds just in case."
+
+  utter_ack_misc_4:
+    - text: "That’s okay! I’ll focus on breeds that can adapt to varying schedules."
+
+  utter_ack_misc_5:
+    - text: "No problem! I’ll keep a range of options in mind for you."
+
+  utter_ack_misc_6:
+    - text: "Got it! I’ll consider breeds that are flexible for families now or in the future."
+
+  utter_ack_misc_7:
+    - text: "Thanks for sharing! I’ll include breeds that are versatile for various home types."
+
+  utter_ack_misc_8:
+    - text: "That’s awesome! Most breeds should adapt well to your environment."
+
+  utter_ack_misc_9:
+    - text: "Perfect! I’ll include small, medium, and large breeds in the recommendations."
+
+  utter_ack_misc_10:
+    - text: "Thanks for letting me know. I’ll focus on breeds that adapt well to unique lifestyles."
+
+  utter_ack_misc_11:
+    - text: "Exciting choice! I’ll include a mix of temperaments to give you a range of options."
+
+  # SIZE QUIZ ACKNOWLEDGEMENTS
+  utter_ack_size_preference_large:
+    - text: "Large dogs are amazing—they’re loyal and often great protectors."
+
+  utter_ack_size_preference_medium:
+    - text: "Medium-sized dogs are a great choice—they’re versatile and fit many lifestyles!"
+
+  utter_ack_size_preference_small:
+    - text: "Small dogs are a great choice for many homes. Let’s find one for you."
+
+  # TEMPERAMENT QUIZ ACKNOWLEDGEMENTS
+  utter_ack_temperament_preference_adaptable:
+    - text: "Great choice! I’ll look for breeds that thrive in dynamic environments and enjoy adventures."
+
+  utter_ack_temperament_preference_confident:
+    - text: "Got it! I’ll look for breeds known for their bold and self-assured personalities."
+
+  utter_ack_temperament_preference_friendly:
+    - text: "Great! Let’s focus on breeds with social and friendly temperaments."
+
+  utter_ack_temperament_preference_independent:
+    - text: "Got it! I’ll look for breeds that are self-reliant and require less attention."
+
+
+

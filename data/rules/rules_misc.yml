@@ -5,5 +5,5 @@ rules:
     steps:
       - intent: misc_greet
       - action: utter_misc_greet
-#      - action: adoption_quiz_form
-#      - active_loop: adoption_quiz_form
+      - action: adoption_quiz_form
+      - active_loop: adoption_quiz_form

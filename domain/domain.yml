@@ -1,10 +1,22 @@
 version: "3.1"
 
-#forms:
-#  adoption_quiz_form:
-#    required_slots:
-#      - adoption_reason
-#      - age_preference
+actions:
+  - validate_adoption_quiz_form
+
+forms:
+  adoption_quiz_form:
+    required_slots:
+      - adoption_reason
+      - age_preference
+      - allergies_present
+      - time_commitment
+      - budget_limit
+      - children_at_home
+      - home_type
+      - climate_type
+      - size_preference
+      - lifestyle
+      - temperament_preference
 
 intents:
   - EXTERNAL_welcome
@@ -31,23 +43,23 @@ intents:
   - climate_hot
   - climate_humid
   - climate_mild
-  - compatibility_high
-  - compatibility_low
-  - compatibility_moderate
-  - experience_high
-  - experience_low
-  - experience_moderate
-  - gender_female
-  - gender_male
+#  - compatibility_high
+#  - compatibility_low
+#  - compatibility_moderate
+#  - experience_high
+#  - experience_low
+#  - experience_moderate
+#  - gender_female
+#  - gender_male
   - home_apartment
   - home_large
   - home_small
   - lifestyle_active
   - lifestyle_balanced
   - lifestyle_relaxed
-  - maintenance_high
-  - maintenance_low
-  - maintenance_moderate
+#  - maintenance_high
+#  - maintenance_low
+#  - maintenance_moderate
   - misc_admire
   - misc_affirm
   - misc_appreciate
@@ -67,7 +79,6 @@ intents:
   - temperament_confident
   - temperament_friendly
   - temperament_independent
-
 
 session_config:
   session_expiration_time: 60
