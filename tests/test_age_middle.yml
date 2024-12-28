@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_age_middle
+  steps:
+  - user: |
+      A dog in its middle years.
+    intent: age_middle
+  - action: utter_age_middle
+
+- story: test_2_age_middle
+  steps:
+  - user: |
+      I’d like a mature dog that’s still playful and energetic.
+    intent: age_middle
+  - action: utter_age_middle
+
+- story: test_3_age_middle
+  steps:
+  - user: |
+      I’m looking for a dog that’s past the puppy stage but still has many active and healthy years ahead to enjoy adventures.
+    intent: age_middle
+  - action: utter_age_middle

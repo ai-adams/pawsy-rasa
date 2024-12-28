@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_allergies_none
+  steps:
+  - user: |
+      No allergies here.
+    intent: allergies_none
+  - action: utter_allergies_none
+
+- story: test_2_allergies_none
+  steps:
+  - user: |
+      Allergies are not a concern for my family when choosing a dog.
+    intent: allergies_none
+  - action: utter_allergies_none
+
+- story: test_3_allergies_none
+  steps:
+  - user: |
+      I don’t have to consider dog allergies because no one in my household is sensitive to dander or shedding.
+    intent: allergies_none
+  - action: utter_allergies_none

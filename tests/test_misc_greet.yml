@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_misc_greet
+  steps:
+  - user: |
+      yo what's up
+    intent: misc_greet
+  - action: utter_misc_greet
+
+- story: test_2_misc_greet
+  steps:
+  - user: |
+      hey there, how are you doing today?
+    intent: misc_greet
+  - action: utter_misc_greet
+
+- story: test_3_misc_greet
+  steps:
+  - user: |
+      hi there, I’m excited to chat with you and see how you can help me out today!
+    intent: misc_greet
+  - action: utter_misc_greet

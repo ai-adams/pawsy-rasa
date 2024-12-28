@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_misc_affirm
+  steps:
+  - user: |
+      okay
+    intent: misc_affirm
+  - action: utter_misc_affirm
+
+- story: test_2_misc_affirm
+  steps:
+  - user: |
+      Yes, that sounds perfect to me.
+    intent: misc_affirm
+  - action: utter_misc_affirm
+
+- story: test_3_misc_affirm
+  steps:
+  - user: |
+      Absolutely, I completely agree with what you’re saying here!
+    intent: misc_affirm
+  - action: utter_misc_affirm

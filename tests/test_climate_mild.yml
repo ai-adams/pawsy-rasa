@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_climate_mild
+  steps:
+  - user: |
+      It’s mild here.
+    intent: climate_mild
+  - action: utter_climate_mild
+
+- story: test_2_climate_mild
+  steps:
+  - user: |
+      The weather here is always balanced and comfortable.
+    intent: climate_mild
+  - action: utter_climate_mild
+
+- story: test_3_climate_mild
+  steps:
+  - user: |
+      I live in a region with moderate temperatures year-round, where the seasons are gentle, and the climate is consistently pleasant without extremes.
+    intent: climate_mild
+  - action: utter_climate_mild

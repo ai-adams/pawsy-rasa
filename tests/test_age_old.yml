@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_age_old
+  steps:
+  - user: |
+      A calm, senior dog.
+    intent: age_old
+  - action: utter_age_old
+
+- story: test_2_age_old
+  steps:
+  - user: |
+      I’m interested in a gentle, older dog that needs less activity.
+    intent: age_old
+  - action: utter_age_old
+
+- story: test_3_age_old
+  steps:
+  - user: |
+      I want to adopt a senior dog that’s calm, experienced, and deserving of a loving home for its remaining years.
+    intent: age_old
+  - action: utter_age_old

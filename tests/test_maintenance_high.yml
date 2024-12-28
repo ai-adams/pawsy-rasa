@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_maintenance_high
+  steps:
+  - user: |
+      I enjoy grooming.
+    intent: maintenance_high
+  - action: utter_maintenance_high
+
+- story: test_2_maintenance_high
+  steps:
+  - user: |
+      I’m fine with a dog that requires frequent grooming and upkeep.
+    intent: maintenance_high
+  - action: utter_maintenance_high
+
+- story: test_3_maintenance_high
+  steps:
+  - user: |
+      I’m happy to spend time maintaining a dog’s coat, including regular brushing, bathing, and trips to the groomer for trims and styling.
+    intent: maintenance_high
+  - action: utter_maintenance_high

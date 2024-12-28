@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_misc_goodbye
+  steps:
+  - user: |
+      later
+    intent: misc_goodbye
+  - action: utter_misc_goodbye
+
+- story: test_2_misc_goodbye
+  steps:
+  - user: |
+      I’ll catch you next time. Bye!
+    intent: misc_goodbye
+  - action: utter_misc_goodbye
+
+- story: test_3_misc_goodbye
+  steps:
+  - user: |
+      Thanks for your help today. I’ll talk to you again sometime soon. Goodbye!
+    intent: misc_goodbye
+  - action: utter_misc_goodbye

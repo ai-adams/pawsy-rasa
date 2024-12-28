@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_misc_unsure
+  steps:
+  - user: |
+      no idea
+    intent: misc_unsure
+  - action: utter_misc_unsure
+
+- story: test_2_misc_unsure
+  steps:
+  - user: |
+      I’m not really sure what would be best for me right now
+    intent: misc_unsure
+  - action: utter_misc_unsure
+
+- story: test_3_misc_unsure
+  steps:
+  - user: |
+      I can’t say for certain because I haven’t thought about it enough to decide
+    intent: misc_unsure
+  - action: utter_misc_unsure

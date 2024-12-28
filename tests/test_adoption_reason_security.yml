@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_adoption_reason_security
+  steps:
+  - user: |
+      A dog to guard my home.
+    intent: adoption_reason_security
+  - action: utter_adoption_reason_security
+
+- story: test_2_adoption_reason_security
+  steps:
+  - user: |
+      I need a dog that’s alert and can warn me of intruders.
+    intent: adoption_reason_security
+  - action: utter_adoption_reason_security
+
+- story: test_3_adoption_reason_security
+  steps:
+  - user: |
+      I’m searching for a dog that is protective of my family and home, can deter strangers, and makes me feel safe at night.
+    intent: adoption_reason_security
+  - action: utter_adoption_reason_security

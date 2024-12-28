@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_misc_remorse
+  steps:
+  - user: |
+      so sad
+    intent: misc_remorse
+  - action: utter_misc_remorse
+
+- story: test_2_misc_remorse
+  steps:
+  - user: |
+      I regret how this turned out
+    intent: misc_remorse
+  - action: utter_misc_remorse
+
+- story: test_3_misc_remorse
+  steps:
+  - user: |
+      this is making me feel really guilty and upset, I wish I could take it back
+    intent: misc_remorse
+  - action: utter_misc_remorse

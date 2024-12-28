@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_climate_humid
+  steps:
+  - user: |
+      Very humid here.
+    intent: climate_humid
+  - action: utter_climate_humid
+
+- story: test_2_climate_humid
+  steps:
+  - user: |
+      My area is sticky and moist most of the year.
+    intent: climate_humid
+  - action: utter_climate_humid
+
+- story: test_3_climate_humid
+  steps:
+  - user: |
+      I live in a tropical region where the air is constantly heavy and moist, with high humidity throughout the year, especially in the summer.
+    intent: climate_humid
+  - action: utter_climate_humid

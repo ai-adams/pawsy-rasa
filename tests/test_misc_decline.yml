@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_misc_decline
+  steps:
+  - user: |
+      no thanks
+    intent: misc_decline
+  - action: utter_misc_decline
+
+- story: test_2_misc_decline
+  steps:
+  - user: |
+      I don’t think that’s what I’m looking for.
+    intent: misc_decline
+  - action: utter_misc_decline
+
+- story: test_3_misc_decline
+  steps:
+  - user: |
+      That doesn’t seem to match what I need, so I’ll have to decline for now.
+    intent: misc_decline
+  - action: utter_misc_decline

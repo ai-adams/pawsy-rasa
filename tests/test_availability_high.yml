@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_availability_high
+  steps:
+  - user: |
+      I’m always home.
+    intent: availability_high
+  - action: utter_availability_high
+
+- story: test_2_availability_high
+  steps:
+  - user: |
+      I have plenty of time each day to care for and interact with a dog.
+    intent: availability_high
+  - action: utter_availability_high
+
+- story: test_3_availability_high
+  steps:
+  - user: |
+      I work remotely and spend most of my day at home, so I can dedicate lots of time to walks, playtime, and training my dog.
+    intent: availability_high
+  - action: utter_availability_high

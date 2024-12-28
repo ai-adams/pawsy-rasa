@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_adoption_reason_lifestyle
+  steps:
+  - user: |
+      A dog for my daily routine.
+    intent: adoption_reason_lifestyle
+  - action: utter_adoption_reason_lifestyle
+
+- story: test_2_adoption_reason_lifestyle
+  steps:
+  - user: |
+      I need a dog that matches my mix of activity and relaxation.
+    intent: adoption_reason_lifestyle
+  - action: utter_adoption_reason_lifestyle
+
+- story: test_3_adoption_reason_lifestyle
+  steps:
+  - user: |
+      I’m looking for a dog that can handle my active weekends but stay calm during my workdays, perfectly matching my lifestyle.
+    intent: adoption_reason_lifestyle
+  - action: utter_adoption_reason_lifestyle

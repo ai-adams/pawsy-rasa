@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_misc_flexible
+  steps:
+  - user: |
+      any works
+    intent: misc_flexible
+  - action: utter_misc_flexible
+
+- story: test_2_misc_flexible
+  steps:
+  - user: |
+      I’m good with whatever you suggest.
+    intent: misc_flexible
+  - action: utter_misc_flexible
+
+- story: test_3_misc_flexible
+  steps:
+  - user: |
+      I’m open to any option that you think would work best for my situation.
+    intent: misc_flexible
+  - action: utter_misc_flexible

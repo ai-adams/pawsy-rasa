@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_adoption_reason_family
+  steps:
+  - user: |
+      A family dog sounds perfect.
+    intent: adoption_reason_family
+  - action: utter_adoption_reason_family
+
+- story: test_2_adoption_reason_family
+  steps:
+  - user: |
+      I’d like a dog that is gentle and great with families.
+    intent: adoption_reason_family
+  - action: utter_adoption_reason_family
+
+- story: test_3_adoption_reason_family
+  steps:
+  - user: |
+      I’m searching for a dog that fits well into a family with young kids and brings joy to everyone at home.
+    intent: adoption_reason_family
+  - action: utter_adoption_reason_family

@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_size_small
+  steps:
+  - user: |
+      small dog
+    intent: size_small
+  - action: utter_size_small
+
+- story: test_2_size_small
+  steps:
+  - user: |
+      I’m looking for a dog that’s small and easy to care for.
+    intent: size_small
+  - action: utter_size_small
+
+- story: test_3_size_small
+  steps:
+  - user: |
+      A small-sized dog, like a Chihuahua or Pomeranian, would be perfect for my living situation and lifestyle.
+    intent: size_small
+  - action: utter_size_small

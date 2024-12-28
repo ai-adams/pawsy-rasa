@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_climate_cold
+  steps:
+  - user: |
+      Cold winters here.
+    intent: climate_cold
+  - action: utter_climate_cold
+
+- story: test_2_climate_cold
+  steps:
+  - user: |
+      I live in a place where it’s cold most of the year.
+    intent: climate_cold
+  - action: utter_climate_cold
+
+- story: test_3_climate_cold
+  steps:
+  - user: |
+      My region is known for its freezing temperatures, long winters, and heavy snowfalls, making it very cold throughout the year.
+    intent: climate_cold
+  - action: utter_climate_cold

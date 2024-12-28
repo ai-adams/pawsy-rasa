@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_children_none
+  steps:
+  - user: |
+      No kids here.
+    intent: children_none
+  - action: utter_children_none
+
+- story: test_2_children_none
+  steps:
+  - user: |
+      My home is child-free and quiet.
+    intent: children_none
+  - action: utter_children_none
+
+- story: test_3_children_none
+  steps:
+  - user: |
+      I live alone without any children or pets, making my home very peaceful and calm.
+    intent: children_none
+  - action: utter_children_none

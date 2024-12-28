@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_climate_dry
+  steps:
+  - user: |
+      Very dry here.
+    intent: climate_dry
+  - action: utter_climate_dry
+
+- story: test_2_climate_dry
+  steps:
+  - user: |
+      My area is desert-like with very little humidity or rain.
+    intent: climate_dry
+  - action: utter_climate_dry
+
+- story: test_3_climate_dry
+  steps:
+  - user: |
+      I live in a dry, arid climate where it rarely rains, and the air has almost no moisture throughout the entire year.
+    intent: climate_dry
+  - action: utter_climate_dry

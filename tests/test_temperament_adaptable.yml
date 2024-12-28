@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_temperament_adaptable
+  steps:
+  - user: |
+      curious dog
+    intent: temperament_adaptable
+  - action: utter_temperament_adaptable
+
+- story: test_2_temperament_adaptable
+  steps:
+  - user: |
+      I’m looking for a dog that can easily adjust to new environments.
+    intent: temperament_adaptable
+  - action: utter_temperament_adaptable
+
+- story: test_3_temperament_adaptable
+  steps:
+  - user: |
+      A dog that’s flexible, adventurous, and thrives in different settings would be perfect for my lifestyle.
+    intent: temperament_adaptable
+  - action: utter_temperament_adaptable

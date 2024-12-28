@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_misc_appreciate
+  steps:
+  - user: |
+      cheers
+    intent: misc_appreciate
+  - action: utter_misc_appreciate
+
+- story: test_2_misc_appreciate
+  steps:
+  - user: |
+      Thanks so much, I really appreciate it!
+    intent: misc_appreciate
+  - action: utter_misc_appreciate
+
+- story: test_3_misc_appreciate
+  steps:
+  - user: |
+      I’m truly grateful for your help, it means so much to me—thank you!
+    intent: misc_appreciate
+  - action: utter_misc_appreciate

@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_lifestyle_balanced
+  steps:
+  - user: |
+      I’m moderately active.
+    intent: lifestyle_balanced
+  - action: utter_lifestyle_balanced
+
+- story: test_2_lifestyle_balanced
+  steps:
+  - user: |
+      I like going for walks or light jogs a few times a week.
+    intent: lifestyle_balanced
+  - action: utter_lifestyle_balanced
+
+- story: test_3_lifestyle_balanced
+  steps:
+  - user: |
+      My lifestyle is a balance of moderate activity, like occasional jogging and walking, and relaxing at home during the evenings.
+    intent: lifestyle_balanced
+  - action: utter_lifestyle_balanced

@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_lifestyle_active
+  steps:
+  - user: |
+      I’m very active.
+    intent: lifestyle_active
+  - action: utter_lifestyle_active
+
+- story: test_2_lifestyle_active
+  steps:
+  - user: |
+      I love outdoor activities like hiking and running every day.
+    intent: lifestyle_active
+  - action: utter_lifestyle_active
+
+- story: test_3_lifestyle_active
+  steps:
+  - user: |
+      My lifestyle is very energetic, with regular jogging, hiking, and outdoor adventures, so I need a dog that can match my activity level.
+    intent: lifestyle_active
+  - action: utter_lifestyle_active

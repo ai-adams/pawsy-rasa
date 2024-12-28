@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_experience_moderate
+  steps:
+  - user: |
+      I’ve had one dog.
+    intent: experience_moderate
+  - action: utter_experience_moderate
+
+- story: test_2_experience_moderate
+  steps:
+  - user: |
+      I’ve owned a dog before, so I know the basics of caring for one.
+    intent: experience_moderate
+  - action: utter_experience_moderate
+
+- story: test_3_experience_moderate
+  steps:
+  - user: |
+      I’ve cared for one dog in the past, so I understand their needs fairly well, but I wouldn’t say I’m highly experienced or confident with multiple dogs.
+    intent: experience_moderate
+  - action: utter_experience_moderate
