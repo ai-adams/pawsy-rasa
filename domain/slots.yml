@@ -1,0 +1,245 @@
+version: "3.1"
+
+slots:
+  adoption_reason:
+    type: categorical
+    values:
+      - family
+      - lifestyle
+      - security
+      - other
+    mappings:
+      - type: from_intent
+        value: family
+        intent: adoption_reason_family
+      - type: from_intent
+        value: lifestyle
+        intent: adoption_reason_lifestyle
+      - type: from_intent
+        value: security
+        intent: adoption_reason_security
+      - type: from_intent
+        value: other
+        intent: misc_other
+
+  age_preference:
+    type: categorical
+    values:
+      - young
+      - middle
+      - old
+      - any
+    mappings:
+      - type: from_intent
+        value: young
+        intent: age_young
+      - type: from_intent
+        value: middle
+        intent: age_middle
+      - type: from_intent
+        value: old
+        intent: age_old
+      - type: from_intent
+        value: any
+        intent: misc_flexible
+
+  allergies_present:
+    type: categorical
+    values:
+      - severe
+      - mild
+      - none
+      - unsure
+    mappings:
+      - type: from_intent
+        value: severe
+        intent: allergies_severe
+      - type: from_intent
+        value: mild
+        intent: allergies_mild
+      - type: from_intent
+        value: none
+        intent: allergies_none
+      - type: from_intent
+        value: unsure
+        intent: misc_unsure
+
+  time_commitment:
+    type: categorical
+    values:
+      - high
+      - moderate
+      - low
+      - varies
+    mappings:
+      - type: from_intent
+        value: high
+        intent: availability_high
+      - type: from_intent
+        value: moderate
+        intent: availability_moderate
+      - type: from_intent
+        value: low
+        intent: availability_low
+      - type: from_intent
+        value: varies
+        intent: misc_flexible
+
+  budget_limit:
+    type: categorical
+    values:
+      - low
+      - moderate
+      - high
+      - unsure
+    mappings:
+      - type: from_intent
+        value: low
+        intent: budget_low
+      - type: from_intent
+        value: moderate
+        intent: budget_moderate
+      - type: from_intent
+        value: high
+        intent: budget_high
+      - type: from_intent
+        value: unsure
+        intent: misc_unsure
+
+  children_at_home:
+    type: categorical
+    values:
+      - grown
+      - young
+      - none
+      - other
+    mappings:
+      - type: from_intent
+        value: grown
+        intent: children_grown
+      - type: from_intent
+        value: young
+        intent: children_young
+      - type: from_intent
+        value: none
+        intent: children_none
+      - type: from_intent
+        value: other
+        intent: misc_other
+
+  home_type:
+    type: categorical
+    values:
+      - apartment
+      - small_house
+      - large_house
+      - other
+    mappings:
+      - type: from_intent
+        value: apartment
+        intent: home_apartment
+      - type: from_intent
+        value: small_house
+        intent: home_small
+      - type: from_intent
+        value: large_house
+        intent: home_large
+      - type: from_intent
+        value: other
+        intent: misc_other
+
+  climate_type:
+    type: categorical
+    values:
+      - cold
+      - dry
+      - hot
+      - humid
+      - mild
+      - other
+    mappings:
+      - type: from_intent
+        value: cold
+        intent: climate_cold
+      - type: from_intent
+        value: dry
+        intent: climate_dry
+      - type: from_intent
+        value: hot
+        intent: climate_hot
+      - type: from_intent
+        value: humid
+        intent: climate_humid
+      - type: from_intent
+        value: mild
+        intent: climate_mild
+      - type: from_intent
+        value: other
+        intent: misc_other
+
+  size_preference:
+    type: categorical
+    values:
+      - small
+      - medium
+      - large
+      - any
+    mappings:
+      - type: from_intent
+        value: small
+        intent: size_small
+      - type: from_intent
+        value: medium
+        intent: size_medium
+      - type: from_intent
+        value: large
+        intent: size_large
+      - type: from_intent
+        value: any
+        intent: misc_flexible
+
+  lifestyle:
+    type: categorical
+    values:
+      - active
+      - balanced
+      - relaxed
+      - other
+    mappings:
+      - type: from_intent
+        value: active
+        intent: lifestyle_active
+      - type: from_intent
+        value: balanced
+        intent: lifestyle_balanced
+      - type: from_intent
+        value: relaxed
+        intent: lifestyle_relaxed
+      - type: from_intent
+        value: other
+        intent: misc_other
+
+  temperament_preference:
+    type: categorical
+    values:
+      - friendly
+      - confident
+      - independent
+      - adaptable
+      - any
+    mappings:
+      - type: from_intent
+        value: friendly
+        intent: temperament_friendly
+      - type: from_intent
+        value: confident
+        intent: temperament_confident
+      - type: from_intent
+        value: independent
+        intent: temperament_independent
+      - type: from_intent
+        value: adaptable
+        intent: temperament_adaptable
+      - type: from_intent
+        value: any
+        intent: misc_flexible

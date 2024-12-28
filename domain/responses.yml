@@ -4,6 +4,12 @@ responses:
   utter_welcome:
     - text: "Hi, I'm Pawsy. Welcome to my website!"
 
+#  utter_submit:
+#    - text: "Form was submitted."
+#
+#  utter_slots_values:
+#    - text: "{adoption_reason} {age_preference}"
+
   utter_adoption_reason_family:
     - text: "utter_adoption_reason_family"
 

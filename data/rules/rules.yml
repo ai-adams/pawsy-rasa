@@ -247,11 +247,6 @@ rules:
       - intent: misc_goodbye
       - action: utter_misc_goodbye
 
-  - rule: misc_greet
-    steps:
-      - intent: misc_greet
-      - action: utter_misc_greet
-
   - rule: misc_other
     steps:
       - intent: misc_other
