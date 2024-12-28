@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_misc_other
+  steps:
+  - user: |
+      none apply
+    intent: misc_other
+  - action: utter_misc_other
+
+- story: test_2_misc_other
+  steps:
+  - user: |
+      my setup is a bit unusual and hard to explain
+    intent: misc_other
+  - action: utter_misc_other
+
+- story: test_3_misc_other
+  steps:
+  - user: |
+      my situation is quite unique and doesn’t really fit into any of these categories or options
+    intent: misc_other
+  - action: utter_misc_other

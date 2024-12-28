@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_age_young
+  steps:
+  - user: |
+      I want a puppy.
+    intent: age_young
+  - action: utter_age_young
+
+- story: test_2_age_young
+  steps:
+  - user: |
+      I’d like a young dog that’s full of energy and ready to train.
+    intent: age_young
+  - action: utter_age_young
+
+- story: test_3_age_young
+  steps:
+  - user: |
+      I’m looking for a playful puppy that I can bond with, train, and grow with as a member of my family.
+    intent: age_young
+  - action: utter_age_young

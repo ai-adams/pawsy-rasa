@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_temperament_confident
+  steps:
+  - user: |
+      bold dog
+    intent: temperament_confident
+  - action: utter_temperament_confident
+
+- story: test_2_temperament_confident
+  steps:
+  - user: |
+      I’m looking for a dog that’s brave and alert in different situations.
+    intent: temperament_confident
+  - action: utter_temperament_confident
+
+- story: test_3_temperament_confident
+  steps:
+  - user: |
+      A dog that’s fearless, self-assured, and not easily intimidated is exactly what I’m looking for in a companion.
+    intent: temperament_confident
+  - action: utter_temperament_confident

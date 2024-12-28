@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_misc_admire
+  steps:
+  - user: |
+      awesome
+    intent: misc_admire
+  - action: utter_misc_admire
+
+- story: test_2_misc_admire
+  steps:
+  - user: |
+      That’s absolutely fascinating to hear.
+    intent: misc_admire
+  - action: utter_misc_admire
+
+- story: test_3_misc_admire
+  steps:
+  - user: |
+      I’m really amazed by that; it’s such an incredible thing to learn about!
+    intent: misc_admire
+  - action: utter_misc_admire

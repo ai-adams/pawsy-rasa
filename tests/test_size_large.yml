@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_size_large
+  steps:
+  - user: |
+      big dog
+    intent: size_large
+  - action: utter_size_large
+
+- story: test_2_size_large
+  steps:
+  - user: |
+      I’d like a dog that’s large and strong, like a German Shepherd.
+    intent: size_large
+  - action: utter_size_large
+
+- story: test_3_size_large
+  steps:
+  - user: |
+      I’m looking for a dog that’s big enough to match my active lifestyle and provide protection.
+    intent: size_large
+  - action: utter_size_large

@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_home_large
+  steps:
+  - user: |
+      I live in a large house.
+    intent: home_large
+  - action: utter_home_large
+
+- story: test_2_home_large
+  steps:
+  - user: |
+      My house has plenty of space indoors and a fenced backyard.
+    intent: home_large
+  - action: utter_home_large
+
+- story: test_3_home_large
+  steps:
+  - user: |
+      I live in a spacious house with multiple rooms and a big yard where a dog can run and play freely.
+    intent: home_large
+  - action: utter_home_large

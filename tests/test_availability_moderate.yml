@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_availability_moderate
+  steps:
+  - user: |
+      I’m free some days.
+    intent: availability_moderate
+  - action: utter_availability_moderate
+
+- story: test_2_availability_moderate
+  steps:
+  - user: |
+      I have evenings and weekends available to spend time with a dog.
+    intent: availability_moderate
+  - action: utter_availability_moderate
+
+- story: test_3_availability_moderate
+  steps:
+  - user: |
+      My schedule allows me to care for a dog during evenings and weekends, with a few hours during weekdays for walks and playtime.
+    intent: availability_moderate
+  - action: utter_availability_moderate

@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_misc_clarify
+  steps:
+  - user: |
+      huh?
+    intent: misc_clarify
+  - action: utter_misc_clarify
+
+- story: test_2_misc_clarify
+  steps:
+  - user: |
+      Could you repeat that in a simpler way?
+    intent: misc_clarify
+  - action: utter_misc_clarify
+
+- story: test_3_misc_clarify
+  steps:
+  - user: |
+      I didn’t fully understand what you just said; could you clarify it a bit more?
+    intent: misc_clarify
+  - action: utter_misc_clarify

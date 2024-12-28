@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_home_apartment
+  steps:
+  - user: |
+      I live in an apartment.
+    intent: home_apartment
+  - action: utter_home_apartment
+
+- story: test_2_home_apartment
+  steps:
+  - user: |
+      My apartment is small, but I can take my dog for walks nearby.
+    intent: home_apartment
+  - action: utter_home_apartment
+
+- story: test_3_home_apartment
+  steps:
+  - user: |
+      I live in a small apartment without a yard, but there are shared outdoor spaces nearby for exercise.
+    intent: home_apartment
+  - action: utter_home_apartment

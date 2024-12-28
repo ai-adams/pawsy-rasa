@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_maintenance_low
+  steps:
+  - user: |
+      Minimal grooming, please.
+    intent: maintenance_low
+  - action: utter_maintenance_low
+
+- story: test_2_maintenance_low
+  steps:
+  - user: |
+      I’d like a dog that doesn’t need regular brushing or professional grooming.
+    intent: maintenance_low
+  - action: utter_maintenance_low
+
+- story: test_3_maintenance_low
+  steps:
+  - user: |
+      I’m looking for a dog that requires very little maintenance, doesn’t shed much, and doesn’t need frequent grooming or special care.
+    intent: maintenance_low
+  - action: utter_maintenance_low

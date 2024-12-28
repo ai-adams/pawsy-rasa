@@ -13,9 +13,9 @@ pipeline:
   max_ngram: 4
 - name: LogisticRegressionClassifier
 - name: EntitySynonymMapper
-- name: FallbackClassifier
-  threshold: 0.5
-  ambiguity_threshold: 0.1
+#- name: FallbackClassifier
+#  threshold: 0.3
+#  ambiguity_threshold: 0.1
 
 policies:
 - name: RulePolicy

@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_children_young
+  steps:
+  - user: |
+      Small kids at home.
+    intent: children_young
+  - action: utter_children_young
+
+- story: test_2_children_young
+  steps:
+  - user: |
+      My household includes toddlers and very young kids.
+    intent: children_young
+  - action: utter_children_young
+
+- story: test_3_children_young
+  steps:
+  - user: |
+      I have young children under 5 at home, so I need a dog that is patient, gentle, and good with little ones.
+    intent: children_young
+  - action: utter_children_young

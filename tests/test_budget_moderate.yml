@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_budget_moderate
+  steps:
+  - user: |
+      My budget is fair.
+    intent: budget_moderate
+  - action: utter_budget_moderate
+
+- story: test_2_budget_moderate
+  steps:
+  - user: |
+      I’m comfortable with moderate adoption and care costs for a dog.
+    intent: budget_moderate
+  - action: utter_budget_moderate
+
+- story: test_3_budget_moderate
+  steps:
+  - user: |
+      I have a reasonable budget that allows me to spend a fair amount on adoption fees and ongoing care while avoiding extravagant expenses.
+    intent: budget_moderate
+  - action: utter_budget_moderate

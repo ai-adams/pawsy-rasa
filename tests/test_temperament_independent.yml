@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_temperament_independent
+  steps:
+  - user: |
+      self-reliant dog
+    intent: temperament_independent
+  - action: utter_temperament_independent
+
+- story: test_2_temperament_independent
+  steps:
+  - user: |
+      I’d like a dog that’s happy to have its own space and not too needy.
+    intent: temperament_independent
+  - action: utter_temperament_independent
+
+- story: test_3_temperament_independent
+  steps:
+  - user: |
+      A dog that’s independent and content being on its own for a few hours each day while still being affectionate when we’re together is perfect.
+    intent: temperament_independent
+  - action: utter_temperament_independent

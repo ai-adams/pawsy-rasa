@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_budget_low
+  steps:
+  - user: |
+      I’m on a budget.
+    intent: budget_low
+  - action: utter_budget_low
+
+- story: test_2_budget_low
+  steps:
+  - user: |
+      I need a low-cost option for adopting and caring for a dog.
+    intent: budget_low
+  - action: utter_budget_low
+
+- story: test_3_budget_low
+  steps:
+  - user: |
+      My finances are tight, so I’m looking for an affordable dog that doesn’t require high adoption fees or significant ongoing costs.
+    intent: budget_low
+  - action: utter_budget_low

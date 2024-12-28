@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_children_grown
+  steps:
+  - user: |
+      I have older kids.
+    intent: children_grown
+  - action: utter_children_grown
+
+- story: test_2_children_grown
+  steps:
+  - user: |
+      My children are all in school and are old enough to help care for a dog.
+    intent: children_grown
+  - action: utter_children_grown
+
+- story: test_3_children_grown
+  steps:
+  - user: |
+      Our kids are independent and active, all over the age of 7, and ready to share responsibility for playing with and caring for a dog.
+    intent: children_grown
+  - action: utter_children_grown

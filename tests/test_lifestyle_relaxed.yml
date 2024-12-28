@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_lifestyle_relaxed
+  steps:
+  - user: |
+      I’m not very active.
+    intent: lifestyle_relaxed
+  - action: utter_lifestyle_relaxed
+
+- story: test_2_lifestyle_relaxed
+  steps:
+  - user: |
+      My lifestyle is laid-back, and I spend most of my time indoors.
+    intent: lifestyle_relaxed
+  - action: utter_lifestyle_relaxed
+
+- story: test_3_lifestyle_relaxed
+  steps:
+  - user: |
+      I prefer a peaceful routine with minimal activity, spending most of my time relaxing at home and avoiding outdoor exercise.
+    intent: lifestyle_relaxed
+  - action: utter_lifestyle_relaxed

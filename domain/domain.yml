@@ -4,6 +4,7 @@ actions:
   - action_hello_world
 
 intents:
+  - EXTERNAL_welcome
   - adoption_reason_family
   - adoption_reason_lifestyle
   - adoption_reason_security
@@ -63,7 +64,6 @@ intents:
   - temperament_confident
   - temperament_friendly
   - temperament_independent
-  - EXTERNAL_welcome
 
 
 session_config:

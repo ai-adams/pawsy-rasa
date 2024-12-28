@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_allergies_severe
+  steps:
+  - user: |
+      Severe allergies here.
+    intent: allergies_severe
+  - action: utter_allergies_severe
+
+- story: test_2_allergies_severe
+  steps:
+  - user: |
+      We need a dog that produces very little dander due to severe allergies.
+    intent: allergies_severe
+  - action: utter_allergies_severe
+
+- story: test_3_allergies_severe
+  steps:
+  - user: |
+      I’m looking for a hypoallergenic breed because my severe allergies to dog dander require a dog with minimal shedding and allergen production.
+    intent: allergies_severe
+  - action: utter_allergies_severe

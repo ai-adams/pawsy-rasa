@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_misc_bot_challenge
+  steps:
+  - user: |
+      who are you?
+    intent: misc_bot_challenge
+  - action: utter_misc_bot_challenge
+
+- story: test_2_misc_bot_challenge
+  steps:
+  - user: |
+      Are you a robot or something else entirely?
+    intent: misc_bot_challenge
+  - action: utter_misc_bot_challenge
+
+- story: test_3_misc_bot_challenge
+  steps:
+  - user: |
+      How can you answer my questions—are you some sort of advanced AI or just a script?
+    intent: misc_bot_challenge
+  - action: utter_misc_bot_challenge

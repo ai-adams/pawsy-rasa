@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_gender_male
+  steps:
+  - user: |
+      I want a male dog.
+    intent: gender_male
+  - action: utter_gender_male
+
+- story: test_2_gender_male
+  steps:
+  - user: |
+      I’m looking for a male dog because I prefer them.
+    intent: gender_male
+  - action: utter_gender_male
+
+- story: test_3_gender_male
+  steps:
+  - user: |
+      I’d like to adopt a male dog as I feel they’d be a better fit for my family and lifestyle preferences than a female dog.
+    intent: gender_male
+  - action: utter_gender_male

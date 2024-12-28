@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_size_medium
+  steps:
+  - user: |
+      medium dog
+    intent: size_medium
+  - action: utter_size_medium
+
+- story: test_2_size_medium
+  steps:
+  - user: |
+      I’d like a dog that’s medium-sized, not too big or small.
+    intent: size_medium
+  - action: utter_size_medium
+
+- story: test_3_size_medium
+  steps:
+  - user: |
+      I’m looking for a medium-sized dog that’s versatile and fits well in my home and lifestyle.
+    intent: size_medium
+  - action: utter_size_medium

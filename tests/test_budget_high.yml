@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_budget_high
+  steps:
+  - user: |
+      Cost isn’t a concern.
+    intent: budget_high
+  - action: utter_budget_high
+
+- story: test_2_budget_high
+  steps:
+  - user: |
+      I’m willing to spend generously for the best options for my dog.
+    intent: budget_high
+  - action: utter_budget_high
+
+- story: test_3_budget_high
+  steps:
+  - user: |
+      My budget is very flexible, and I’m prepared to invest significantly in both the adoption process and the ongoing care of a premium breed.
+    intent: budget_high
+  - action: utter_budget_high

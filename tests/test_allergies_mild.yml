@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_allergies_mild
+  steps:
+  - user: |
+      I have slight allergies.
+    intent: allergies_mild
+  - action: utter_allergies_mild
+
+- story: test_2_allergies_mild
+  steps:
+  - user: |
+      I’d prefer a breed that minimizes shedding due to mild sensitivities.
+    intent: allergies_mild
+  - action: utter_allergies_mild
+
+- story: test_3_allergies_mild
+  steps:
+  - user: |
+      I’m looking for a dog that produces fewer allergens because I have mild reactions to dander and shedding.
+    intent: allergies_mild
+  - action: utter_allergies_mild

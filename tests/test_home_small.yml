@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_home_small
+  steps:
+  - user: |
+      My house is small.
+    intent: home_small
+  - action: utter_home_small
+
+- story: test_2_home_small
+  steps:
+  - user: |
+      I live in a cozy house with a tiny yard and limited indoor space.
+    intent: home_small
+  - action: utter_home_small
+
+- story: test_3_home_small
+  steps:
+  - user: |
+      My home is compact with just a few rooms and a small outdoor area, so it’s better suited for a smaller or low-energy dog.
+    intent: home_small
+  - action: utter_home_small

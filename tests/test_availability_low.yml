@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: test_1_availability_low
+  steps:
+  - user: |
+      I’m rarely home.
+    intent: availability_low
+  - action: utter_availability_low
+
+- story: test_2_availability_low
+  steps:
+  - user: |
+      I travel a lot for work and need a dog that doesn’t require constant care.
+    intent: availability_low
+  - action: utter_availability_low
+
+- story: test_3_availability_low
+  steps:
+  - user: |
+      My schedule keeps me away from home for most of the day, so I need a low-maintenance dog that can tolerate being alone for long hours.
+    intent: availability_low
+  - action: utter_availability_low
