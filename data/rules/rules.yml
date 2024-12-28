@@ -122,45 +122,45 @@ rules:
       - intent: climate_mild
       - action: utter_climate_mild
 
-  - rule: compatibility_high
-    steps:
-      - intent: compatibility_high
-      - action: utter_compatibility_high
+#  - rule: compatibility_high
+#    steps:
+#      - intent: compatibility_high
+#      - action: utter_compatibility_high
+#
+#  - rule: compatibility_low
+#    steps:
+#      - intent: compatibility_low
+#      - action: utter_compatibility_low
+#
+#  - rule: compatibility_moderate
+#    steps:
+#      - intent: compatibility_moderate
+#      - action: utter_compatibility_moderate
 
-  - rule: compatibility_low
-    steps:
-      - intent: compatibility_low
-      - action: utter_compatibility_low
+#  - rule: experience_high
+#    steps:
+#      - intent: experience_high
+#      - action: utter_experience_high
+#
+#  - rule: experience_low
+#    steps:
+#      - intent: experience_low
+#      - action: utter_experience_low
+#
+#  - rule: experience_moderate
+#    steps:
+#      - intent: experience_moderate
+#      - action: utter_experience_moderate
 
-  - rule: compatibility_moderate
-    steps:
-      - intent: compatibility_moderate
-      - action: utter_compatibility_moderate
-
-  - rule: experience_high
-    steps:
-      - intent: experience_high
-      - action: utter_experience_high
-
-  - rule: experience_low
-    steps:
-      - intent: experience_low
-      - action: utter_experience_low
-
-  - rule: experience_moderate
-    steps:
-      - intent: experience_moderate
-      - action: utter_experience_moderate
-
-  - rule: gender_female
-    steps:
-      - intent: gender_female
-      - action: utter_gender_female
-
-  - rule: gender_male
-    steps:
-      - intent: gender_male
-      - action: utter_gender_male
+#  - rule: gender_female
+#    steps:
+#      - intent: gender_female
+#      - action: utter_gender_female
+#
+#  - rule: gender_male
+#    steps:
+#      - intent: gender_male
+#      - action: utter_gender_male
 
   - rule: home_apartment
     steps:
@@ -192,20 +192,20 @@ rules:
       - intent: lifestyle_relaxed
       - action: utter_lifestyle_relaxed
 
-  - rule: maintenance_high
-    steps:
-      - intent: maintenance_high
-      - action: utter_maintenance_high
-
-  - rule: maintenance_low
-    steps:
-      - intent: maintenance_low
-      - action: utter_maintenance_low
-
-  - rule: maintenance_moderate
-    steps:
-      - intent: maintenance_moderate
-      - action: utter_maintenance_moderate
+#  - rule: maintenance_high
+#    steps:
+#      - intent: maintenance_high
+#      - action: utter_maintenance_high
+#
+#  - rule: maintenance_low
+#    steps:
+#      - intent: maintenance_low
+#      - action: utter_maintenance_low
+#
+#  - rule: maintenance_moderate
+#    steps:
+#      - intent: maintenance_moderate
+#      - action: utter_maintenance_moderate
 
   - rule: misc_admire
     steps:

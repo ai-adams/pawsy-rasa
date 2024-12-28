@@ -62,7 +62,7 @@ responses:
           payload: "/misc_unsure"
 
   utter_ask_adoption_quiz_form_children_at_home:
-    - text: "Do you have children?"
+    - text: "Do you have any children at home?"
       buttons:
         - title: "No children"
           payload: "/children_none"
@@ -86,7 +86,7 @@ responses:
           payload: "/misc_other"
 
   utter_ask_adoption_quiz_form_climate_type:
-    - text: "What's the worst thing about the weather where you live?"
+    - text: "What's the climate like where you live?"
       buttons:
         - title: "Winters are too cold."
           payload: "/climate_cold"
