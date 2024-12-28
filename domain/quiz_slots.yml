@@ -12,15 +12,27 @@ slots:
       - type: from_intent
         value: family
         intent: adoption_reason_family
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: adoption_reason
       - type: from_intent
         value: lifestyle
         intent: adoption_reason_lifestyle
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: adoption_reason
       - type: from_intent
         value: security
         intent: adoption_reason_security
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: adoption_reason
       - type: from_intent
         value: other
         intent: misc_other
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: adoption_reason
 
   age_preference:
     type: categorical
@@ -33,15 +45,27 @@ slots:
       - type: from_intent
         value: young
         intent: age_young
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: age_preference
       - type: from_intent
         value: middle
         intent: age_middle
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: age_preference
       - type: from_intent
         value: old
         intent: age_old
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: age_preference
       - type: from_intent
         value: any
         intent: misc_flexible
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: age_preference
 
   allergies_present:
     type: categorical
@@ -54,15 +78,27 @@ slots:
       - type: from_intent
         value: none
         intent: allergies_none
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: allergies_present
       - type: from_intent
         value: mild
         intent: allergies_mild
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: allergies_present
       - type: from_intent
         value: severe
         intent: allergies_severe
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: allergies_present
       - type: from_intent
         value: unsure
         intent: misc_unsure
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: allergies_present
 
   time_commitment:
     type: categorical
@@ -75,15 +111,27 @@ slots:
       - type: from_intent
         value: high
         intent: availability_high
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: time_commitment
       - type: from_intent
         value: moderate
         intent: availability_moderate
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: time_commitment
       - type: from_intent
         value: low
         intent: availability_low
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: time_commitment
       - type: from_intent
         value: varies
         intent: misc_flexible
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: time_commitment
 
   budget_limit:
     type: categorical
@@ -96,15 +144,27 @@ slots:
       - type: from_intent
         value: low
         intent: budget_low
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: budget_limit
       - type: from_intent
         value: moderate
         intent: budget_moderate
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: budget_limit
       - type: from_intent
         value: high
         intent: budget_high
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: budget_limit
       - type: from_intent
         value: unsure
         intent: misc_unsure
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: budget_limit
 
   children_at_home:
     type: categorical
@@ -117,15 +177,27 @@ slots:
       - type: from_intent
         value: none
         intent: children_none
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: children_at_home
       - type: from_intent
         value: young
         intent: children_young
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: children_at_home
       - type: from_intent
         value: grown
         intent: children_grown
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: children_at_home
       - type: from_intent
         value: other
         intent: misc_other
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: children_at_home
 
   home_type:
     type: categorical
@@ -138,15 +210,27 @@ slots:
       - type: from_intent
         value: apartment
         intent: home_apartment
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: home_type
       - type: from_intent
         value: small_house
         intent: home_small
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: home_type
       - type: from_intent
         value: large_house
         intent: home_large
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: home_type
       - type: from_intent
         value: other
         intent: misc_other
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: home_type
 
   climate_type:
     type: categorical
@@ -161,21 +245,39 @@ slots:
       - type: from_intent
         value: cold
         intent: climate_cold
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: climate_type
       - type: from_intent
         value: dry
         intent: climate_dry
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: climate_type
       - type: from_intent
         value: hot
         intent: climate_hot
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: climate_type
       - type: from_intent
         value: humid
         intent: climate_humid
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: climate_type
       - type: from_intent
         value: mild
         intent: climate_mild
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: climate_type
       - type: from_intent
         value: other
         intent: misc_other
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: climate_type
 
   size_preference:
     type: categorical
@@ -188,15 +290,27 @@ slots:
       - type: from_intent
         value: small
         intent: size_small
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: size_preference
       - type: from_intent
         value: medium
         intent: size_medium
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: size_preference
       - type: from_intent
         value: large
         intent: size_large
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: size_preference
       - type: from_intent
         value: any
         intent: misc_flexible
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: size_preference
 
   lifestyle:
     type: categorical
@@ -209,15 +323,27 @@ slots:
       - type: from_intent
         value: active
         intent: lifestyle_active
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: lifestyle
       - type: from_intent
         value: balanced
         intent: lifestyle_balanced
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: lifestyle
       - type: from_intent
         value: relaxed
         intent: lifestyle_relaxed
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: lifestyle
       - type: from_intent
         value: other
         intent: misc_other
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: lifestyle
 
   temperament_preference:
     type: categorical
@@ -231,15 +357,30 @@ slots:
       - type: from_intent
         value: friendly
         intent: temperament_friendly
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: temperament_preference
       - type: from_intent
         value: confident
         intent: temperament_confident
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: temperament_preference
       - type: from_intent
         value: independent
         intent: temperament_independent
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: temperament_preference
       - type: from_intent
         value: adaptable
         intent: temperament_adaptable
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: temperament_preference
       - type: from_intent
         value: any
         intent: misc_flexible
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: temperament_preference
