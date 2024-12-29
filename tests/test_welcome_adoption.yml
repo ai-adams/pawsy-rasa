@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+  - story: test_1_welcome_adoption
+    steps:
+    - user: |
+        Adopt a dog
+      intent: welcome_adoption
+    - action: utter_welcome_adoption
+
+  - story: test_2_welcome_adoption
+    steps:
+    - user: |
+        I’m trying to find a dog to adopt soon
+      intent: welcome_adoption
+    - action: utter_welcome_adoption
+
+  - story: test_3_welcome_adoption
+    steps:
+    - user: |
+        I’m hoping to adopt a dog that matches my lifestyle and preferences
+      intent: welcome_adoption
+    - action: utter_welcome_adoption

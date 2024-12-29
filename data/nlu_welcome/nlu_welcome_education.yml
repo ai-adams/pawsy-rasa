@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: welcome_education
+    examples: |
+      - I want to learn about dog breeds
+      - Can you teach me about dog breeds?
+      - Tell me about dog breeds
+      - I’d like to know more about dog breeds
+      - Can you educate me on breeds?
+      - I want information on dog breeds
+      - Let’s talk about dog breeds
+      - I need help understanding dog breeds
+      - What can you tell me about breeds?
+      - Help me learn about dog types
+      - Can you share breed details?
+      - I’m curious about different breeds
+      - Teach me about dogs
+      - I want to study dog breeds
+      - Show me info on dog breeds
+      - Tell me more about dogs
+      - Let’s explore dog breeds together
+      - I’m here to learn about dogs
+      - Can I ask questions about dog breeds?
+      - I’m researching dog breeds

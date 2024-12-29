@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: welcome_browsing
+    examples: |
+      - I’m just browsing
+      - Just looking around
+      - Exploring the site
+      - Browsing for now
+      - I’m not looking for anything specific
+      - Let me browse a bit
+      - I’m here to explore
+      - Can I just look around?
+      - I’m casually browsing
+      - I’ll let you know if I need help
+      - I’m not searching for anything in particular
+      - Just here to check things out
+      - I’m here to see what’s available
+      - Looking around for now
+      - Taking a look at the options
+      - I’m just checking things out
+      - Exploring the Pet Portal
+      - I’m not sure what I want yet
+      - Browsing casually
+      - Just having a look around

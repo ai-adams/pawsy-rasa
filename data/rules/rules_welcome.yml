@@ -1,0 +1,77 @@
+version: "3.1"
+
+rules:
+  - rule: EXTERNAL_welcome + welcome_form
+    conversation_start: true
+    steps:
+      - intent: EXTERNAL_welcome
+      - action: utter_welcome
+      - action: welcome_form
+      - active_loop: welcome_form
+
+  - rule: welcome_form + welcome_adoption + adoption_quiz_form
+    condition:
+      - active_loop: welcome_form
+      - slot_was_set:
+        - welcome_options: adoption
+    steps:
+      - action: welcome_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_welcome_adoption
+      - action: adoption_quiz_form
+      - active_loop: adoption_quiz_form
+
+  - rule: welcome_adoption + adoption_quiz_form
+    steps:
+      - intent: welcome_adoption
+      - action: utter_welcome_adoption
+      - action: adoption_quiz_form
+      - active_loop: adoption_quiz_form
+
+  - rule: cancel_adoption_quiz_form
+    condition:
+      - active_loop: adoption_quiz_form
+    steps:
+      - intent: misc_cancel
+      - action: action_deactivate_loop
+      - active_loop: null
+      - action: utter_quiz_end
+
+  - rule: submit_adoption_quiz_form
+    condition:
+      - active_loop: adoption_quiz_form
+    steps:
+      - action: adoption_quiz_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_quiz_submit
+      - action: action_recommend_breeds
+
+  - rule: welcome_browsing
+    condition:
+      - active_loop: welcome_form
+      - slot_was_set:
+        - welcome_options: browsing
+    steps:
+      - action: welcome_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_welcome_browsing
+
+  - rule: welcome_education
+    condition:
+      - active_loop: welcome_form
+      - slot_was_set:
+          - welcome_options: education
+    steps:
+      - action: welcome_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_welcome_education
+
+

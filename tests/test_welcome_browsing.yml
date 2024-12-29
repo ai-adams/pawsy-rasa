@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+  - story: test_1_welcome_browsing
+    steps:
+    - user: |
+        Just browsing
+      intent: welcome_browsing
+    - action: utter_welcome_browsing
+
+  - story: test_2_welcome_browsing
+    steps:
+    - user: |
+        I’m just casually exploring the site to see what it has to offer
+      intent: welcome_browsing
+    - action: utter_welcome_browsing
+
+  - story: test_3_welcome_browsing
+    steps:
+    - user: |
+        I’m just taking a look around to explore what’s available and not searching for anything specific
+      intent: welcome_browsing
+    - action: utter_welcome_browsing

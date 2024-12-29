@@ -9,6 +9,27 @@ class ValidateAdoptionQuizForm(FormValidationAction):
     def name(self) -> Text:
         return "validate_adoption_quiz_form"
 
+    def validate_start_quiz(
+        self,
+        slot_value: Any,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: DomainDict,
+    ) -> Dict[Text, Any]:
+
+        slot_keys = list(tracker.slots_to_validate().keys())
+        if len(slot_keys) > 1:
+            return {}
+
+        else:
+            slot_key = list(tracker.slots_to_validate().keys())[0]
+
+            if slot_key == "start_quiz" and slot_value in [True, False]:
+                return {"start_quiz": slot_value}
+
+            else:
+                return {"start_quiz": None}
+
     def validate_adoption_reason(
         self,
         slot_value: Any,

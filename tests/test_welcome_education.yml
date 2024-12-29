@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+  - story: test_1_welcome_education
+    steps:
+    - user: |
+        Learn about breeds
+      intent: welcome_education
+    - action: utter_welcome_education
+
+  - story: test_2_welcome_education
+    steps:
+    - user: |
+        Can you give me detailed information on different dog breeds?
+      intent: welcome_education
+    - action: utter_welcome_education
+
+  - story: test_3_welcome_education
+    steps:
+    - user: |
+        I’d like to explore the characteristics and traits of various dog breeds in depth
+      intent: welcome_education
+    - action: utter_welcome_education

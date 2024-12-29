@@ -7,6 +7,7 @@ actions:
 forms:
   adoption_quiz_form:
     required_slots:
+      - start_quiz
       - adoption_reason
       - age_preference
       - allergies_present
@@ -18,6 +19,9 @@ forms:
       - size_preference
       - lifestyle
       - temperament_preference
+  welcome_form:
+    required_slots:
+      - welcome_options
 
 intents:
   - EXTERNAL_welcome
@@ -65,6 +69,7 @@ intents:
   - misc_affirm
   - misc_appreciate
   - misc_bot_challenge
+  - misc_cancel
   - misc_clarify
   - misc_decline
   - misc_flexible
@@ -80,6 +85,9 @@ intents:
   - temperament_confident
   - temperament_friendly
   - temperament_independent
+  - welcome_adoption
+  - welcome_browsing
+  - welcome_education
 
 session_config:
   session_expiration_time: 60

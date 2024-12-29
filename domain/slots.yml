@@ -1,0 +1,28 @@
+version: "3.1"
+
+slots:
+  welcome_options:
+    type: categorical
+    values:
+      - adoption
+      - education
+      - browsing
+    mappings:
+      - type: from_intent
+        value: adoption
+        intent: welcome_adoption
+        conditions:
+          - active_loop: welcome_form
+            requested_slot: welcome_options
+      - type: from_intent
+        value: education
+        intent: welcome_education
+        conditions:
+          - active_loop: welcome_form
+            requested_slot: welcome_options
+      - type: from_intent
+        value: browsing
+        intent: welcome_browsing
+        conditions:
+          - active_loop: welcome_form
+            requested_slot: welcome_options

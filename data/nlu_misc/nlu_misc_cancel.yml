@@ -1,0 +1,13 @@
+version: "3.1"
+
+nlu:
+  - intent: misc_cancel
+    examples: |
+      - cancel
+      - stop
+      - cancel form
+      - stop the form
+      - i don't want to continue
+      - stop it
+      - cancel this form
+      - cancel please

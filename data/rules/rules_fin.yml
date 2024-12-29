@@ -1,14 +1,14 @@
-rules:
-  - rule: fin_misc_greet
-    condition:
-    # Condition that form is active.
-    - active_loop: adoption_quiz_form
-    steps:
-    # Form is deactivated
-    - action: adoption_quiz_form
-    - active_loop: null
-    - slot_was_set:
-      - requested_slot: null
-    # The actions we want to run when the form is submitted.
-    - action: utter_quiz_submit
-    - action: action_recommend_breeds
+#rules:
+#  - rule: fin_misc_greet
+#    condition:
+#    # Condition that form is active.
+#    - active_loop: adoption_quiz_form
+#    steps:
+#    # Form is deactivated
+#    - action: adoption_quiz_form
+#    - active_loop: null
+#    - slot_was_set:
+#      - requested_slot: null
+#    # The actions we want to run when the form is submitted.
+#    - action: utter_quiz_submit
+#    - action: action_recommend_breeds
