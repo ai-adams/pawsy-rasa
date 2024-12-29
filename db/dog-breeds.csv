@@ -1,0 +1,171 @@
+DOG GROUP,BREED,SIZE,GROOMING,EXERCISE,FEEDING,TEMPERAMENT,DESCRIPTION
+Gundog,American Cocker Spaniel,small,hard,medium,easy,friendly,cheerful and intelligent
+Gundog,Bracco Italiano,large,easy,medium,medium,friendly,gentle
+Gundog,Brittany,small,easy,medium,easy,independent,energetic and busy
+Gundog,Chesapeake Bay Retriever,large,hard,hard,medium,friendly,alert and cheerful
+Gundog,Clumber Spaniel,large,medium,medium,medium,independent,kind and reliable
+Gundog,Curly Coated Retriever,large,hard,hard,easy,confident,"friendly, confident"
+Gundog,English Cocker Spaniel,small,medium,medium,easy,friendly,"merry, exuberant"
+Gundog,English Setter,large,hard,hard,easy,friendly,a friendly enthusiast
+Gundog,English Springer Spaniel,medium,medium,hard,medium,friendly,friendly and biddable
+Gundog,Field Spaniel,small,medium,medium,easy,independent,active and independent
+Gundog,Flat-Coated Retriever,large,medium,medium,medium,friendly,kindly
+Gundog,German Short-Haired Pointer,medium,easy,medium,medium,adaptable,highly trainable and friendly
+Gundog,German Wire-Haired Pointer,medium,medium,medium,medium,adaptable,intelligent and biddable
+Gundog,Golden Retriever,medium,hard,hard,hard,adaptable,intelligent and biddable
+Gundog,Gordon Setter,large,medium,easy,hard,confident,dignified and bold
+Gundog,Hungarian Vizsla,medium,easy,medium,medium,confident,lively and fearless
+Gundog,Hungarian Wire-Haired Vizsla,medium,easy,medium,medium,confident,lively and fearless
+Gundog,Irish Red and White Settler,large,hard,hard,easy,friendly,cheerful and biddable
+Gundog,Irish Setter,large,hard,hard,easy,confident,affectionate and racy
+Gundog,Irish Water Spaniel,medium,medium,medium,medium,independent,"affectionate, if aloof"
+Gundog,Italian Spinone,large,hard,hard,easy,friendly,friendly and alert
+Gundog,Kooikerhondje,small,easy,medium,easy,friendly,friendly and alert
+Gundog,Labrador Retriever,large,easy,hard,easy,friendly,friendly and intelligent
+Gundog,Large Munsterlander,large,medium,easy,easy,adaptable,affectionate and trustworthy
+Gundog,Nova Scotia Duck-Tolling Retriever,small,medium,medium,easy,friendly,"playful, trainable"
+Gundog,Pointer,large,easy,medium,hard,adaptable,kind and reasonably biddable
+Gundog,Sussex Spaniel,small,medium,medium,medium,friendly,kindly
+Gundog,Weimaraner,large,easy,hard,medium,confident,fearless and friendly
+Gundog,Welsh Springer Spaniel,medium,medium,hard,medium,adaptable,kindly and intelligent
+Hound,Afghan Hound,large,hard,medium,medium,independent,wary of strangers
+Hound,Basenji,medium,easy,easy,easy,adaptable,"intelligent, affectionate"
+Hound,Basset Fauve De Bretagne,small,easy,medium,easy,friendly,busy and cheerful
+Hound,Basset Hound,medium,easy,easy,hard,independent,placid but loud
+Hound,Beagle,small,easy,medium,easy,independent,genially stubborn
+Hound,Bloodhound,large,easy,medium,hard,independent,requires understanding
+Hound,Borzoi,large,hard,medium,easy,independent,requires understanding
+Hound,Dachshunds,medium,medium,easy,easy,independent,independent
+Hound,Deerhound,large,medium,medium,medium,independent,highly companionable
+Hound,Elkhound,medium,easy,medium,hard,independent,highly companionable
+Hound,Finnish Spitz,medium,easy,medium,easy,independent,requires understanding
+Hound,Foxhound,medium,easy,medium,hard,friendly,friendly
+Hound,Grand Basset Griffon Vendeen,medium,easy,medium,easy,friendly,friendly and humorous
+Hound,Grand Bleu de Gascoigne,large,easy,medium,easy,friendly,gentle and acceptable
+Hound,Greyhound,large,easy,medium,medium,adaptable,affectionate and even-tempered
+Hound,Hamiltonstovare,medium,easy,medium,medium,adaptable,even-tempered
+Hound,Harrier,medium,easy,medium,medium,adaptable,mild and kindly
+Hound,Ibizan Hound,medium,easy,medium,medium,independent,reserved and independent
+Hound,Irish Wolfhound,large,medium,medium,hard,independent,gently dignified
+Hound,Norwegian Lundehund,small,medium,medium,easy,confident,alert and lively
+Hound,Otterhound,large,hard,medium,medium,adaptable,even-tempered
+Hound,Petit Basset Griffon Vendeen,small,hard,medium,easy,friendly,happy and extroverted
+Hound,Pharaoh Hound,medium,easy,medium,easy,adaptable,alert and intelligent
+Hound,Rhodesian Ridgeback,large,easy,medium,hard,independent,aloof and dignified
+Hound,Saluki,medium,hard,hard,hard,independent,very sensitive
+Hound,Segugio Italiano,medium,easy,medium,medium,adaptable,even
+Hound,Sloughi,medium,easy,medium,easy,independent,indifferent to strangers
+Hound,Whippet,small,easy,medium,easy,friendly,gentle and affectionate
+Terrier,Airedale Terrier,medium,medium,easy,medium,confident,friendly and courageous
+Terrier,Australian Terrier,small,medium,easy,easy,friendly,extroverted and friendly
+Terrier,Bedlington Terrier,medium,easy,easy,easy,adaptable,mild
+Terrier,Border Terrier,small,easy,medium,easy,independent,"game, friendly"
+Terrier,Bull Terrier,medium,easy,medium,medium,adaptable,even but obstinate
+Terrier,Cairn Terrier,small,medium,easy,easy,confident,fearless
+Terrier,Czesky Terrier,small,medium,easy,easy,independent,"cheerful, but reserved"
+Terrier,Dandie Dinmont,small,medium,easy,easy,independent,independent and affectionate
+Terrier,Glen of Imaal Terrier,small,medium,medium,medium,independent,game but docile
+Terrier,Irish Terrier,medium,medium,medium,medium,confident,"good with people, fiery with dogs"
+Terrier,Kerry Blue Terrier,medium,medium,medium,medium,independent,game
+Terrier,Lakeland Terrier,medium,medium,medium,medium,confident,friendly and self-confident
+Terrier,Manchester Terrier,medium,easy,easy,easy,independent,companionable and relatively quiet
+Terrier,Norfolk and Norwich Terriers,small,easy,medium,easy,confident,"alert, friendly and fearless"
+Terrier,Parson Jack Russell,medium,easy,medium,medium,confident,"cheerful, bold"
+Terrier,Scottish Terrier,small,medium,easy,easy,confident,bold and friendly
+Terrier,Sealyham Terrier,small,medium,easy,easy,confident,alert and fearless
+Terrier,Skye Terrier,medium,hard,medium,medium,independent,distrustful of strangers
+Terrier,Smooth Fox Terrier,medium,easy,medium,medium,confident,friendly and fearless
+Terrier,Soft-Coated Wheaten Terrier,medium,medium,medium,medium,friendly,Good-natured and spirited
+Terrier,Staffordshire Bull Terrier,medium,easy,medium,medium,confident,fearless and dependable
+Terrier,Welsh Terrier,medium,medium,medium,easy,friendly,happy and fearless
+Terrier,West Highland White Terrier,small,medium,easy,easy,friendly,active and friendly
+Terrier,Wire Fox Terrier,medium,medium,medium,medium,confident,friendly and fearless
+Toy,Affenpinscher,small,medium,medium,easy,confident,lively and self-confident
+Toy,Australian Silky Terrier,small,medium,medium,easy,friendly,alert and friendly
+Toy,Bichon Frise,small,hard,medium,medium,friendly,a friendly extrovert
+Toy,Bolognese,small,hard,medium,easy,friendly,"happy, alert"
+Toy,Cavalier King Charles Spaniel,small,medium,medium,medium,friendly,very friendly
+Toy,Chihuahua,small,medium,easy,easy,confident,spirited and intelligent
+Toy,Chinese Crested Dog,small,hard,medium,medium,friendly,cheerful and friendly
+Toy,English Toy Terrier,small,easy,easy,easy,independent,alert and terrier-like
+Toy,Griffon Bruxellois,small,medium,easy,easy,friendly,lively and alert
+Toy,Italian Greyhound,small,easy,easy,easy,confident,intelligent and vivacious
+Toy,Japanese Chin,small,easy,easy,easy,friendly,cheerful and good-natured
+Toy,King Charles Spaniel,small,medium,easy,medium,friendly,gentle and affectionate
+Toy,Lowchen,small,hard,medium,medium,adaptable,intelligent and affectionate
+Toy,Maltese,small,hard,easy,easy,friendly,very good-natured
+Toy,Miniature Pinscher,small,easy,medium,easy,confident,alert and courageous
+Toy,Papillon,small,medium,medium,easy,friendly,lively and most intelligent
+Toy,Pekingese,small,hard,easy,hard,independent,loyal and aloof
+Toy,Pomeranian,small,hard,easy,easy,confident,intelligent and extrovert
+Toy,Pug,small,easy,medium,medium,friendly,lively and cheerful
+Toy,Yorkshire Terrier,small,hard,medium,easy,adaptable,alert and intelligent
+Utility,Boston Terrier,medium,easy,easy,easy,independent,determined
+Utility,Bulldog,medium,easy,easy,medium,adaptable,affectionate and determined
+Utility,Canaan Dog,large,easy,hard,medium,independent,alert and distrustful of strangers
+Utility,Chow Chow,medium,hard,easy,medium,independent,independent but loyal
+Utility,Dalmatian,large,easy,hard,medium,confident,outgoing and friendly
+Utility,French Bulldog,medium,easy,easy,easy,friendly,cheerful and intelligent
+Utility,German Spitz,small,hard,medium,easy,friendly,happy and lively
+Utility,Japanese Akita,large,medium,hard,medium,confident,courageous and dominating
+Utility,Japanese Shiba Inu,small,medium,easy,easy,adaptable,bright and intelligent
+Utility,Japanese Spitz,small,medium,medium,easy,adaptable,affectionate and alert
+Utility,Keeshond,medium,hard,medium,medium,independent,friendly and vociferous
+Utility,Leonberger,large,hard,medium,hard,friendly,kindly
+Utility,Lhasa Apso,small,hard,easy,easy,confident,companionable but haughty
+Utility,Miniature Schnauzer,medium,easy,medium,easy,adaptable,alert and intelligent
+Utility,Poodles,medium,hard,medium,easy,friendly,sparky and cheerful
+Utility,Schipperke,small,easy,medium,medium,adaptable,intelligent and amiable
+Utility,Schnauzer,medium,easy,medium,medium,adaptable,alert and reliable
+Utility,Shar Pei,medium,medium,medium,medium,independent,independent but friendly
+Utility,Shih Tzu,small,hard,easy,easy,independent,friendly and independent
+Utility,Tibetan Spaniel,small,medium,easy,easy,independent,loyal and independent
+Utility,Tibetan Terrier,medium,hard,hard,medium,confident,outgoing and intelligent
+Working,Alaskan Malamute,large,medium,hard,hard,adaptable,reasonably amenable
+Working,Anatolian Shepherd Dog,large,easy,hard,hard,confident,bold and independent
+Working,Australian Cattle Dog,medium,easy,medium,medium,adaptable,alert and trustworthy
+Working,Australian Shepherd Dog,large,medium,hard,medium,adaptable,even-tempered
+Working,Bearded Collie,medium,hard,hard,medium,friendly,lively and cheerful
+Working,Belgian Shepherd Dog,large,medium,hard,medium,independent,reserved
+Working,Bergamasco,large,hard,hard,medium,independent,cautious and intelligent
+Working,Bernese Mountain Dog,large,medium,medium,hard,friendly,Good-natured
+Working,Border Collie,medium,medium,hard,medium,adaptable,very alert and trainable
+Working,Bouvier Des Flanders,large,hard,medium,medium,independent,calm and sensible
+Working,Boxer,medium,easy,hard,medium,confident,biddable and fearless
+Working,Briard,large,hard,hard,hard,friendly,lively and intelligent
+Working,Bullmastiff,large,easy,medium,hard,independent,reserved and faithful
+Working,Doberman,large,easy,hard,hard,adaptable,alert and biddable
+Working,Eskimo Dog,large,hard,hard,hard,independent,wary and alert
+Working,Estrela Mountain Dog,large,medium,medium,medium,independent,loyal and stubborn
+Working,Finnish Lapphund,medium,hard,medium,medium,independent,calm and intelligent
+Working,German Shepherd Dog,large,medium,hard,medium,adaptable,"steady, highly trainable"
+Working,Giant Schnauzer,large,medium,medium,medium,confident,bold and good-natured
+Working,Great Dane,large,easy,medium,hard,independent,kindly but dignified
+Working,Hovawart,large,medium,medium,medium,adaptable,"alert, intelligent, wilful"
+Working,Hungarian Kuvasz,large,medium,medium,hard,adaptable,"trainable, wary"
+Working,Hungarian Puli,small,hard,medium,easy,independent,lively but reserved with strangers
+Working,Komondor,large,hard,medium,medium,independent,"wary, protective"
+Working,Lancashire Heeler,small,easy,medium,easy,friendly,happy and affectionate
+Working,Maremma Sheepdog,large,medium,hard,medium,confident,"lively, active"
+Working,Mastiff,large,easy,medium,hard,independent,steady
+Working,Neapolitan Mastiff,large,easy,medium,hard,confident,devoted guard
+Working,Newfoundland,large,hard,hard,hard,friendly,delightfully docile
+Working,Norwegian Behund,medium,easy,medium,easy,confident,energetic and fearless
+Working,Old English Sheepdog,large,hard,medium,medium,confident,friendly and outgoing
+Working,Pinscher,medium,easy,medium,easy,confident,active and confident
+Working,Polish Lowland Sheepdog,medium,hard,hard,medium,adaptable,"alert, biddable"
+Working,Portuguese Water Dog,large,hard,hard,medium,adaptable,tireless and amenable
+Working,Pyrenean Mountain Dog,large,hard,medium,hard,confident,confident and genial
+Working,Pyrenean Sheepdog,medium,medium,medium,easy,independent,"alert, wary"
+Working,Rottweiler,large,easy,hard,hard,confident,courageous and trainable
+Working,Rough Collie,large,hard,medium,medium,friendly,friendly
+Working,Samoyed,large,hard,medium,medium,friendly,alert and smiling
+Working,Shetland Sheepdog,small,hard,medium,easy,adaptable,affectionate and responsive
+Working,Siberian Husky,large,medium,hard,hard,independent,friendly but reserved
+Working,Smooth Collie,large,easy,medium,medium,friendly,happy and friendly
+Working,St Bernard,large,hard,medium,hard,independent,steady and benevolent
+Working,Swedish Lapphund,medium,medium,medium,medium,friendly,active and friendly
+Working,Swedish Vallhund,small,easy,medium,easy,confident,friendly and eager
+Working,Tibetan Mastiff,large,hard,medium,hard,independent,aloof and protective
+Working,Welsh Corgi (Cardigan),small,medium,medium,easy,adaptable,alert and steady
+Working,Welsh Corgi (Pembroke),small,medium,medium,medium,adaptable,workmanlike and active

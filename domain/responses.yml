@@ -2,7 +2,12 @@ version: "3.1"
 
 responses:
   utter_welcome:
-    - text: "Hi, I'm Pawsy. Welcome to my website! Let’s find the perfect dog for you."
+    - text: "Hi, I'm Pawsy, your guide here on Pet Portal! How can I assist you today?"
+    - text: "Hi, I'm Pawsy! Welcome to Pet Portal, your one-stop guide for all things dogs. How can I help you?"
+    - text: "Hi, I'm Pawsy! Welcome to Pet Portal, your guide to everything dogs. How can I assist you today?"
+      #  - button: "Find a dog to adopt"
+      #  - button: "Learn about dog breeds"
+      #  - button: "I’m just browsing"
 
   utter_slots_values:
     - text: "{adoption_reason} {age_preference} {allergies_present} {time_commitment} {budget_limit} {children_at_home} {home_type} {climate_type} {size_preference} {lifestyle} {temperament_preference}"

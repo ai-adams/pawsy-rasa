@@ -88,17 +88,17 @@ responses:
   utter_ask_adoption_quiz_form_climate_type:
     - text: "What's the climate like where you live?"
       buttons:
-        - title: "Winters are too cold."
+        - title: "Cold winters"
           payload: "/climate_cold"
-        - title: "It can get really dry."
+        - title: "Dry climate"
           payload: "/climate_dry"
-        - title: "Summers are too hot."
+        - title: "Hot summers"
           payload: "/climate_hot"
-        - title: "Humidity is unbearable."
+        - title: "Humid environment"
           payload: "/climate_humid"
-        - title: "Temperate climate is boring."
+        - title: "Mild, temperate climate"
           payload: "/climate_mild"
-        - title: "No complains."
+        - title: "Something else.."
           payload: "/misc_other"
 
   utter_ask_adoption_quiz_form_size_preference:
