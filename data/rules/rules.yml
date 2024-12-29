@@ -1,11 +1,7 @@
 version: "3.1"
 
 rules:
-  - rule: welcome user when they open chat
-    conversation_start: true
-    steps:
-      - intent: EXTERNAL_welcome
-      - action: utter_welcome
+
 
   - rule: adoption_reason_family
     steps:
@@ -296,4 +292,5 @@ rules:
     steps:
       - intent: temperament_independent
       - action: utter_temperament_independent
+
 

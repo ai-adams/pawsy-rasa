@@ -1,6 +1,22 @@
 version: "3.1"
 
 slots:
+  start_quiz:
+    type: bool
+    mappings:
+      - type: from_intent
+        value: true
+        intent: misc_affirm
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: start_quiz
+      - type: from_intent
+        value: false
+        intent: misc_decline
+        conditions:
+          - active_loop: adoption_quiz_form
+            requested_slot: start_quiz
+
   adoption_reason:
     type: categorical
     values:

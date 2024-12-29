@@ -1,8 +1,16 @@
 version: "3.1"
 
 responses:
+  utter_ask_adoption_quiz_form_start_quiz:
+    - text: "To do that, I’ll ask you a series of questions to learn more about your needs and lifestyle. Are you ready to get started?"
+      buttons:
+        - title: "Yes, ask away!"
+          payload: "/misc_affirm"
+        - title: "No, I'm not ready"
+          payload: "/misc_cancel"
+
   utter_ask_adoption_quiz_form_adoption_reason:
-    - text: "Why are you adopting a dog?"
+    - text: "Let me start by asking: Why are you adopting a dog?"
       buttons:
         - title: "To enhance family life."
           payload: "/adoption_reason_family"

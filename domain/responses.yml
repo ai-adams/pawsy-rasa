@@ -3,11 +3,21 @@ version: "3.1"
 responses:
   utter_welcome:
     - text: "Hi, I'm Pawsy, your guide here on Pet Portal! How can I assist you today?"
-    - text: "Hi, I'm Pawsy! Welcome to Pet Portal, your one-stop guide for all things dogs. How can I help you?"
-    - text: "Hi, I'm Pawsy! Welcome to Pet Portal, your guide to everything dogs. How can I assist you today?"
-      #  - button: "Find a dog to adopt"
-      #  - button: "Learn about dog breeds"
-      #  - button: "I’m just browsing"
+      buttons:
+        - title: "Find a dog to adopt"
+          payload: "/welcome_adoption"
+        - title: "Learn about dog breeds"
+          payload: "/welcome_education"
+        - title: "I’m just browsing"
+          payload: "/welcome_browsing"
+#    - text: "Hi, I'm Pawsy! Welcome to Pet Portal, your one-stop guide for all things dogs. How can I help you?"
+#    - text: "Hi, I'm Pawsy! Welcome to Pet Portal, your guide to everything dogs. How can I assist you today?"
+#        - button: "Find a dog to adopt"
+#        - button: "Learn about dog breeds"
+#        - button: "I’m just browsing"
+
+  utter_welcome_form_done:
+    - text: "utter_welcome_form_done"
 
   utter_slots_values:
     - text: "{adoption_reason} {age_preference} {allergies_present} {time_commitment} {budget_limit} {children_at_home} {home_type} {climate_type} {size_preference} {lifestyle} {temperament_preference}"
@@ -189,3 +199,11 @@ responses:
   utter_temperament_independent:
     - text: "utter_temperament_independent"
 
+  utter_welcome_adoption:
+    - text: "That’s wonderful! I can help you find the dog breed that best matches your preferences."
+
+  utter_welcome_browsing:
+    - text: "utter_welcome_browsing"
+
+  utter_welcome_education:
+    - text: "utter_welcome_education"

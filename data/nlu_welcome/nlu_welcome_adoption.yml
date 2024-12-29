@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: welcome_adoption
+    examples: |
+      - I want to adopt a dog
+      - I’m looking to adopt
+      - I would be interested in adoption
+      - Can you help me adopt a dog?
+      - I’d like to find a dog to adopt
+      - I’m here to adopt a dog
+      - Show me dogs I can adopt
+      - I want to search for dogs to adopt
+      - Help me find an adoptable dog
+      - I need assistance with dog adoption
+      - Looking for a dog to adopt
+      - I’d love to adopt a dog
+      - Can you guide me on adoption?
+      - Where can I adopt a dog?
+      - I’m interested in adopting a pet
+      - Let’s talk about adopting a dog
+      - Adoption is what I’m looking for
+      - Can you show me dogs for adoption?
+      - I’m here to adopt a dog today
+      - I’m planning to adopt a dog soon
