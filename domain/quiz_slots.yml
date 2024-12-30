@@ -400,3 +400,29 @@ slots:
         conditions:
           - active_loop: adoption_quiz_form
             requested_slot: temperament_preference
+
+  quiz_followup:
+    type: categorical
+    values:
+      - learn_more
+      - see_more
+      - nothing_more
+    mappings:
+      - type: from_intent
+        value: learn_more
+        intent: misc_learn_more
+        conditions:
+          - active_loop: quiz_outro_form
+            requested_slot: quiz_followup
+      - type: from_intent
+        value: see_more
+        intent: misc_see_more
+        conditions:
+          - active_loop: quiz_outro_form
+            requested_slot: quiz_followup
+      - type: from_intent
+        value: nothing_more
+        intent: misc_nothing_more
+        conditions:
+          - active_loop: quiz_outro_form
+            requested_slot: quiz_followup

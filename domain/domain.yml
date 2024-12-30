@@ -19,9 +19,15 @@ forms:
       - size_preference
       - lifestyle
       - temperament_preference
+
+  quiz_outro_form:
+    required_slots:
+      - quiz_followup
+
   welcome_form:
     required_slots:
       - welcome_options
+
 
 intents:
   - EXTERNAL_welcome
@@ -75,8 +81,11 @@ intents:
   - misc_flexible
   - misc_goodbye
   - misc_greet
+  - misc_learn_more
+  - misc_nothing_more
   - misc_other
   - misc_remorse
+  - misc_see_more
   - misc_unsure
   - size_large
   - size_medium

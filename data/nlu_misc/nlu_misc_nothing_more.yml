@@ -1,0 +1,26 @@
+version: "3.1"
+# nothing_more: This intent captures when a user indicates they do not want any further information or recommendations. It includes responses where users express that they are satisfied or finished with the conversation.
+
+nlu:
+  - intent: nothing_more
+    examples: |
+      - nothing more
+      - nothing else
+      - that's all for now
+      - no thanks, i'm done
+      - no, that's all for now
+      - i'm finished
+      - i'm done for now
+      - i don't need anything else
+      - that's enough for me
+      - no more, thanks
+      - nope, that's it
+      - that's all i need
+      - i’m good for now
+      - i’m all set
+      - no, i’m good
+      - i’m done with the quiz
+      - no further questions
+      - no more suggestions, thanks
+      - i'm okay with these
+      - i’m fine with the current suggestions
