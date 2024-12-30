@@ -22,6 +22,44 @@ rules:
       - active_loop: quiz_outro_form
 
 
+  - rule: quiz_outro_form + learn_more
+    condition:
+      - active_loop: quiz_outro_form
+      - slot_was_set:
+          - quiz_followup: learn_more
+    steps:
+      - action: quiz_outro_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_quiz_outro_learn_more
+
+  - rule: quiz_outro_form + see_more
+    condition:
+      - active_loop: quiz_outro_form
+      - slot_was_set:
+          - quiz_followup: see_more
+    steps:
+      - action: quiz_outro_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_quiz_outro_see_more
+
+  - rule: quiz_outro_form + nothing_more
+    condition:
+      - active_loop: quiz_outro_form
+      - slot_was_set:
+          - quiz_followup: nothing_more
+    steps:
+      - action: quiz_outro_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_quiz_outro_nothing_more
+
+
+
 #  - rule: fin_misc_greet
 #    condition:
 #    # Condition that form is active.

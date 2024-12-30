@@ -30,7 +30,7 @@ rules:
       - action: adoption_quiz_form
       - active_loop: adoption_quiz_form
 
-  - rule: welcome_browsing
+  - rule: welcome_form + welcome_browsing
     condition:
       - active_loop: welcome_form
       - slot_was_set:
@@ -42,7 +42,7 @@ rules:
           - requested_slot: null
       - action: utter_welcome_browsing
 
-  - rule: welcome_education
+  - rule: welcome_form + welcome_education
     condition:
       - active_loop: welcome_form
       - slot_was_set:
