@@ -2,6 +2,8 @@ version: "3.1"
 
 actions:
   - action_recommend_breeds
+  - action_state_tracker
+  - action_upsell_signup
   - validate_adoption_quiz_form
 
 forms:

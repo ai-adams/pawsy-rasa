@@ -4,8 +4,9 @@ rules:
   - rule: faq_about_pet_parenting
     steps:
       - intent: faq_about_pet_parenting
+      - action: action_state_tracker
       - action: utter_faq_about_pet_parenting
-      - action: utter_faq_followup
+      - action: action_upsell_signup
 
   - rule: faq_about_pet_portal
     steps:

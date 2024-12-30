@@ -1,6 +1,20 @@
 version: "3.1"
 
 slots:
+  faq_count:
+    type: float
+    initial_value: 0
+    mappings:
+      - type: custom
+        action: action_state_tracker
+
+  upsell_signup:
+    type: bool
+    initial_value: false
+    mappings:
+      - type: custom
+        action: action_state_tracker
+
   welcome_options:
     type: categorical
     values:

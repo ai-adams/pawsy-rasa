@@ -1,0 +1,11 @@
+#version: "3.1"
+#
+#responses:
+#  utter_faq_followup:
+#    - condition:
+#        - type: slot
+#          name: upsell_signup
+#          value: true
+#      text: #    - text: "Want personalized advice tailored to your pet? Sign up for Pet Portal today and elevate your pet parenting journey!"
+#    - text: "Ready to take pet parenting to the next level? Sign up for Pet Portal today for personalized guidance and support!"
+#    - text: "Need help on your pet parenting journey? Sign up for Pet Portal today for expert advice tailored to your pet’s needs!""Want personalized advice tailored to your pet? Sign up for Pet Portal today and elevate your pet parenting journey!"
