@@ -146,3 +146,13 @@ responses:
           payload: "/temperament_adaptable"
         - title: "Surprise me!"
           payload: "/misc_flexible"
+
+  utter_ask_quiz_outro_form_quiz_followup:
+    - text: "Would you like to learn more about these breeds or see additional matches?"
+      buttons:
+        - title: "Learn more about these breeds."
+          payload: "/misc_learn_more"
+        - title: "Recommend something else."
+          payload: "/misc_see_more"
+        - title: "That's all for now."
+          payload: "/misc_nothing_more"

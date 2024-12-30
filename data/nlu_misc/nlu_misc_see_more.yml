@@ -1,0 +1,26 @@
+version: "3.1"
+# see_more: This intent identifies when a user wants to explore additional options or receive more breed recommendations. It covers various ways users might express their desire to see alternative or additional matches.
+
+nlu:
+  - intent: see_more
+    examples: |
+      - see more
+      - i wanna see more options
+      - give me more recommendations
+      - show me more breeds
+      - i'd like more choices
+      - can you recommend other breeds
+      - i'd like to see additional options
+      - show me other breeds that might match
+      - please give me more suggestions
+      - what other breeds can you recommend
+      - i'd like to explore more breeds
+      - can you suggest other dogs
+      - i'd like more recommendations
+      - offer me other options
+      - i'd like to see other dog breeds
+      - show me additional matches
+      - give me more ideas
+      - provide more options
+      - any other breeds that might work
+      - suggest something different

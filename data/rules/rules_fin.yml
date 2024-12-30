@@ -1,4 +1,27 @@
-#rules:
+rules:
+  - rule: cancel_adoption_quiz_form
+    condition:
+      - active_loop: adoption_quiz_form
+    steps:
+      - intent: misc_cancel
+      - action: action_deactivate_loop
+      - active_loop: null
+      - action: utter_quiz_end
+
+  - rule: submit_adoption_quiz_form
+    condition:
+      - active_loop: adoption_quiz_form
+    steps:
+      - action: adoption_quiz_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_quiz_submit
+      - action: action_recommend_breeds
+      - action: quiz_outro_form
+      - active_loop: quiz_outro_form
+
+
 #  - rule: fin_misc_greet
 #    condition:
 #    # Condition that form is active.
