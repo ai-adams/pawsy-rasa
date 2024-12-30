@@ -1,8 +1,8 @@
 version: "3.1"
-# description: learn_more: This intent captures a user's desire to gain more information about the recommended dog breeds. It focuses on expressions where users ask for details or expansions on the breed recommendations provided during the quiz.
+# description: This intent, `misc_learn_more`, captures a user's desire to gain more information about the recommended dog breeds. It focuses on expressions where users ask for details or expansions on the breed recommendations provided during the quiz.
 
 nlu:
-  - intent: learn_more
+  - intent: misc_learn_more
     examples: |
       - learn more
       - i wanna learn more

@@ -19,14 +19,14 @@ responses:
   utter_welcome_form_done:
     - text: "utter_welcome_form_done"
 
-  utter_quiz_outro_learn_more:
-    - text: "utter_quiz_outro_learn_more"
+  utter_quiz_outro_misc_learn_more:
+    - text: "utter_quiz_outro_misc_learn_more"
 
-  utter_quiz_outro_see_more:
-    - text: "utter_quiz_outro_see_more"
+  utter_quiz_outro_misc_see_more:
+    - text: "utter_quiz_outro_misc_see_more"
 
-  utter_quiz_outro_nothing_more:
-    - text: "utter_quiz_outro_nothing_more"
+  utter_quiz_outro_misc_nothing_more:
+    - text: "utter_quiz_outro_misc_nothing_more"
 
   utter_slots_values:
     - text: "{adoption_reason} {age_preference} {allergies_present} {time_commitment} {budget_limit} {children_at_home} {home_type} {climate_type} {size_preference} {lifestyle} {temperament_preference}"

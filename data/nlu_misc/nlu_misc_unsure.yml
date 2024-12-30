@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `misc_unsure` intent captures user responses that indicate uncertainty, indecision, or lack of knowledge about a particular question or preference. These users might need more information or time to think before providing a definitive answer. Recognizing this intent allows the chatbot to provide support, clarification, or guidance to help the user make a more informed choice.
 
 nlu:
   - intent: misc_unsure

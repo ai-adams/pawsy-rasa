@@ -1,8 +1,8 @@
 version: "3.1"
-# description: nothing_more: This intent captures when a user indicates they do not want any further information or recommendations. It includes responses where users express that they are satisfied or finished with the conversation.
+# description: This intent, `misc_nothing_more`, captures when a user indicates they do not want any further information or recommendations. It includes responses where users express that they are satisfied or finished with the conversation.
 
 nlu:
-  - intent: nothing_more
+  - intent: misc_nothing_more
     examples: |
       - nothing more
       - nothing else

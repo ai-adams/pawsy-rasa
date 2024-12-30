@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `size_small` intent captures users who prefer adopting small-sized dogs, often due to their ease of management, suitability for smaller living spaces, or convenience in handling and care. These users may prioritize breeds that are compact and portable yet still offer companionship and personality. This intent ensures the chatbot can interpret various ways users express their preference for small dogs, helping recommend breeds like Chihuahuas, Pomeranians, or Maltese.
 
 nlu:
   - intent: size_small

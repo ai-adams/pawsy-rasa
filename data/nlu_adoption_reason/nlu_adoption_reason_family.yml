@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `adoption_reason_family` intent captures a potential dog owner’s desire to adopt a dog primarily to enhance family life, provide companionship, or fit well into a household with children. It emphasizes qualities like being family-friendly, affectionate, and compatible with various family dynamics. This intent ensures that the system recognizes a wide range of expressions about prioritizing family compatibility when selecting a dog for adoption.
 
 nlu:
   - intent: adoption_reason_family

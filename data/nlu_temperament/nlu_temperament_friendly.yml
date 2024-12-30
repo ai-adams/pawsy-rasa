@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `temperament_friendly` intent captures users who prioritize adopting a dog with an outgoing, sociable, and gentle personality. These users value breeds that are affectionate, approachable, and comfortable in family and social settings. This intent ensures the chatbot can interpret various ways users express their preference for friendly dogs, helping recommend breeds that thrive in sociable and interactive environments.
 
 nlu:
   - intent: temperament_friendly

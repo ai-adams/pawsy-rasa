@@ -1,8 +1,8 @@
 version: "3.1"
-# description: see_more: This intent identifies when a user wants to explore additional options or receive more breed recommendations. It covers various ways users might express their desire to see alternative or additional matches.
+# description: This intent, `misc_see_more`, identifies when a user wants to explore additional options or receive more breed recommendations. It covers various ways users might express their desire to see alternative or additional matches.
 
 nlu:
-  - intent: see_more
+  - intent: misc_see_more
     examples: |
       - see more
       - i wanna see more options

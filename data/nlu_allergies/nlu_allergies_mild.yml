@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `allergies_mild` intent addresses individuals or families with minor sensitivities to dogs, such as mild reactions to dander or shedding. It emphasizes the need for low-shedding or hypoallergenic breeds to minimize allergen exposure without completely eliminating the possibility of owning a dog. This intent helps capture a wide variety of expressions to ensure the chatbot can handle nuanced user input about mild allergies.
 
 nlu:
   - intent: allergies_mild

@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `climate_humid` intent captures users who live in regions with high humidity, such as tropical or subtropical climates. This reflects the need for breeds that can adapt to warm, moist, and sticky conditions. The intent ensures the chatbot can recognize various ways users describe humid environments, helping recommend dog breeds that thrive in such climates.
 
 nlu:
   - intent: climate_humid

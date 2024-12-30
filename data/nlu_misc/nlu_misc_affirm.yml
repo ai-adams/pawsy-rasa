@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `misc_affirm` intent captures positive responses or confirmations from users, indicating agreement or acknowledgment. These examples reflect the various ways users might affirmatively respond to the chatbot's questions or statements. This intent ensures the chatbot can recognize and respond appropriately to affirmations, enhancing conversational flow and understanding.
 
 nlu:
   - intent: misc_affirm

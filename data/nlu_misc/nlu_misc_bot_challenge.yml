@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `misc_bot_challenge` intent captures user queries that challenge or inquire about the identity, nature, or functioning of the chatbot. These questions often reflect curiosity, skepticism, or a desire for clarification about whether the user is interacting with a human or an AI. This intent ensures the chatbot can recognize and appropriately respond to such challenges, enhancing user trust and engagement.
 
 nlu:
   - intent: misc_bot_challenge

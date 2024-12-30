@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `adoption_reason_security` intent focuses on individuals who are seeking a dog primarily for protection, safety, or guarding purposes. It reflects a desire for breeds that are naturally alert, defensive, and protective of their owners or property. This intent ensures a robust understanding of various ways users express their need for a security-oriented dog, helping the chatbot recommend appropriate breeds like German Shepherds or Dobermans.
 
 nlu:
   - intent: adoption_reason_security

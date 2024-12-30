@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `misc_remorse` intent captures user expressions of sadness, regret, or emotional discomfort. These examples reflect various ways users might convey feelings of remorse, guilt, or disappointment. Recognizing this intent allows the chatbot to respond with empathy and support, creating a compassionate interaction that acknowledges the user’s emotions.
 
 nlu:
   - intent: misc_remorse

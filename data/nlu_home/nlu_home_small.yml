@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `home_small` intent captures users who live in smaller houses with limited indoor and outdoor space, such as compact homes or houses with small yards. This reflects the need for breeds that can adapt to tighter living environments and require less physical space. The intent ensures the chatbot can interpret various ways users describe their living situation, helping recommend dog breeds that are well-suited for small homes.
 
 nlu:
   - intent: home_small

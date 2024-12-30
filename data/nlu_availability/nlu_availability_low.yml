@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `availability_low` intent captures users who have limited time to dedicate to a dog due to work, travel, or other responsibilities. It emphasizes the need for low-maintenance breeds that can tolerate being left alone for extended periods. This intent ensures the chatbot understands different ways users express their constrained availability, helping guide them toward independent or less demanding dog breeds.
 
 nlu:
   - intent: availability_low

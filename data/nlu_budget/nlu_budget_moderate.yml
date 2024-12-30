@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `budget_moderate` intent captures users with a balanced and fair budget for adopting and caring for a dog. These users are comfortable spending a reasonable amount but aim to avoid unnecessary or extravagant costs. This intent ensures the chatbot recognizes users with a mid-range budget and provides suitable options that align with their financial comfort.
 
 nlu:
   - intent: budget_moderate

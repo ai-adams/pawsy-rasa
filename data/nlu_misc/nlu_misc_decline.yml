@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `misc_decline` intent captures negative or declining responses from users, indicating refusal, disagreement, or lack of interest. These examples reflect the various ways users might say "no" in response to a chatbot’s question or suggestion. This intent ensures the chatbot can recognize and appropriately respond to negative feedback, maintaining a natural and respectful conversational flow.
 
 nlu:
   - intent: misc_decline

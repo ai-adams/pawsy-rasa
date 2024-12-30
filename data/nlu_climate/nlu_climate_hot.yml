@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `climate_hot` intent captures users who live in regions with predominantly hot climates, characterized by high temperatures and sunny conditions for most or all of the year. This reflects the need for breeds that can tolerate heat and thrive in warm environments. The intent ensures the chatbot understands various ways users describe living in a hot climate, helping recommend breeds that are well-suited for such conditions.
 
 nlu:
   - intent: climate_hot

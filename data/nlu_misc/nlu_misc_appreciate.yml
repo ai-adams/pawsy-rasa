@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `misc_appreciate` intent captures user expressions of gratitude or appreciation, which are often a response to helpful information or support provided by the chatbot. These examples reflect a range of ways users say "thank you," from casual to heartfelt. Recognizing this intent enables the chatbot to acknowledge gratitude graciously, fostering positive user engagement and a friendly conversational tone.
 
 nlu:
   - intent: misc_appreciate

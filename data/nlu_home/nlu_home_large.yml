@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `home_large` intent captures users who live in large houses with ample indoor and outdoor space, such as big yards or gardens. This reflects their ability to accommodate dogs that require more room for activity and play. The intent ensures the chatbot can understand various ways users describe their spacious living environments, helping recommend breeds that thrive in such settings.
 
 nlu:
   - intent: home_large

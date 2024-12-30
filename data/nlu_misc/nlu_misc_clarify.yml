@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `misc_clarify` intent captures user queries or statements requesting additional explanation, clarification, or rephrasing of the chatbot's responses. These interactions indicate that the user is seeking to better understand the chatbot's message. This intent ensures the chatbot can identify and appropriately respond to user confusion, providing clearer or more detailed explanations to maintain conversational flow.
 
 nlu:
   - intent: misc_clarify

@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `age_young` intent captures users who prefer adopting puppies or very young dogs. These users value the opportunity to bond with a dog early in its life, train it from a young age, and enjoy its playful and energetic nature. This intent ensures the chatbot can interpret various ways users express their preference for younger dogs, helping recommend breeds or individuals that align with this stage of life.
 
 nlu:
   - intent: age_young

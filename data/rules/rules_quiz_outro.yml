@@ -22,41 +22,41 @@ rules:
       - active_loop: quiz_outro_form
 
 
-  - rule: quiz_outro_form + learn_more
+  - rule: quiz_outro_form + misc_learn_more
     condition:
       - active_loop: quiz_outro_form
       - slot_was_set:
-          - quiz_followup: learn_more
+          - quiz_followup: misc_learn_more
     steps:
       - action: quiz_outro_form
       - active_loop: null
       - slot_was_set:
           - requested_slot: null
-      - action: utter_quiz_outro_learn_more
+      - action: utter_quiz_outro_misc_learn_more
 
-  - rule: quiz_outro_form + see_more
+  - rule: quiz_outro_form + misc_see_more
     condition:
       - active_loop: quiz_outro_form
       - slot_was_set:
-          - quiz_followup: see_more
+          - quiz_followup: misc_see_more
     steps:
       - action: quiz_outro_form
       - active_loop: null
       - slot_was_set:
           - requested_slot: null
-      - action: utter_quiz_outro_see_more
+      - action: utter_quiz_outro_misc_see_more
 
-  - rule: quiz_outro_form + nothing_more
+  - rule: quiz_outro_form + misc_nothing_more
     condition:
       - active_loop: quiz_outro_form
       - slot_was_set:
-          - quiz_followup: nothing_more
+          - quiz_followup: misc_nothing_more
     steps:
       - action: quiz_outro_form
       - active_loop: null
       - slot_was_set:
           - requested_slot: null
-      - action: utter_quiz_outro_nothing_more
+      - action: utter_quiz_outro_misc_nothing_more
 
 
 

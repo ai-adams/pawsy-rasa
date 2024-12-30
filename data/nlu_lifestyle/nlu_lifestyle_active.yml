@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `lifestyle_active` intent captures users who lead highly active lifestyles, including activities like running, hiking, and outdoor adventures. These users prioritize finding a dog that matches their energy level and enjoys frequent physical activity. This intent ensures the chatbot understands various ways users express their active lifestyle, helping recommend breeds known for their energy and love of exercise.
 
 nlu:
   - intent: lifestyle_active

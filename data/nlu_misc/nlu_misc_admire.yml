@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `misc_admire` intent captures user expressions of admiration, amazement, or positive emotional reactions. These responses often reflect excitement, appreciation, or enthusiasm about something the chatbot has shared or suggested. Recognizing this intent allows the chatbot to maintain a positive conversational tone, acknowledge the user’s reaction, and continue engaging effectively.
 
 nlu:
   - intent: misc_admire

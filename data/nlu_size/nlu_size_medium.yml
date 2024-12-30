@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `size_medium` intent captures users who prefer dogs that are moderate in size, striking a balance between large and small breeds. These users may find medium-sized dogs ideal for their homes, families, and lifestyles, as these breeds often offer versatility and manageability. This intent ensures the chatbot can understand various ways users express their preference for medium-sized dogs, helping recommend breeds like Border Collies, Beagles, or Bulldogs.
 
 nlu:
   - intent: size_medium

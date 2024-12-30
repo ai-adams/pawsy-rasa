@@ -1,5 +1,5 @@
 version: "3.1"
-# description:
+# description: The `climate_cold` intent captures users who live in regions with predominantly cold climates, characterized by snow, ice, and freezing temperatures. It reflects the need for breeds that are well-suited to cold weather and can handle long winters. This intent ensures the chatbot understands various ways users describe living in a cold climate, helping recommend breeds that thrive in such environments.
 
 nlu:
   - intent: climate_cold
