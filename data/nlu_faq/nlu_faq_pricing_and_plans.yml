@@ -1,0 +1,37 @@
+version: "3.1"
+# description: The `nlu_faq_pricing_and_plans` intent captures user inquiries related to the costs, subscription models, discounts, and features included in Pet Portal AI's pricing plans. This intent ensures the chatbot can address a variety of questions about free and paid options, trial periods, cancellation policies, and ways to manage or adjust plans to suit user needs.
+
+nlu:
+  - intent: faq_pricing_and_plans
+    examples: |
+      - What are the pricing plans for Pet Portal AI?
+      - Is there a free version of Pet Portal AI?
+      - Can I cancel my subscription if I don’t like it?
+      - How much does Pet Portal AI cost?
+      - Are there any discounts available for Pet Portal AI?
+      - Is there a trial period for Pet Portal AI?
+      - What is included in the free version of Pet Portal AI?
+      - Do I need to pay to access all features of Pet Portal AI?
+      - Are there annual subscription options for Pet Portal AI?
+      - Does Pet Portal AI offer a monthly payment plan?
+      - How can I upgrade my plan on Pet Portal AI?
+      - What’s the difference between the free and paid versions of Pet Portal AI?
+      - Are there any hidden fees in Pet Portal AI plans?
+      - Is there a family plan available on Pet Portal AI?
+      - Can I add multiple pets to my account without extra charges?
+      - Are there premium features in Pet Portal AI, and what do they cost?
+      - Does Pet Portal AI offer refunds for canceled subscriptions?
+      - How do I switch between plans on Pet Portal AI?
+      - Can I downgrade my subscription plan if needed?
+      - Does Pet Portal AI charge extra for advanced features?
+      - Are there lifetime subscription options for Pet Portal AI?
+      - Does Pet Portal AI offer a pay-as-you-go model?
+      - Can I share my Pet Portal AI account with someone else?
+      - Is the pricing the same for all pet types on Pet Portal AI?
+      - Does Pet Portal AI have corporate or group plans?
+      - Are there student discounts available for Pet Portal AI?
+      - How do I qualify for any discounts or promotions on Pet Portal AI?
+      - Are there additional fees for real-time support on Pet Portal AI?
+      - Can I use Pet Portal AI without a subscription?
+      - How often are payments charged for Pet Portal AI plans?
+

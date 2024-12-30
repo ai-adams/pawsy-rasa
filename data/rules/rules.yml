@@ -1,8 +1,6 @@
 version: "3.1"
 
 rules:
-
-
   - rule: adoption_reason_family
     steps:
       - intent: adoption_reason_family

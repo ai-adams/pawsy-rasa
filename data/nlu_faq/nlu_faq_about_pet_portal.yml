@@ -1,0 +1,36 @@
+version: "3.1"
+# description: The `nlu_faq_about_pet_portal` intent captures user inquiries about the Pet Portal platform, including its features, benefits, and technical aspects. This intent helps the chatbot provide detailed information about Pet Portal AI's mission, functionality, and services to assist users in understanding how it supports pet care and parenting. It also addresses questions about usability, security, and personalization, ensuring comprehensive user support.
+
+nlu:
+  - intent: faq_about_pet_portal
+    examples: |
+      - What is Pet Portal AI?
+      - Who founded Pet Portal AI?
+      - How does Pet Portal AI work scientifically?
+      - How does Pet Portal AI support pet parents?
+      - Can Pet Portal AI help me as a pet parent?
+      - What tools does Pet Portal AI offer to pet parents?
+      - How does Pet Portal AI take the guesswork out of pet care?
+      - Can Pet Portal AI provide tailored advice to simplify pet parenting?
+      - What makes Pet Portal AI better than generic advice for pets?
+      - How does Pet Portal AI personalize its recommendations?
+      - Is Pet Portal AI suitable for new pet owners?
+      - Can Pet Portal AI help me find a specific breed?
+      - What kind of information can I get from Pet Portal AI?
+      - Does Pet Portal AI offer real-time advice?
+      - How accurate is the information provided by Pet Portal AI?
+      - Can I use Pet Portal AI for multiple pets?
+      - What types of pets does Pet Portal AI support?
+      - Does Pet Portal AI work for exotic pets or just common ones?
+      - How secure is my data with Pet Portal AI?
+      - Are there subscription plans for Pet Portal AI?
+      - Can Pet Portal AI integrate with my pet’s health records?
+      - What’s the mission of Pet Portal AI?
+      - How long has Pet Portal AI been operating?
+      - Can I use Pet Portal AI to track my pet’s health milestones?
+      - Is Pet Portal AI accessible from any device?
+      - Does Pet Portal AI work offline, or does it need internet?
+      - Can Pet Portal AI recommend local pet services?
+      - Is Pet Portal AI community-driven or AI-only?
+      - Are there reviews or testimonials about Pet Portal AI?
+      - How can I get started with Pet Portal AI?

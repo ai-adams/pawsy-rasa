@@ -1,0 +1,36 @@
+version: "3.1"
+# description: The `nlu_faq_expert_support` intent captures user inquiries about the credibility, reliability, and source of expert advice provided by Pet Portal AI, including the role of experts like Dr. Henry Yoo. This intent focuses on questions about the platform's educational approach, the integration of veterinary insights, and how expert support improves the quality of advice. The intent ensures the chatbot can address concerns about accuracy and the role of professional expertise in the platform’s content.
+
+nlu:
+  - intent: faq_expert_support
+    examples: |
+      - Is the advice from Pet Portal AI accurate?
+      - Can this replace my vet visits?
+      - Who is Dr. Henry Yoo, and how does he contribute?
+      - What does Dr. Henry Yoo say about pet parenting?
+      - What expert advice does Dr. Yoo give about being a pet parent?
+      - How does Dr. Yoo’s perspective on pet parenting help pet owners?
+      - How does Pet Portal AI educate pet parents without diagnosing?
+      - Can Pet Portal AI help me understand health conditions without acting as a vet?
+      - What kind of educational support does Pet Portal AI offer?
+      - How does Pet Portal AI balance education with actionable pet care tips?
+      - Does Pet Portal AI help me take action while still educating me?
+      - What approach does Pet Portal AI use to combine advice with education?
+      - How reliable is the expert advice on Pet Portal AI?
+      - Can I trust Pet Portal AI’s recommendations?
+      - How does expert input enhance the platform’s advice?
+      - Does Pet Portal AI consult veterinarians for its content?
+      - How does Dr. Yoo ensure the advice is evidence-based?
+      - What makes Pet Portal AI’s advice different from general tips online?
+      - Is the information from Pet Portal AI up-to-date with current veterinary practices?
+      - Does Pet Portal AI offer personalized expert recommendations?
+      - Can I ask specific questions about my pet’s care and get expert advice?
+      - What role does Dr. Yoo play in creating the content for Pet Portal AI?
+      - How does the platform ensure the accuracy of its advice?
+      - Does Pet Portal AI provide expert insights on pet behavior?
+      - How does expert involvement improve the platform’s reliability?
+      - Can I use Pet Portal AI as a substitute for professional consultations?
+      - Does Dr. Yoo interact directly with users through Pet Portal AI?
+      - How is expert support integrated into Pet Portal AI’s features?
+      - Are the educational materials on Pet Portal AI peer-reviewed by experts?
+      - What qualifications do the experts contributing to Pet Portal AI have?

@@ -1,0 +1,37 @@
+version: "3.1"
+# description: The `nlu_faq_technical_information` intent captures user questions about the technical aspects of Pet Portal AI, including data security, compatibility with other tools, device support, system requirements, and planned updates. This intent ensures the chatbot can address technical concerns and provide guidance on how users can effectively interact with the platform.
+
+nlu:
+  - intent: faq_technical_information
+    examples: |
+      - Is my data secure on Pet Portal AI?
+      - What updates are planned for the future?
+      - Does this platform work with other apps?
+      - Is my personal information safe with Pet Portal AI?
+      - How does Pet Portal AI protect user data?
+      - Are there encryption measures in place for my data?
+      - Does Pet Portal AI comply with data privacy regulations?
+      - Can I integrate Pet Portal AI with my smart devices?
+      - What compatibility does Pet Portal AI have with other tools?
+      - Does this platform sync with wearable pet trackers?
+      - How do I link Pet Portal AI with my pet’s GPS collar?
+      - Is there a mobile app version of Pet Portal AI?
+      - Does Pet Portal AI offer offline functionality?
+      - How frequently is the platform updated?
+      - What new features are coming to Pet Portal AI soon?
+      - Does Pet Portal AI require a fast internet connection?
+      - What system requirements does Pet Portal AI have?
+      - Can I use Pet Portal AI on multiple devices?
+      - How does Pet Portal AI handle technical issues?
+      - Is there a customer support team for technical problems?
+      - How do I troubleshoot issues on Pet Portal AI?
+      - Does Pet Portal AI store my pet’s medical records securely?
+      - Can I export my data from Pet Portal AI?
+      - Does this platform work with all browsers?
+      - Is Pet Portal AI compatible with iOS and Android?
+      - What kind of data does Pet Portal AI collect about my pet?
+      - How can I report bugs or suggest features for Pet Portal AI?
+      - Does Pet Portal AI require regular software updates?
+      - Can I access Pet Portal AI from my smartwatch?
+      - Is there an API for developers to integrate with Pet Portal AI?
+

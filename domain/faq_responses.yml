@@ -1,0 +1,88 @@
+version: "3.1"
+
+responses:
+  utter_faq_followup:
+    - text: "Want personalized advice tailored to your pet? Sign up for Pet Portal today and elevate your pet parenting journey!"
+    - text: "Ready to take pet parenting to the next level? Sign up for Pet Portal today for personalized guidance and support!"
+    - text: "Need help on your pet parenting journey? Sign up for Pet Portal today for expert advice tailored to your pet’s needs!"
+
+  utter_faq_about_pet_parenting:
+    - text: "Pet parenting is about seeing your pet as a cherished family member rather than just an animal you own. It involves empathy, commitment, and understanding your pet’s unique needs, from health to behavior. This mindset fosters a stronger bond and ensures your pet thrives. By being attentive and proactive, you can create a fulfilling life for both of you."
+    - text: "Pet parenting is the philosophy of caring for your pet with love, respect, and responsibility. It means prioritizing their well-being, understanding their needs, and providing consistent care to help them thrive. It’s a shift from ownership to a partnership, strengthening the bond between you and your furry companion."
+    - text: "Being a pet parent means embracing the role of a guardian and companion, committed to your pet’s happiness and health. It’s about tuning into their unique behaviors, providing proactive care, and nurturing a relationship built on trust and love. This mindset transforms pet ownership into a rewarding partnership."
+
+  utter_faq_about_pet_portal:
+    - text: "Pet Portal AI is an advanced platform designed to personalize pet care like never before. It offers tailored guidance on health, behavior, and diet, helping you understand and meet your pet’s unique needs. With features like real-time advice, data security, and AI-driven insights, Pet Portal empowers you to be a confident and proactive pet parent."
+    - text: "Pet Portal AI is a cutting-edge tool that helps pet parents provide the best care for their furry companions. It combines AI technology with veterinary expertise to deliver advice on everything from health monitoring to behavioral training. With its user-friendly interface and secure platform, it’s the ultimate companion for modern pet parenting."
+    - text: "Pet Portal AI transforms pet care by offering personalized, AI-powered insights that address your pet’s unique needs. From decoding behaviors to proactive health tips, it’s like having a vet, trainer, and friend all in one. Designed for ease of use and backed by expert guidance, Pet Portal is your partner in creating a happier, healthier life for your pet."
+
+  utter_faq_behavior_and_diet:
+    - text: "Understanding your pet’s behavior and dietary needs is essential for their well-being. From decoding body language to managing unusual habits, and creating tailored feeding plans, addressing these aspects helps your pet thrive. Consistency and proactive care are key to success."
+    - text: "Pet behavior and diet are closely tied to their overall health and happiness. Whether you’re training, interpreting body language, or creating a nutrition plan, understanding their specific needs is crucial. Pet Portal AI helps you provide the right care with insights backed by AI and expert guidance."
+    - text: "Managing your pet’s behavior and diet is about creating a balanced, happy life for them. This includes understanding their quirks, addressing habits, and ensuring their diet supports their health. With the right approach, you can nurture their well-being and strengthen your bond."
+
+  utter_faq_benefits_of_pet_parenting:
+    - text: "Pet parenting offers countless benefits, from reducing stress and loneliness to improving physical health through daily activities. It strengthens the bond between you and your pet, creating a fulfilling relationship based on trust and love. Pets thrive on consistent care and attention, while owners enjoy a sense of purpose and companionship."
+    - text: "Being a pet parent enriches your life in many ways—mentally, emotionally, and socially. Pets bring joy, companionship, and routine, which improve mental health and reduce anxiety. They also encourage physical activity and help build stronger connections with others."
+    - text: "Pet parenting enhances your life by fostering a deep bond with your furry companion. It promotes emotional well-being, encourages healthy routines, and provides unconditional love. Pets benefit from your care and attention, while you enjoy lower stress levels, more exercise, and a sense of fulfillment."
+
+  utter_faq_benefits_of_pet_portal_ai:
+    - text: "Pet Portal AI makes pet parenting easier by providing personalized advice tailored to your pet’s unique needs. From real-time guidance on health and behavior to proactive care tips, it simplifies decision-making and enhances your bond with your pet. With 24/7 access to expert insights, you can feel confident in every step of your pet parenting journey."
+    - text: "Pet Portal AI offers pet parents a smarter way to care for their pets. By analyzing your pet’s profile, it delivers tailored health, behavior, and diet advice that saves time and reduces guesswork. Its user-friendly features and expert-backed guidance make managing pet care stress-free and effective."
+    - text: "With Pet Portal AI, you get a personalized pet care experience designed to fit your pet’s specific needs. From avoiding costly mistakes to decoding behaviors and providing diet recommendations, it empowers you to make informed choices with confidence. Pet Portal AI is your 24/7 partner in creating a happy, healthy life for your pet."
+
+  utter_faq_community_and_feedback:
+    - text: "The Pet Portal community is a space for pet parents to connect, share ideas, and support one another. You can contribute suggestions, report issues, and help shape the platform with your feedback. Engaging with other users fosters collaboration and ensures Pet Portal continues to grow and improve."
+    - text: "Pet Portal encourages user feedback to enhance the platform and welcomes ideas from pet parents like you. Join our community to share experiences, report issues, and collaborate with other users. Your input helps us provide even better tools and resources for pet care."
+    - text: "By joining the Pet Portal community, you can interact with fellow pet parents, share feedback, and offer ideas to improve the platform. Whether you’re suggesting new features, reporting concerns, or simply exchanging tips, your voice matters. Together, we’re building a better tool for pet care."
+
+  utter_faq_expert_support:
+    - text: "Pet Portal AI combines advanced AI technology with insights from trusted experts like Dr. Henry Yoo, a seasoned veterinarian. This ensures the guidance you receive is credible, accurate, and rooted in veterinary knowledge. By focusing on education rather than diagnosis, the platform empowers you to make informed decisions for your pet."
+    - text: "Expert support is at the heart of Pet Portal AI. Backed by professionals like Dr. Henry Yoo, the platform integrates decades of veterinary expertise with cutting-edge AI. This ensures the advice you receive is reliable and helps you better understand your pet’s needs."
+    - text: "Pet Portal AI leverages expert insights from veterinary professionals, including Dr. Henry Yoo, to provide accurate and educational advice. The platform’s guidance is designed to inform and empower, helping you confidently care for your pet. With AI and expert knowledge working together, you can trust the quality of every recommendation."
+
+  utter_faq_features_overview:
+    - text: "Pet Portal AI offers powerful features to simplify pet care, including Pawsy, your virtual helper, and a personalized digital double of your pet. The platform provides tailored advice on health, behavior, and diet, accessible anytime on your preferred device. With tools designed for convenience and customization, Pet Portal makes pet parenting easier and more effective."
+    - text: "With features like Pawsy, the digital double, and 24/7 access to tailored advice, Pet Portal AI helps you understand and care for your pet’s unique needs. The platform works seamlessly across devices, ensuring you can access guidance wherever you are. From decoding behavior to managing diet, it’s built to support your journey as a pet parent."
+    - text: "Pet Portal AI combines innovative tools like the digital double and personalized advice to enhance pet care. Pawsy, your virtual guide, simplifies creating a profile for your pet and delivers insights on health, behavior, and diet. Compatible with multiple devices, Pet Portal ensures you always have expert support at your fingertips."
+
+  utter_faq_getting_started_with_pet_portal:
+    - text: "Getting started with Pet Portal AI is simple! Visit our website, create an account, and set up your pet’s profile by sharing details like their breed, age, and health history. Once complete, you’ll unlock access to tailored advice, real-time guidance, and personalized care features."
+    - text: "To start using Pet Portal AI, register on our website and create a profile for your pet. Add details like their personality, health needs, and preferences to unlock personalized advice and tools. It’s quick, easy, and designed to provide immediate value."
+    - text: "Kick off your Pet Portal AI experience by signing up online and creating your pet’s unique profile. Simply input details such as their behavior, diet, and health history to receive customized advice and insights. Once set up, you’ll have 24/7 access to expert guidance tailored to your pet."
+
+  utter_faq_health_guidance:
+    - text: "Pet Portal AI helps you manage your pet’s health with tailored advice on preventive care, chronic conditions, and early identification of potential issues. It simplifies complex health topics with easy-to-follow guidance, empowering you to make informed decisions. By offering proactive care tips, the platform helps reduce stress and unnecessary costs."
+    - text: "With Pet Portal AI, you can stay ahead of your pet’s health needs. The platform provides personalized guidance on managing chronic conditions, preventing health problems, and understanding complex medical concerns. By helping you spot issues early, it ensures your pet stays healthy while avoiding unnecessary expenses."
+    - text: "Pet Portal AI supports your pet’s health by offering insights into prevention, condition management, and identifying health risks before they escalate. Its AI-powered guidance simplifies complex topics, making it easier for you to keep your pet happy and healthy."
+
+  utter_faq_how_pet_portal_works:
+    - text: "Pet Portal AI works by creating a personalized profile for your pet, capturing details like their health, behavior, and preferences. The platform provides real-time advice, health monitoring, and tailored reminders to support daily care and handle emergencies. With its AI-powered insights and device compatibility, managing your pet’s needs has never been easier."
+    - text: "Pet Portal AI helps you care for your pet by combining a personalized profile with real-time advice and proactive reminders. From monitoring health to addressing behavioral concerns, the platform’s features are designed to simplify your routine and improve your pet’s wellbeing. Compatible across devices, it ensures support is always at your fingertips."
+    - text: "Pet Portal AI simplifies pet care by analyzing your pet’s profile to deliver tailored insights and real-time advice. It offers tools like health monitoring, behavioral guidance, and reminders to help you stay on top of their needs. Whether it’s daily care or an urgent situation, the platform is built to assist you every step of the way."
+
+  utter_faq_pricing_and_plans:
+    - text: "Pet Portal AI offers flexible plans to suit your needs. The Free Tier includes basic features like limited daily messages and profile creation, while the Pro Plan ($19/month) unlocks unlimited messaging, full customization, and 24/7 AI-powered insights. You can cancel anytime, and custom Enterprise plans are also available for businesses."
+    - text: "Pet Portal AI provides a Free Tier for basic features and a Pro Plan for $19/month, offering unlimited messages, personalized health recommendations, and priority access to new tools. Enterprise plans are available for businesses seeking tailored solutions."
+    - text: "Choose from Pet Portal AI’s Free Tier, which offers limited features to get started, or the Pro Plan for $19/month, which includes unlimited messaging, full customization, and 24/7 expert-backed insights. For businesses, we offer custom Enterprise solutions. You can cancel or switch plans anytime, making it flexible for your needs."
+
+  utter_faq_real_stories:
+    - text: "Pet Portal AI has helped countless pet parents navigate challenges and improve their pets’ well-being. From avoiding costly mistakes with health issues to creating personalized care plans, users share stories of reduced stress and deeper bonds with their pets. One user even turned a confusing allergy report into actionable steps with ease!"
+    - text: "Real users have shared how Pet Portal AI has transformed their pet parenting experience. From decoding unusual behaviors to managing chronic conditions, the platform has made life easier for pet parents. One success story includes identifying a harmless cyst and preventing a costly vet visit!"
+    - text: "Pet Portal AI has been a game-changer for pet parents, providing clarity and confidence in caring for their furry friends. Testimonials highlight how the platform simplifies tough situations, like identifying health issues early or offering personalized training tips. These stories inspire trust and showcase its impact."
+
+  utter_faq_shelters_and_adoptions:
+    - text: "Pet Portal AI partners with animal shelters to support adoption and provide guidance for new pet parents. From understanding your adopted pet’s unique needs to offering tailored care advice, the platform makes the transition smoother for both you and your new companion. By signing up, you also contribute to supporting shelter initiatives."
+    - text: "Pet Portal AI supports shelters by helping adopters understand their new pets and offering personalized advice to meet their unique needs. The platform also collaborates with local organizations to improve adoption experiences and provides ways for users to support shelters through donations or volunteering."
+    - text: "Pet Portal AI is dedicated to improving the adoption process by working with shelters to ensure every pet finds a loving home. New adopters can access personalized care advice, helping them navigate their pet’s behavior, health, and routines with ease. By joining, you also help support shelters and their vital work"
+
+  utter_faq_supported_pets:
+    - text: "Pet Portal AI currently supports dogs and cats, offering personalized advice tailored to their unique needs. While we focus on these popular companions, we’re continually exploring ways to expand and include other types of pets in the future."
+    - text: "Pet Portal AI specializes in providing tailored care advice for dogs and cats, helping pet parents navigate health, behavior, and diet. We’re also working to expand support to additional types of pets in the future."
+    - text: "Currently, Pet Portal AI is designed for dog and cat owners, offering customized guidance on everything from health to behavior. Our team is actively working to broaden the platform to include other pets, so stay tuned for updates!"
+
+  utter_faq_technical_information:
+    - text: "Pet Portal AI is designed to work seamlessly across devices, offering a user-friendly experience with strong data security to protect your information. The platform is compatible with most modern systems and regularly updated with new features to enhance functionality."
+    - text: "With robust data security, device compatibility, and frequent updates, Pet Portal AI ensures a smooth and secure experience for users. Whether on mobile, tablet, or desktop, the platform provides reliable access to expert advice. Plus, we’re constantly innovating to add more tools and integrations."
+    - text: "Pet Portal AI prioritizes security and compatibility, working on most devices to deliver a seamless experience. The platform is regularly updated with new features and improvements, and we’re exploring future integrations to enhance your pet care journey."
+

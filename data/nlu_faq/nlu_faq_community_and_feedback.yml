@@ -1,0 +1,37 @@
+version: "3.1"
+# description: The `nlu_faq_community_and_feedback` intent captures user inquiries about connecting with the Pet Portal community, sharing ideas, and providing feedback to improve the platform. This includes questions about user engagement, reporting issues, contributing suggestions, and interacting with other pet parents. The intent ensures the chatbot can guide users toward opportunities for collaboration, feedback, and community involvement.
+
+nlu:
+  - intent: faq_community_and_feedback
+    examples: |
+      - Can I connect with other pet owners on Pet Portal AI?
+      - How can I provide feedback to improve the platform?
+      - How can I support the development of Pet Portal AI?
+      - Is there a community forum for Pet Portal users?
+      - Can I share tips with other pet parents on Pet Portal AI?
+      - How do I join the Pet Portal community?
+      - Are there discussion groups for pet owners on the platform?
+      - How can I contribute ideas to enhance Pet Portal AI?
+      - Can I rate or review the platform’s features?
+      - Is there a feedback form for users on Pet Portal AI?
+      - Can I submit suggestions for new features?
+      - Does Pet Portal AI have a blog or community section?
+      - How do I engage with other pet parents through the platform?
+      - Are there local meetups organized through Pet Portal AI?
+      - How does Pet Portal AI incorporate user feedback?
+      - Can I share my pet parenting experiences on the platform?
+      - How do I report an issue or bug in Pet Portal AI?
+      - Is there a way to upvote features I like on Pet Portal AI?
+      - Can I request specific tools or improvements for the platform?
+      - How can I support the Pet Portal AI team in their efforts?
+      - Does Pet Portal AI offer surveys for user opinions?
+      - How does the platform gather input from its community?
+      - Are there webinars or live events hosted by Pet Portal AI?
+      - Can I volunteer to help improve the platform?
+      - How do I share testimonials about my experience with Pet Portal AI?
+      - Is there a contact email for feedback or support?
+      - Can I participate in beta testing for new features?
+      - Are there social media groups linked to Pet Portal AI?
+      - How can I help grow the Pet Portal community?
+      - Can I recommend Pet Portal AI to friends and track referrals?
+

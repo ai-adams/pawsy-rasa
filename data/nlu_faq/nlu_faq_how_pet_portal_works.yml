@@ -1,0 +1,37 @@
+version: "3.1"
+# description: The `nlu_faq_how_pet_portal_works` intent captures user inquiries about the features, functionalities, and real-time capabilities of Pet Portal AI. This intent includes questions about profile creation, real-time advice, health monitoring, reminders, and integration with devices, ensuring users understand how the platform can assist in daily and emergency pet care scenarios.
+
+nlu:
+  - intent: faq_how_pet_portal_works
+    examples: |
+      - How do I get started with Pet Portal AI?
+      - How do I create a profile for my pet?
+      - Can I personalize my pet’s profile?
+      - How can Pet Portal AI help me during a late-night puppy crisis?
+      - What does Pet Portal AI do if my dog wakes up at 2 am?
+      - Can Pet Portal AI guide me during urgent situations with my pet?
+      - How does Pet Portal AI offer real-time advice for my pet?
+      - Can Pet Portal AI help me understand what my pet needs in real-time?
+      - What real-time features does Pet Portal AI offer?
+      - Can I upload pictures to Pet Portal AI for health advice?
+      - Does Pet Portal AI analyze photos of my pet’s condition?
+      - How does Pet Portal AI use pictures to provide guidance?
+      - Does Pet Portal AI give step-by-step advice for pet care?
+      - Can Pet Portal AI guide me through monitoring a health issue?
+      - What detailed instructions does Pet Portal AI offer for specific problems?
+      - Can Pet Portal AI respond quickly during pet emergencies?
+      - How does Pet Portal AI help in real-time when something goes wrong?
+      - Does Pet Portal AI provide immediate responses for urgent pet issues?
+      - What kind of notifications does Pet Portal AI send about my pet?
+      - Can Pet Portal AI remind me about my pet’s appointments?
+      - Does Pet Portal AI notify me about vaccinations or checkups?
+      - How does Pet Portal AI track my pet’s health over time?
+      - Can I set up reminders with Pet Portal AI for pet care tasks?
+      - Does Pet Portal AI sync with my calendar for pet-related events?
+      - How does Pet Portal AI use data to understand my pet better?
+      - Can I see trends in my pet’s health using Pet Portal AI?
+      - Does Pet Portal AI provide activity reports for my pet?
+      - How can I review past issues my pet had using Pet Portal AI?
+      - What tools does Pet Portal AI offer for monitoring long-term health?
+      - Can Pet Portal AI integrate with wearables or tracking devices?
+

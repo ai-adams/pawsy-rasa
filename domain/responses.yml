@@ -6,7 +6,7 @@ responses:
       buttons:
         - title: "Find a dog to adopt"
           payload: "/welcome_adoption"
-        - title: "Learn about pet ownership"
+        - title: "Learn about pet parenting"
           payload: "/welcome_education"
         - title: "I’m just browsing"
           payload: "/welcome_browsing"
