@@ -4,6 +4,7 @@ models/
 logs/
 archive/
 results/
+chatwidget/static/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
