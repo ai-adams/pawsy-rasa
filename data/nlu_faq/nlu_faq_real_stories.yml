@@ -1,0 +1,37 @@
+version: "3.1"
+# description: The `nlu_faq_real_stories` intent captures user inquiries about success stories, testimonials, and real-life examples of Pet Portal AI’s positive impact on pet parents and their pets. This intent ensures the chatbot can provide relatable and inspiring examples to build trust and showcase the platform’s effectiveness.
+
+nlu:
+  - intent: faq_real_stories
+    examples: |
+      - Can you share success stories from other Pet Portal AI users?
+      - What have other pet parents said about Pet Portal AI?
+      - Are there any real-life examples of how Pet Portal AI has helped?
+      - Do you have testimonials from users of Pet Portal AI?
+      - What are some real-world cases of Pet Portal AI helping pets?
+      - Can you tell me about someone who benefited from using Pet Portal AI?
+      - Are there user reviews for Pet Portal AI?
+      - What feedback have you received from pet parents about Pet Portal AI?
+      - Has anyone shared how Pet Portal AI improved their pet parenting?
+      - Are there any inspiring stories from Pet Portal AI users?
+      - Can you give me examples of pets that were helped by Pet Portal AI?
+      - What are people saying about Pet Portal AI?
+      - Do you have any heartwarming stories from your users?
+      - How has Pet Portal AI changed the lives of pet parents?
+      - Are there success stories about Pet Portal AI on social media?
+      - Have any veterinarians shared positive feedback about Pet Portal AI?
+      - What kind of impact has Pet Portal AI had on its users?
+      - Can I see reviews or stories from other pet parents?
+      - Are there any specific stories about dogs benefiting from Pet Portal AI?
+      - What are some examples of Pet Portal AI helping pets in emergencies?
+      - Have any pet parents shared how Pawsy improved their pet care?
+      - Are there any before-and-after stories from Pet Portal AI users?
+      - What do users say about the accuracy of Pet Portal AI recommendations?
+      - Has anyone shared their experience using Pet Portal AI for a senior pet?
+      - Can you tell me about a unique way someone used Pet Portal AI?
+      - Are there stories of how Pet Portal AI helped reduce vet visits?
+      - Has Pet Portal AI been featured in any pet parenting success stories?
+      - What are some examples of Pet Portal AI helping anxious pets?
+      - Do users talk about how Pet Portal AI made their lives easier?
+      - What’s the most inspiring feedback you’ve received about Pet Portal AI?
+

@@ -1,0 +1,37 @@
+version: "3.1"
+# description: The `nlu_faq_health_guidance` intent captures user inquiries about how Pet Portal AI supports pet health, including preventive care, managing chronic conditions, identifying potential health issues, and simplifying complex health topics. This intent ensures the chatbot provides helpful and accurate advice tailored to maintaining and improving pet wellbeing while avoiding unnecessary costs or stress for pet parents.
+
+nlu:
+  - intent: faq_health_guidance
+    examples: |
+      - Can this platform help me save on vet bills?
+      - What health problems can Pet Portal AI help with?
+      - Can this platform help prevent future health problems for my pet?
+      - Can Pet Portal AI predict potential health issues in my pet?
+      - How does Pet Portal AI help prevent common health problems?
+      - What does Pet Portal AI do to identify health issues early?
+      - Can Pet Portal AI help me manage my pet’s allergies?
+      - How does Pet Portal AI simplify complex health issues for pets?
+      - What support does Pet Portal AI offer for pets with allergies?
+      - Can Pet Portal AI help me avoid unnecessary vet bills?
+      - How does Pet Portal AI prevent costly mistakes in pet care?
+      - What does Pet Portal AI do to avoid overreacting to minor health issues?
+      - What is a follicular cyst in pets?
+      - How does Pet Portal AI help with managing cysts?
+      - Can Pet Portal AI explain how to handle a cyst on my pet?
+      - How does Pet Portal AI guide me in monitoring my pet’s health?
+      - What tips does Pet Portal AI offer for preventing health problems?
+      - Can Pet Portal AI help me track changes in my pet’s condition?
+      - Can Pet Portal AI identify risks like tumors or abscesses?
+      - How does Pet Portal AI help me spot potential health dangers in my pet?
+      - What insights does Pet Portal AI provide about serious health risks?
+      - Can Pet Portal AI help manage my pet’s chronic health conditions?
+      - How does Pet Portal AI support pets with special health needs?
+      - What advice does Pet Portal AI give for managing pet obesity?
+      - Can Pet Portal AI suggest diets to improve my pet’s health?
+      - How does Pet Portal AI provide tips for improving my pet’s wellbeing?
+      - Does Pet Portal AI offer guidance for senior pet health?
+      - Can Pet Portal AI recommend preventive health routines for my pet?
+      - How does Pet Portal AI help monitor my pet’s weight and diet?
+      - Can Pet Portal AI assist in creating a personalized health plan for my pet?
+

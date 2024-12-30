@@ -1,0 +1,37 @@
+version: "3.1"
+# description: The `nlu_faq_shelters_and_adoptions` intent captures user questions about how Pet Portal AI supports animal shelters and facilitates the pet adoption process. It ensures the chatbot can guide users in finding local shelters, learning about adoption, and supporting shelter animals, either through direct adoption or other means like donations or volunteering.
+
+nlu:
+  - intent: faq_shelters_and_adoptions
+    examples: |
+      - How does Pet Portal AI help animal shelters?
+      - What adoption support does this platform offer?
+      - Can Pet Portal AI connect me with local shelters?
+      - How does Pet Portal AI assist with finding adoptable pets?
+      - Does Pet Portal AI partner with any animal shelters?
+      - Can I use Pet Portal AI to adopt a pet?
+      - How can I find a shelter near me using Pet Portal AI?
+      - What resources does Pet Portal AI offer for pet adoptions?
+      - Does Pet Portal AI provide a list of shelters in my area?
+      - Can Pet Portal AI help me prepare for adoption?
+      - What adoption guidance does Pet Portal AI offer?
+      - Can I learn about the adoption process through Pet Portal AI?
+      - Does Pet Portal AI recommend specific shelters for adoption?
+      - How does Pet Portal AI support shelter animals?
+      - Are there tools for shelters to use Pet Portal AI?
+      - Can I search for pets available for adoption using Pet Portal AI?
+      - How does Pet Portal AI make the adoption process easier?
+      - What advice does Pet Portal AI give for first-time adopters?
+      - Does Pet Portal AI help match me with a shelter pet?
+      - How does Pet Portal AI ensure shelter pets find the right homes?
+      - Can shelters use Pet Portal AI to promote their animals?
+      - Does Pet Portal AI feature adoptable pets from shelters?
+      - What information about shelters can I find on Pet Portal AI?
+      - Can Pet Portal AI help me decide if I’m ready to adopt a pet?
+      - How does Pet Portal AI educate people about adopting pets?
+      - Are there tips for shelter visits on Pet Portal AI?
+      - Can I donate to shelters through Pet Portal AI?
+      - Does Pet Portal AI work with rescue organizations?
+      - How does Pet Portal AI advocate for pet adoptions?
+      - Can I volunteer with shelters through connections on Pet Portal AI?
+

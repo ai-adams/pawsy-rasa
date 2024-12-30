@@ -1,0 +1,36 @@
+version: "3.1"
+# description: The `nlu_faq_getting_started_with_pet_portal` intent captures user inquiries about how to begin using Pet Portal AI. This includes questions about registration, account setup, and the initial steps to access its features. The intent ensures the chatbot can provide clear instructions to help new users get started seamlessly.
+
+nlu:
+  - intent: faq_getting_started_with_pet_portal
+    examples: |
+      - How do I sign up for Pet Portal AI?
+      - What do I need to do to get started with Pet Portal AI?
+      - Can you guide me through the sign-up process for Pet Portal AI?
+      - How do I create an account on Pet Portal AI?
+      - Is there a registration process for Pet Portal AI?
+      - What steps should I follow to join Pet Portal AI?
+      - How do I set up my profile on Pet Portal AI?
+      - Can I use Pet Portal AI without signing up?
+      - How long does it take to get started with Pet Portal AI?
+      - What information do I need to provide to sign up for Pet Portal AI?
+      - Is Pet Portal AI free to join?
+      - Do I need a subscription to use Pet Portal AI?
+      - How do I start using Pawsy on Pet Portal AI?
+      - Are there tutorials for getting started with Pet Portal AI?
+      - What is the first step to use Pet Portal AI?
+      - Can you walk me through how to register on Pet Portal AI?
+      - How do I log in to Pet Portal AI after signing up?
+      - Is there a quick start guide for Pet Portal AI?
+      - Do I need to download an app to use Pet Portal AI?
+      - Can I sign up for Pet Portal AI on my phone?
+      - Are there any requirements to join Pet Portal AI?
+      - What is the easiest way to get started with Pet Portal AI?
+      - How do I connect my pet’s information to Pet Portal AI?
+      - Does Pet Portal AI have a trial version for new users?
+      - How do I activate my account on Pet Portal AI?
+      - What do I need to do to get Pawsy up and running?
+      - Are there any tips for first-time users of Pet Portal AI?
+      - Is there an onboarding process for new Pet Portal AI users?
+      - Do I need to verify my email to use Pet Portal AI?
+      - How do I begin exploring Pet Portal AI’s features?

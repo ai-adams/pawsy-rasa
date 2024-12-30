@@ -1,0 +1,37 @@
+version: "3.1"
+# description: The `nlu_faq_features_overview` intent captures user questions about the core functionalities and features of Pet Portal AI and its chatbot, Pawsy. This includes inquiries about tools like the digital double, device compatibility, and personalized features for pet care. The intent ensures the chatbot can explain how the platform works and highlight key benefits for pet parents.
+
+nlu:
+  - intent: faq_features_overview
+    examples: |
+      - What is Pawsy, and how does it help?
+      - What is the digital double for my pet?
+      - Can I use Pet Portal AI on my phone?
+      - What features does Pet Portal AI offer?
+      - How does Pawsy assist me on Pet Portal?
+      - What is the main purpose of Pet Portal AI?
+      - What makes Pet Portal AI unique compared to other pet tools?
+      - Does Pet Portal AI work across multiple devices?
+      - What tools does Pet Portal AI include to help pet parents?
+      - How does the digital double feature benefit me?
+      - Can I access Pet Portal AI on mobile and desktop?
+      - What are the main functions of Pawsy?
+      - How does Pawsy interact with users on Pet Portal?
+      - What does the digital double feature mean for my pet?
+      - How does Pet Portal AI personalize its recommendations?
+      - Can I track my pet’s information with Pet Portal AI?
+      - What is the purpose of the digital double for pets?
+      - Does Pet Portal AI include training tools?
+      - How can I use Pawsy to get breed recommendations?
+      - Does Pet Portal AI have a tracking feature for pet health?
+      - Can Pawsy answer questions about pet adoption?
+      - What role does Pawsy play in using Pet Portal AI?
+      - What is the benefit of using a digital double for pets?
+      - Does Pet Portal AI offer reminders for pet care?
+      - How does Pawsy simplify the pet parenting experience?
+      - Can I store my pet’s records in Pet Portal AI?
+      - What kind of insights can Pawsy provide about my pet?
+      - Does Pet Portal AI include breed-specific recommendations?
+      - What features make Pawsy a helpful tool for pet parents?
+      - Can Pet Portal AI support multi-pet households?
+

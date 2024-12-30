@@ -1,0 +1,37 @@
+version: "3.1"
+# description: The `nlu_faq_behavior_and_diet` intent captures user inquiries related to understanding and managing pet behavior and dietary needs. It covers a wide range of questions, including training, interpreting body language, addressing unusual habits, and providing tailored feeding advice. This intent ensures the chatbot offers actionable insights and guidance to improve pet care and well-being.
+
+nlu:
+  - intent: faq_behavior_and_diet
+    examples: |
+      - Can this platform help with training my dog?
+      - What diet suggestions can Pet Portal AI provide?
+      - Can Pet Portal AI help me interpret my pet’s body language?
+      - How does Pet Portal AI guide me in understanding my pet’s behavior?
+      - What behavior insights can I get from Pet Portal AI?
+      - How can Pet Portal AI help with my puppy’s teething issues?
+      - Does Pet Portal AI provide advice on chewing problems?
+      - What tips does Pet Portal AI offer for a teething puppy?
+      - Does Pet Portal AI provide training tips based on my dog’s age?
+      - How can Pet Portal AI tailor training advice to my pet’s breed?
+      - Can Pet Portal AI help me train my puppy effectively?
+      - Can Pet Portal AI interpret my pet’s body language?
+      - How does Pet Portal AI help me understand my dog’s behavior?
+      - What insights can Pet Portal AI provide about my pet’s actions?
+      - What activity suggestions does Pet Portal AI offer for my pet?
+      - Can Pet Portal AI help me find the right games for my dog?
+      - How does Pet Portal AI tailor activities to my pet’s needs?
+      - Can Pet Portal AI help me understand weird behaviors in my dog?
+      - How does Pet Portal AI address unusual habits like excessive licking?
+      - What does Pet Portal AI say about strange behaviors in pets?
+      - Can Pet Portal AI suggest distractions for a stressed pet?
+      - What solutions does Pet Portal AI offer for calming a pet?
+      - Does Pet Portal AI recommend specific treats or toys for anxious pets?
+      - Can Pet Portal AI suggest a balanced diet for my dog?
+      - How does Pet Portal AI recommend managing a picky eater?
+      - Can Pet Portal AI help me create a feeding schedule for my pet?
+      - What kind of nutrition tips does Pet Portal AI provide?
+      - Does Pet Portal AI recommend specific brands of pet food?
+      - How does Pet Portal AI suggest transitioning to a new diet?
+      - Can Pet Portal AI provide advice for pets with allergies?
+      - What does Pet Portal AI say about raw food diets for dogs?

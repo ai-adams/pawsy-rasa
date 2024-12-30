@@ -1,0 +1,37 @@
+version: "3.1"
+# description: The `nlu_faq_supported_pets` intent captures user inquiries about the range of pets supported by Pet Portal AI, including cats, dogs, exotic pets, small animals, and more. This intent ensures the chatbot can clarify which species or types of pets the platform is designed to assist, helping users determine if their specific pet's needs are covered.
+
+nlu:
+  - intent: faq_supported_pets
+    examples: |
+      - Does Pet Portal AI work for cats and dogs?
+      - What kinds of pets can I use this platform for?
+      - Can I use Pet Portal AI for exotic pets?
+      - Does this platform support birds or reptiles?
+      - Is Pet Portal AI only for dogs and cats?
+      - What pets does Pet Portal AI provide information for?
+      - Does Pet Portal AI work for small pets like rabbits or hamsters?
+      - Can I use this platform for fish care?
+      - What species are supported by Pet Portal AI?
+      - Does Pet Portal AI help with pet care for farm animals?
+      - Is Pet Portal AI useful for horses?
+      - Can I get advice for my turtle on Pet Portal AI?
+      - Does Pet Portal AI include guidance for parrots or other birds?
+      - Is Pet Portal AI helpful for guinea pigs?
+      - Does this platform work for all pets or just some?
+      - Can Pet Portal AI support owners of ferrets?
+      - Does Pet Portal AI offer resources for senior pets?
+      - Can I find breed-specific information for different pets?
+      - Does Pet Portal AI work for mixed-breed animals?
+      - Can Pet Portal AI assist with care for puppies and kittens?
+      - Does Pet Portal AI have tools for pet parents with multiple pets?
+      - Does Pet Portal AI include advice for pets with disabilities?
+      - Can I use Pet Portal AI for rescues or shelter pets?
+      - What pet types does Pet Portal AI specialize in?
+      - Does Pet Portal AI provide care guides for pet owners?
+      - Can I use Pet Portal AI for temporary foster pets?
+      - Does Pet Portal AI support unusual or rare pet breeds?
+      - What is the primary focus of Pet Portal AI in terms of pet types?
+      - Can Pet Portal AI help me with training for any type of pet?
+      - Does Pet Portal AI cover general pet care or specific species?
+

@@ -1,0 +1,36 @@
+version: "3.1"
+# description: The `nlu_faq_about_pet_parenting` intent captures user inquiries about the concept of pet parenting, including its significance, mindset, and practical implications. This intent ensures the chatbot can provide meaningful answers about the philosophy and responsibilities of pet parenting, fostering deeper engagement with pet owners. It also addresses common concerns, trends, and steps to becoming a confident and caring pet parent.
+
+nlu:
+  - intent: faq_about_pet_parenting
+    examples: |
+      - What's the difference between a pet owner and a pet parent?
+      - Should I refer to myself as a pet parent or a pet owner?
+      - What does it mean to be a pet parent?
+      - Why should I use the term pet parent instead of pet owner?
+      - Why does language matter in how we refer to our pets?
+      - What’s the significance of calling myself a pet parent?
+      - How does the pet parent mindset change how I care for my pet?
+      - What is the impact of viewing myself as a pet parent on my pet care?
+      - Why does the mindset of being a pet parent matter?
+      - Does being a pet parent mean I treat my pet like a child?
+      - Do I need to think of my pet as a child to be a good pet parent?
+      - How does pet parenting differ from human parenting?
+      - How do I embrace being a pet parent?
+      - What steps can I take to feel more confident as a pet parent?
+      - How do I shift from thinking of myself as a pet owner to a pet parent?
+      - Why is the term pet parent used more commonly nowadays?
+      - What’s the philosophy behind being a pet parent?
+      - How do pet parents differ in caring for their pets compared to pet owners?
+      - Is pet parenting just a trend or a meaningful change?
+      - What does it mean to nurture your pet as a parent would?
+      - Are there resources for learning more about pet parenting?
+      - Does being a pet parent involve more emotional responsibility?
+      - How do I determine if I’m a good pet parent?
+      - What are the benefits of viewing myself as a pet parent?
+      - Is it necessary to consider myself a pet parent to care for my pet?
+      - What traits define a great pet parent?
+      - How can I grow into the role of a pet parent?
+      - Does calling myself a pet parent influence my relationship with my pet?
+      - What challenges come with adopting the role of a pet parent?
+      - Are there any communities or groups for pet parents?

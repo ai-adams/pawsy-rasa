@@ -62,6 +62,22 @@ intents:
 #  - experience_moderate
 #  - gender_female
 #  - gender_male
+  - faq_about_pet_parenting
+  - faq_about_pet_portal
+  - faq_behavior_and_diet
+  - faq_benefits_of_pet_parenting
+  - faq_benefits_of_pet_portal_ai
+  - faq_community_and_feedback
+  - faq_expert_support
+  - faq_features_overview
+  - faq_getting_started_with_pet_portal
+  - faq_health_guidance
+  - faq_how_pet_portal_works
+  - faq_pricing_and_plans
+  - faq_real_stories
+  - faq_shelters_and_adoptions
+  - faq_supported_pets
+  - faq_technical_information
   - home_apartment
   - home_large
   - home_small
