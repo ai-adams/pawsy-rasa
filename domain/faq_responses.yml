@@ -1,11 +1,6 @@
 version: "3.1"
 
 responses:
-  utter_faq_followup:
-    - text: "Want personalized advice tailored to your pet? Sign up for Pet Portal today and elevate your pet parenting journey!"
-    - text: "Ready to take pet parenting to the next level? Sign up for Pet Portal today for personalized guidance and support!"
-    - text: "Need help on your pet parenting journey? Sign up for Pet Portal today for expert advice tailored to your pet’s needs!"
-
   utter_faq_about_pet_parenting:
     - text: "Pet parenting is about seeing your pet as a cherished family member rather than just an animal you own. It involves empathy, commitment, and understanding your pet’s unique needs, from health to behavior. This mindset fosters a stronger bond and ensures your pet thrives. By being attentive and proactive, you can create a fulfilling life for both of you."
     - text: "Pet parenting is the philosophy of caring for your pet with love, respect, and responsibility. It means prioritizing their well-being, understanding their needs, and providing consistent care to help them thrive. It’s a shift from ownership to a partnership, strengthening the bond between you and your furry companion."
