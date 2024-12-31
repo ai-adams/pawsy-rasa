@@ -1,0 +1,182 @@
+version: "3.1"
+
+responses:
+  utter_adoption_reason_family:
+    - text: "I can recommend dog breeds that are great with children and make loving companions."
+    - text: "I’ll suggest breeds known for being affectionate and kid-friendly."
+    - text: "I can help you find breeds that are gentle, loving, and wonderful with kids."
+
+  utter_adoption_reason_lifestyle:
+    - text: "I can recommend dog breeds that align perfectly with your lifestyle."
+    - text: "I’ll help you find breeds that fit your routine and energy levels."
+    - text: "I can suggest breeds that suit your lifestyle and daily habits."
+
+  utter_adoption_reason_security:
+    - text: "I can recommend breeds that are naturally protective and great for security."
+    - text: "I’ll suggest dog breeds known for their guarding instincts and loyalty."
+    - text: "I can help you find breeds that excel in protection and security roles."
+
+  utter_age_middle:
+    - text: "I can recommend breeds with middle-aged dogs that match your preferences."
+    - text: "I’ll help you find dog breeds that include great middle-aged options."
+    - text: "I can suggest breeds that are ideal for middle-aged dogs."
+
+  utter_age_old:
+    - text: "I can recommend breeds that are perfect for adopting older dogs."
+    - text: "I’ll help you find dog breeds with wonderful senior options."
+    - text: "I can suggest breeds that are great for older dogs and their needs."
+
+  utter_age_young:
+    - text: "I can recommend breeds with great options for adopting young dogs."
+    - text: "I’ll help you find breeds that are perfect for adopting a young dog."
+    - text: "I can suggest breeds that are ideal for younger dogs and their energy levels."
+
+  utter_allergies_mild:
+    - text: "I can recommend breeds that are suitable for families with mild allergies."
+    - text: "I’ll help you find hypoallergenic breeds that can work well for your family."
+    - text: "I can suggest dog breeds that are great for managing mild allergies."
+
+  utter_allergies_none:
+    - text: "I can recommend a wide range of dog breeds that match your preferences."
+    - text: "I’ll help you explore breeds without any restrictions for allergies."
+    - text: "I can suggest breeds without worrying about allergy concerns."
+
+  utter_allergies_severe:
+    - text: "I can recommend hypoallergenic breeds that are best for severe allergies."
+    - text: "I’ll suggest breeds that are specifically suited for households with severe allergies."
+    - text: "I’ll help you find breeds that minimize allergens and work well for your family."
+
+  utter_availability_high:
+    - text: "I can recommend breeds that thrive with lots of attention and companionship."
+    - text: "I’ll suggest breeds that enjoy being with their owners throughout the day."
+    - text: "I can help you find breeds that love constant interaction and care."
+
+  utter_availability_low:
+    - text: "I can recommend independent breeds that do well with limited interaction."
+    - text: "I’ll suggest low-maintenance breeds that adapt well to your schedule."
+    - text: "I’ll help you find breeds that are comfortable being alone for extended periods."
+
+  utter_availability_moderate:
+    - text: "I can recommend breeds that are adaptable to a moderately busy schedule."
+    - text: "I’ll suggest breeds that balance independence with companionship needs."
+    - text: "I’ll help you find breeds that thrive with a mix of interaction and downtime."
+
+  utter_budget_high:
+    - text: "I can recommend breeds that thrive with extra care and attention."
+    - text: "I’ll suggest breeds that benefit from a higher level of investment and care."
+    - text: "I’ll help you find breeds that match well with your available resources."
+
+  utter_budget_low:
+    - text: "I can recommend breeds that are low-maintenance and budget-friendly."
+    - text: "I’ll help you find breeds that fit well within a limited budget."
+    - text: "I’ll suggest breeds that are affordable to care for and maintain."
+
+  utter_budget_moderate:
+    - text: "I can recommend breeds that are affordable and manageable within a mid-range budget."
+    - text: "I’ll suggest breeds that balance affordability with great care options."
+    - text: "I’ll help you find breeds that are cost-effective and well-suited to your budget."
+
+  utter_children_grown:
+    - text: "I can recommend breeds that are perfect companions for children."
+    - text: "I’ll suggest breeds that are friendly, active, and great with older kids."
+    - text: "I’ll help you find breeds that thrive as companions for kids."
+
+  utter_children_none:
+    - text: "I can recommend breeds that thrive in quiet, child-free households."
+    - text: "I’ll suggest breeds that are great for adult-only homes and love companionship."
+    - text: "I’ll help you find breeds that are well-suited for homes without children."
+
+  utter_children_young:
+    - text: "I can recommend breeds that are gentle, patient, and great with young kids."
+    - text: "I’ll suggest breeds known for being loving and tolerant around toddlers."
+    - text: "I’ll help you find breeds that are perfect companions for families with young children."
+
+  utter_climate_cold:
+    - text: "I can recommend breeds that are well-suited for cold and harsh winters."
+    - text: "I’ll suggest breeds that thrive in colder climates and can handle long winters."
+    - text: "I’ll help you find breeds that are built for harsh and chilly conditions."
+
+  utter_climate_dry:
+    - text: "I can recommend breeds that do well in dry and arid climates."
+    - text: "I’ll suggest breeds that are comfortable in low-humidity environments."
+    - text: "I’ll help you find breeds that thrive in dry and rain-free conditions."
+
+  utter_climate_hot:
+    - text: "I can recommend breeds that are well-suited for hot and sunny climates."
+    - text: "I’ll suggest breeds that thrive in warm and sunny environments."
+    - text: "I’ll help you find breeds that can handle the heat and enjoy sunny weather."
+
+  utter_climate_humid:
+    - text: "I can recommend breeds that are comfortable in humid and sticky climates."
+    - text: "I’ll suggest breeds that thrive in warm, humid conditions."
+    - text: "I’ll help you find breeds that can handle humid and tropical weather."
+
+  utter_climate_mild:
+    - text: "I can recommend breeds that do well in mild and temperate climates."
+    - text: "I’ll suggest breeds that thrive in comfortable, moderate weather."
+    - text: "I’ll help you find breeds that are ideal for mild and temperate conditions."
+
+  utter_home_apartment:
+    - text: "I can recommend small dog breeds that are perfect for apartment living."
+    - text: "I’ll suggest breeds that do well in compact indoor spaces."
+    - text: "I’ll help you find small breeds that are great for limited space."
+
+  utter_home_large:
+    - text: "I can recommend breeds that thrive in spacious homes with plenty of outdoor space."
+    - text: "I’ll suggest breeds that enjoy having lots of room to play and explore."
+    - text: "I’ll help you find breeds that are perfect for large homes with outdoor access."
+
+  utter_home_small:
+    - text: "I can recommend breeds that are well-suited for small homes with some outdoor space."
+    - text: "I’ll suggest breeds that do well in compact homes and enjoy a small yard."
+    - text: "I’ll help you find breeds that are ideal for smaller spaces with outdoor access."
+
+  utter_lifestyle_active:
+    - text: "I can recommend breeds that are energetic and love to stay active."
+    - text: "I’ll suggest breeds that thrive with lots of exercise and outdoor activities."
+    - text: "I’ll help you find breeds that match your active lifestyle perfectly."
+
+  utter_lifestyle_balanced:
+    - text: "I can recommend breeds that balance energy and relaxation for a moderately active lifestyle."
+    - text: "I’ll suggest breeds that enjoy regular activity but are also easygoing."
+    - text: "I’ll help you find breeds that fit well with a balanced, active routine."
+
+  utter_lifestyle_relaxed:
+    - text: "I can recommend breeds that are calm and suited for a laid-back lifestyle."
+    - text: "I’ll suggest low-energy breeds that enjoy a relaxed pace."
+    - text: "I’ll help you find breeds that thrive in a quiet, easygoing environment."
+
+  utter_size_large:
+    - text: "I can recommend large, strong breeds that match your preferences."
+    - text: "I’ll suggest big and powerful breeds that are great companions."
+    - text: "I’ll help you find large breeds known for their strength and presence."
+
+  utter_size_medium:
+    - text: "I can recommend breeds that are a perfect medium size."
+    - text: "I’ll suggest medium-sized breeds that match your preferences."
+    - text: "I’ll help you find breeds that are a great fit in the medium size range."
+
+  utter_size_small:
+    - text: "I can recommend small breeds that are perfect for adoption."
+    - text: "I’ll suggest small dog breeds that match your preferences."
+    - text: "I’ll help you find small breeds that are great companions."
+
+  utter_temperament_adaptable:
+    - text: "I can recommend breeds that are highly adaptable and flexible to different lifestyles."
+    - text: "I’ll suggest breeds known for their versatility and adaptability."
+    - text: "I’ll help you find breeds that adjust easily to various routines and environments."
+
+  utter_temperament_confident:
+    - text: "I can recommend breeds that are known for their confidence and bravery."
+    - text: "I’ll suggest strong and courageous breeds that match your preferences."
+    - text: "I’ll help you find breeds that are bold and self-assured."
+
+  utter_temperament_friendly:
+    - text: "I can recommend breeds that are friendly and love socializing with people."
+    - text: "I’ll suggest outgoing breeds that enjoy meeting new people and making connections."
+    - text: "I’ll help you find breeds that are sociable and thrive on interaction."
+
+  utter_temperament_independent:
+    - text: "I can recommend independent breeds that are comfortable being on their own."
+    - text: "I’ll suggest breeds that are low-maintenance and don’t require constant attention."
+    - text: "I’ll help you find breeds that are self-reliant and easygoing."

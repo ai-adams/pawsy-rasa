@@ -21,55 +21,42 @@ rules:
       - action: quiz_outro_form
       - active_loop: quiz_outro_form
 
-
   - rule: quiz_outro_form + misc_learn_more
     condition:
       - active_loop: quiz_outro_form
       - slot_was_set:
-          - quiz_followup: misc_learn_more
+          - quiz_followup: learn_more
     steps:
       - action: quiz_outro_form
       - active_loop: null
       - slot_was_set:
           - requested_slot: null
       - action: utter_quiz_outro_misc_learn_more
+      - action: utter_end
 
   - rule: quiz_outro_form + misc_see_more
     condition:
       - active_loop: quiz_outro_form
       - slot_was_set:
-          - quiz_followup: misc_see_more
+          - quiz_followup: see_more
     steps:
       - action: quiz_outro_form
       - active_loop: null
       - slot_was_set:
           - requested_slot: null
       - action: utter_quiz_outro_misc_see_more
+      - action: utter_end
 
   - rule: quiz_outro_form + misc_nothing_more
     condition:
       - active_loop: quiz_outro_form
       - slot_was_set:
-          - quiz_followup: misc_nothing_more
+          - quiz_followup: nothing_more
     steps:
       - action: quiz_outro_form
       - active_loop: null
       - slot_was_set:
           - requested_slot: null
       - action: utter_quiz_outro_misc_nothing_more
+      - action: utter_end
 
-
-
-#  - rule: fin_misc_greet
-#    condition:
-#    # Condition that form is active.
-#    - active_loop: adoption_quiz_form
-#    steps:
-#    # Form is deactivated
-#    - action: adoption_quiz_form
-#    - active_loop: null
-#    - slot_was_set:
-#      - requested_slot: null
-#    # The actions we want to run when the form is submitted.
-#    - action: utter_quiz_submit
-#    - action: action_recommend_breeds
