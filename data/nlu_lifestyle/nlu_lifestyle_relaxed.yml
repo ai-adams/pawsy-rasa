@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `lifestyle_relaxed` intent captures users who have a low-energy, sedentary lifestyle and prefer spending time indoors. These users may not engage in regular physical activities and require a dog that is calm, low-maintenance, and content with a quieter environment. This intent ensures the chatbot understands various ways users express their relaxed routines, helping recommend breeds that thrive in low-activity households.
 
 nlu:
   - intent: lifestyle_relaxed

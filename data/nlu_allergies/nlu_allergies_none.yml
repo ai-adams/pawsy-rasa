@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `allergies_none` intent captures users who have no allergies to dogs and don’t need to consider allergens when selecting a breed. It emphasizes that the user is open to any breed without restriction based on sensitivity to dander or shedding. This intent ensures the chatbot can recognize a variety of ways users may express that allergies are not a concern.
 
 nlu:
   - intent: allergies_none

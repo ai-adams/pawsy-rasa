@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `misc_greet` intent captures user expressions of greetings, which initiate the conversation in various formal and informal tones. This list accommodates different contexts and personal styles of saying hello, including casual, friendly, and inquisitive greetings. Recognizing this intent ensures the chatbot can respond warmly, setting a positive tone for the interaction.
 
 nlu:
   - intent: misc_greet

@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `budget_high` intent captures users who have a flexible or expansive budget and are willing to spend generously on adoption and ongoing care for their dog. These users prioritize quality and suitability over cost, often seeking premium breeds or services. This intent ensures the chatbot can identify users unconstrained by financial limitations and recommend high-quality options that match their expectations.
 
 nlu:
   - intent: budget_high

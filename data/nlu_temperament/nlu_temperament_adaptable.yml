@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `temperament_adaptable` intent captures users who are looking for a dog with a curious, flexible, and adventurous temperament. These users value dogs that can easily adjust to various situations, environments, or routines, making them great companions for diverse lifestyles. This intent ensures the chatbot recognizes various ways users describe their preference for adaptable and versatile dogs, helping recommend breeds that thrive in dynamic or changing environments.
 
 nlu:
   - intent: temperament_adaptable

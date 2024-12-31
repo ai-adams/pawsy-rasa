@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `age_old` intent captures users who are interested in adopting an older or senior dog. These users value the calmness, experience, and lower activity levels typically associated with senior dogs and may also be motivated by the desire to give an older dog a loving home for its remaining years. This intent ensures the chatbot recognizes various ways users express their preference for senior dogs, helping recommend breeds or individual dogs that meet these needs.
 
 nlu:
   - intent: age_old

@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `climate_dry` intent captures users who live in regions with dry, arid climates, characterized by low humidity and infrequent rainfall. This reflects the need for breeds that can adapt to hot, dry conditions and thrive in such environments. The intent ensures the chatbot understands various ways users describe living in a dry climate, helping recommend breeds that are well-suited for these conditions.
 
 nlu:
   - intent: climate_dry

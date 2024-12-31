@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `children_none` intent captures users who do not have children or pets in their household. It reflects a quiet or child-free environment, which may be ideal for breeds that prefer calmer, less chaotic homes. This intent ensures the chatbot understands various ways users can describe their lack of children or pets, helping recommend suitable breeds for their living situation.
 
 nlu:
   - intent: children_none

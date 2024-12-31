@@ -1,0 +1,39 @@
+version: "3.1"
+
+responses:
+  utter_quiz_submit:
+    - text: "Thanks for answering all my questions! Based on your inputs, I’ll recommend some breeds perfect for you."
+    - text: "Thanks for completing the quiz! I’ll suggest some breeds that match your preferences."
+    - text: "I appreciate your responses! Let’s find the best breed options for you."
+
+  utter_quiz_end:
+    - text: "No problem! You can take the quiz anytime. How else can I help you?"
+    - text: "That’s okay! Feel free to start the quiz whenever you’re ready. What else can I assist you with?"
+    - text: "No worries! You can always take the quiz later. Let me know if there’s anything else I can do."
+
+  utter_end:
+    - text: "How else can I help you?"
+    - text: "Is there anything else I can assist you with?"
+    - text: "Let me know if there’s something else I can do for you."
+    - text: "What else can I do to assist you today?"
+    - text: "Feel free to ask if there’s anything more I can help with."
+    - text: "Is there anything more I can do for you?"
+    - text: "I’m here if you need anything else."
+    - text: "Anything else I can help you with?"
+    - text: "Let me know if you need assistance with anything else."
+    - text: "How can I support you further today?"
+
+  utter_quiz_outro_misc_learn_more:
+    - text: "That’s great! If you want to dive deeper into caring for these breeds, signing up for Pet Portal gives you access to expert tips and personalized guidance. Pet Portal makes pet parenting easier and more enjoyable!"
+    - text: "Wonderful! To learn more about these breeds and how to care for them, you can sign up for Pet Portal. With Pet Portal, you’ll get tailored advice, training tips, and health recommendations for your perfect match."
+    - text: "Fantastic! Signing up for Pet Portal lets you explore in-depth care guides for these breeds. It’s a one-stop platform for personalized pet care, helping you create the best home for your new companion."
+
+  utter_quiz_outro_misc_see_more:
+    - text: "Of course! For more personalized options, consider signing up for Pet Portal. It tailors breed recommendations to your unique preferences and gives you expert guidance for making the best choice."
+    - text: "Absolutely! By signing up for Pet Portal, you’ll unlock even more personalized matches and detailed insights tailored to your lifestyle and needs. It’s the easiest way to find your perfect companion."
+    - text: "Sure! Signing up for Pet Portal lets you explore a wider range of matches customized just for you. Plus, you’ll get access to expert advice and tools to make pet adoption seamless."
+
+  utter_quiz_outro_misc_nothing_more:
+    - text: "No problem! If you’d like more personalized options or tips on pet parenting, sign up for Pet Portal. It’s your ultimate guide to finding and caring for the perfect companion."
+    - text: "Got it! If you want to explore more tailored matches or learn about pet parenting, signing up for Pet Portal is a great next step. It’s packed with tools and advice to make your pet journey smooth and enjoyable."
+    - text: "Understood! If you’re ready for more personalized options or expert pet parenting tips, sign up for Pet Portal. It’s designed to help you create the perfect match and care for your furry friend effortlessly."

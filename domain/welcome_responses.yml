@@ -1,0 +1,33 @@
+version: "3.1"
+
+responses:
+  utter_welcome:
+    - text: "Hi, I'm Pawsy, your guide here on Pet Portal! How can I assist you today?"
+      buttons:
+        - title: "Find a dog to adopt"
+          payload: "/welcome_adoption"
+        - title: "Learn about pet parenting"
+          payload: "/welcome_education"
+        - title: "I’m just browsing"
+          payload: "/welcome_browsing"
+
+  utter_welcome_adoption:
+    - text: "That’s wonderful! I can help you find the dog breed that best matches your preferences."
+    - text: "Great! I can recommend a breed that matches your lifestyle and needs."
+    - text: "Awesome! I’ll ask a few questions to find the best dog breed for you."
+    - text: "Let’s find your perfect match! I can recommend breeds based on your preferences."
+    - text: "Wonderful! I can help you discover a breed that’s just right for you."
+
+  utter_welcome_browsing:
+    - text: "That’s great! Feel free to ask me about Pet Portal and how it works, the benefits of using Pet Portal AI, or how to get started if you're new. Let me know how I can help!"
+    - text: "No problem! You can ask me about the features of Pet Portal, the types of pets we support, or how our expert advice helps pet parents. Just let me know what you’re curious about!"
+    - text: "Sure thing! If you’d like, I can tell you about Pet Portal’s pricing and plans, its health guidance features, or how it simplifies pet parenting. What would you like to know?"
+    - text: "That’s perfectly fine! Feel free to ask me about connecting with the Pet Portal community, the expert support we offer, or our core features. I’m here to help!"
+    - text: "Take your time! You can ask me about the pets we support, the technical aspects of Pet Portal, or how to start using our platform. Let me know if there’s anything I can explain!"
+
+  utter_welcome_education:
+    - text: "Being a pet parent is such a rewarding experience! You can ask me questions about what pet parenting entails or how to manage your pet's behavior and diet. What would you like to know?"
+    - text: "Sure thing! Pet parenting can be so fulfilling. Feel free to ask me about the benefits of pet parenting or how to get started with adopting from a shelter. How can I help?"
+    - text: "Of course! Pet parenting is all about building a strong, loving bond with your pet. You can ask me about real success stories from other pet parents or how to understand and meet your pet's dietary needs. What’s on your mind?"
+    - text: "Absolutely! Whether you're a pet parent already or just starting out, I can help. Ask me about how to begin your journey as a pet parent or the positive impacts it can have on your life. What would you like to know more about?"
+    - text: "Pet parenting is such an exciting adventure! You can ask me about what pet parenting is all about or how to find and adopt a pet from a local shelter. How can I assist you today?"

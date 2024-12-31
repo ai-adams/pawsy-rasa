@@ -5,5 +5,58 @@ rules:
     steps:
       - intent: misc_greet
       - action: utter_misc_greet
-#      - action: adoption_quiz_form
-#      - active_loop: adoption_quiz_form
+
+  - rule: misc_admire
+    steps:
+      - intent: misc_admire
+      - action: utter_misc_admire
+
+  - rule: misc_affirm
+    steps:
+      - intent: misc_affirm
+      - action: utter_misc_affirm
+
+  - rule: misc_appreciate
+    steps:
+      - intent: misc_appreciate
+      - action: utter_misc_appreciate
+
+  - rule: misc_bot_challenge
+    steps:
+      - intent: misc_bot_challenge
+      - action: utter_misc_bot_challenge
+
+  - rule: misc_clarify
+    steps:
+      - intent: misc_clarify
+      - action: utter_misc_clarify
+
+  - rule: misc_decline
+    steps:
+      - intent: misc_decline
+      - action: utter_misc_decline
+
+  - rule: misc_flexible
+    steps:
+      - intent: misc_flexible
+      - action: utter_misc_flexible
+
+  - rule: misc_goodbye
+    steps:
+      - intent: misc_goodbye
+      - action: utter_misc_goodbye
+
+  - rule: misc_other
+    steps:
+      - intent: misc_other
+      - action: utter_misc_other
+
+  - rule: misc_remorse
+    steps:
+      - intent: misc_remorse
+      - action: utter_misc_remorse
+
+  - rule: misc_unsure
+    steps:
+      - intent: misc_unsure
+      - action: utter_misc_unsure

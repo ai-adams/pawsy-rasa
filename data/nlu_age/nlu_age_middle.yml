@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `age_middle` intent captures users who are interested in adopting a middle-aged dog, which provides a balance of maturity and energy. These users appreciate dogs that are past the high-maintenance puppy stage but still have many active and healthy years ahead. This intent ensures the chatbot recognizes various ways users express their preference for dogs in their middle years, helping recommend breeds and individuals that align with this preference.
 
 nlu:
   - intent: age_middle

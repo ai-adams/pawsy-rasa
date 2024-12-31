@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `lifestyle_balanced` intent captures users who have a moderately active lifestyle, engaging in activities like walking, light jogging, or occasional outdoor time a few times a week. These users seek a dog that fits a balance between activity and relaxation. This intent ensures the chatbot can understand various ways users describe their steady yet not overly energetic routines, helping recommend breeds suited to a balanced lifestyle.
 
 nlu:
   - intent: lifestyle_balanced

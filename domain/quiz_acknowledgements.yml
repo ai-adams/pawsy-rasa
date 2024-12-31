@@ -4,155 +4,199 @@ responses:
   # ADOPTION REASON QUIZ ACKNOWLEDGEMENTS
   utter_ack_adoption_reason_family:
     - text: "That’s wonderful! Dogs can bring so much joy to families."
+    - text: "Family dogs are incredible—they bring love and companionship to everyone."
+    - text: "A family dog is a great choice! They’ll fit right into your home."
 
   utter_ack_adoption_reason_lifestyle:
     - text: "Got it! Finding a dog that matches your routine and energy level is so important."
+    - text: "A lifestyle match makes for a happy home! Let’s find the right fit."
 
   utter_ack_adoption_reason_security:
     - text: "Got it! I’ll look for breeds known for their protective and alert nature."
+    - text: "A security-focused dog is a great choice—I’ll include protective breeds in the options."
+    - text: "Protective dogs are amazing—they bring peace of mind and loyalty to your home."
 
   # AGE QUIZ ACKNOWLEDGEMENTS
   utter_ack_age_preference_middle:
     - text: "Middle-aged dogs are great—they’ve often outgrown the puppy stage but still have plenty of energy!"
+    - text: "Dogs in their middle years are wonderful—they’re usually well-mannered and loving."
 
   utter_ack_age_preference_old:
     - text: "Senior dogs are wonderful—they’re calm, experienced, and often great companions."
+    - text: "Older dogs bring so much wisdom and love—I’ll include them in the recommendations."
 
   utter_ack_age_preference_young:
     - text: "Puppies are so much fun! Let’s find the right one for you."
+    - text: "Young dogs are full of energy and excitement—I’ll consider playful breeds."
+    - text: "Puppies are a great choice! Let’s find one that suits your home and lifestyle."
 
   # ALLERGIES QUIZ ACKNOWLEDGEMENTS
   utter_ack_allergies_present_mild:
     - text: "Thanks for letting me know. I’ll focus on breeds that are more allergy-friendly."
+    - text: "Mild allergies are manageable—I’ll include breeds with lower allergen levels."
 
   utter_ack_allergies_present_none:
     - text: "Great! That gives us plenty of options to explore."
+    - text: "No allergies? That’s fantastic! We’ll have lots of breeds to choose from."
+    - text: "Without allergy concerns, we can look at a wide range of breeds."
 
   utter_ack_allergies_present_severe:
     - text: "Thanks for letting me know. I’ll focus on hypoallergenic breeds to minimize allergens."
+    - text: "Severe allergies? No problem—I’ll recommend breeds known for being hypoallergenic."
 
   # AVAILABILITY QUIZ ACKNOWLEDGEMENTS
   utter_ack_time_commitment_high:
     - text: "That’s fantastic! Many dogs will thrive with so much attention."
+    - text: "A high time commitment is wonderful—I’ll include breeds that love companionship."
 
   utter_ack_time_commitment_low:
     - text: "No problem! I’ll look for independent breeds that can handle some alone time."
+    - text: "Low availability is fine—I’ll recommend breeds that adapt well to it."
 
   utter_ack_time_commitment_moderate:
     - text: "That’s a good balance! I’ll look for breeds that are okay with some alone time but still enjoy your company."
+    - text: "A moderate schedule works well for many dogs—I’ll find a good match."
 
   # BUDGET QUIZ ACKNOWLEDGEMENTS
   utter_ack_budget_limit_high:
     - text: "Got it! This opens up more options for breeds with specific care needs."
+    - text: "A flexible budget is great—I’ll include breeds that require higher care investments."
 
   utter_ack_budget_limit_low:
     - text: "Thanks for sharing. We'll look for options that fit your budget."
+    - text: "A limited budget works fine—I’ll focus on affordable options."
 
   utter_ack_budget_limit_moderate:
     - text: "Thanks for sharing. We’ll focus on breeds that fit comfortably within your budget."
-
-  # CHILDREN QUIZ ACKNOWLEDGEMENTS
-  utter_ack_children_at_home_grown:
-    - text: "Great! I’ll focus on breeds that can keep up with older family members."
-
-  utter_ack_children_at_home_none:
-    - text: "Got it! Let’s find a dog that fits your household."
-
-  utter_ack_children_at_home_young:
-    - text: "Got it! I’ll look for breeds known to be patient and gentle with kids."
+    - text: "A mid-range budget gives us great flexibility—I’ll find balanced options."
 
   # CLIMATE QUIZ ACKNOWLEDGEMENTS
   utter_ack_climate_type_cold:
     - text: "Got it. We’ll focus on breeds that handle cold climates well."
+    - text: "Cold climates require hardy breeds—I’ll keep that in mind."
 
   utter_ack_climate_type_dry:
     - text: "Understood. I’ll look for breeds that do well in dry conditions."
+    - text: "Dry climates are unique—I’ll find breeds that thrive in low-humidity areas."
 
   utter_ack_climate_type_hot:
     - text: "Thanks for sharing. I’ll look for breeds that do well in warm climates."
+    - text: "Warm weather calls for heat-tolerant breeds—I’ll prioritize those."
 
   utter_ack_climate_type_humid:
     - text: "Got it! I’ll focus on breeds that do well in humid conditions."
+    - text: "Humid climates can be tricky—I’ll recommend breeds that adapt well."
 
   utter_ack_climate_type_mild:
     - text: "Temperate climates are great for most breeds! I’ll consider versatile options for you."
+    - text: "A mild climate is ideal—I’ll include adaptable breeds."
 
   # HOME QUIZ ACKNOWLEDGEMENTS
   utter_ack_home_type_apartment:
     - text: "Understood. We’ll focus on breeds that do well in smaller spaces."
+    - text: "Living in an apartment is no problem—I’ll suggest breeds that thrive in cozy homes."
 
   utter_ack_home_type_large:
     - text: "Perfect! I’ll focus on breeds that enjoy having space to roam and play."
+    - text: "A spacious home is ideal for active breeds—I’ll include those in your recommendations."
+    - text: "Large homes are great for many dogs—I’ll focus on breeds that love extra room."
 
   utter_ack_home_type_small:
     - text: "Thanks for letting me know. I’ll focus on breeds that don’t need too much space to thrive."
+    - text: "Small homes are perfect for certain breeds—I’ll suggest ones that adapt well."
 
   # LIFESTYLE QUIZ ACKNOWLEDGEMENTS
   utter_ack_lifestyle_active:
     - text: "Perfect! We’ll look for a dog that loves staying active."
+    - text: "An active lifestyle calls for energetic breeds—I’ll include those in your options."
 
   utter_ack_lifestyle_balanced:
     - text: "Great! I’ll focus on breeds that match your steady, balanced lifestyle."
+    - text: "A balanced routine is ideal for many breeds—I’ll include adaptable options."
 
   utter_ack_lifestyle_relaxed:
     - text: "Thanks for sharing. I’ll focus on calm and low-energy breeds that match your pace."
+    - text: "A relaxed lifestyle is perfect for certain breeds—I’ll recommend gentle companions."
 
   # MISC QUIZ ACKNOWLEDGEMENTS
   utter_ack_misc_1:
     - text: "That’s great! Every reason to adopt a dog is special. Let’s continue."
+    - text: "Adopting a dog is always a wonderful choice—I’ll guide you through it."
+    - text: "I’m excited to help you find the perfect match for your reason."
 
   utter_ack_misc_2:
     - text: "Got it! I’ll keep all age ranges in mind for the best match."
+    - text: "I’ll consider dogs of all ages to give you a variety of great options."
+    - text: "Let’s keep it open—I’ll include young, middle-aged, and senior dogs in the mix."
 
   utter_ack_misc_3:
     - text: "No worries! If you’re unsure, I’ll include hypoallergenic breeds just in case."
+    - text: "I’ll focus on allergy-friendly options to ensure comfort in your home."
+    - text: "Let’s play it safe—I’ll prioritize breeds that are less likely to trigger allergies."
 
   utter_ack_misc_4:
     - text: "That’s okay! I’ll focus on breeds that can adapt to varying schedules."
+    - text: "Flexible breeds are a great choice for uncertain schedules—I’ll include those."
+    - text: "I’ll prioritize dogs that are independent and adapt well to changing routines."
 
   utter_ack_misc_5:
     - text: "No problem! I’ll keep a range of options in mind for you."
+    - text: "I’ll recommend a variety of breeds to ensure we find the perfect match."
+    - text: "Keeping it broad? I’ll include versatile breeds in your options."
 
   utter_ack_misc_6:
     - text: "Got it! I’ll consider breeds that are flexible for families now or in the future."
+    - text: "Planning ahead is great—I’ll suggest breeds that adapt well to changing family dynamics."
 
   utter_ack_misc_7:
     - text: "Thanks for sharing! I’ll include breeds that are versatile for various home types."
+    - text: "Different home types are no problem—I’ll prioritize adaptable breeds."
 
   utter_ack_misc_8:
     - text: "That’s awesome! Most breeds should adapt well to your environment."
+    - text: "Your environment is great for many dogs—I’ll include adaptable options."
 
   utter_ack_misc_9:
     - text: "Perfect! I’ll include small, medium, and large breeds in the recommendations."
+    - text: "A mix of sizes gives you flexibility—I’ll suggest a range of options."
 
   utter_ack_misc_10:
     - text: "Thanks for letting me know. I’ll focus on breeds that adapt well to unique lifestyles."
+    - text: "A unique lifestyle calls for adaptable breeds—I’ll include those in my suggestions."
 
   utter_ack_misc_11:
     - text: "Exciting choice! I’ll include a mix of temperaments to give you a range of options."
+    - text: "A variety of temperaments gives you flexibility—I’ll prioritize that in the suggestions."
 
   # SIZE QUIZ ACKNOWLEDGEMENTS
   utter_ack_size_preference_large:
     - text: "Large dogs are amazing—they’re loyal and often great protectors."
+    - text: "Big dogs are wonderful companions—I’ll find breeds that fit your preference."
 
   utter_ack_size_preference_medium:
     - text: "Medium-sized dogs are a great choice—they’re versatile and fit many lifestyles!"
+    - text: "Medium dogs strike a great balance—I’ll find options that suit you."
 
   utter_ack_size_preference_small:
     - text: "Small dogs are a great choice for many homes. Let’s find one for you."
+    - text: "Compact and adorable—I’ll include small breeds in your recommendations."
 
   # TEMPERAMENT QUIZ ACKNOWLEDGEMENTS
   utter_ack_temperament_preference_adaptable:
     - text: "Great choice! I’ll look for breeds that thrive in dynamic environments and enjoy adventures."
+    - text: "Adaptable dogs are fantastic—I’ll find breeds that adjust well to various situations."
 
   utter_ack_temperament_preference_confident:
     - text: "Got it! I’ll look for breeds known for their bold and self-assured personalities."
+    - text: "Confident dogs are remarkable companions—I’ll prioritize those in my suggestions."
 
   utter_ack_temperament_preference_friendly:
     - text: "Great! Let’s focus on breeds with social and friendly temperaments."
+    - text: "Friendly dogs are wonderful—I’ll include affectionate breeds in your options."
 
   utter_ack_temperament_preference_independent:
     - text: "Got it! I’ll look for breeds that are self-reliant and require less attention."
+    - text: "Independent dogs are perfect for certain lifestyles—I’ll suggest those."
 
 
 

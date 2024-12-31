@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `availability_high` intent captures users who are highly available to dedicate significant time to a dog. It reflects their ability to provide constant attention, care, and companionship, making them well-suited for breeds that require frequent interaction or high maintenance. This intent ensures the chatbot can recognize various ways users may express their availability, leading to accurate breed recommendations.
 
 nlu:
   - intent: availability_high

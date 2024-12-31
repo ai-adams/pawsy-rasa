@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `climate_mild` intent captures users who live in regions with balanced, moderate climates where temperatures are neither too hot nor too cold. This reflects the need for breeds that thrive in comfortable, temperate conditions without specific adaptations for extreme weather. The intent ensures the chatbot can recognize various ways users describe mild climates, helping recommend versatile dog breeds suitable for such environments.
 
 nlu:
   - intent: climate_mild

@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `temperament_confident` intent captures users who prefer dogs with bold, self-assured, and fearless personalities. These users value breeds that are alert, brave, and not easily intimidated, making them suitable for protective roles or active, engaging lifestyles. This intent ensures the chatbot can recognize various ways users express their preference for confident dogs, helping recommend breeds that embody strength, courage, and composure.
 
 nlu:
   - intent: temperament_confident

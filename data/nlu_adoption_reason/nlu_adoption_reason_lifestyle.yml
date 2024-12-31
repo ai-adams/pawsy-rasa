@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `adoption_reason_lifestyle` intent focuses on an owner's desire for a dog that aligns with their daily routine, activity level, and overall way of life. It captures preferences for active, balanced, or relaxed lifestyles and ensures compatibility between the owner’s habits and the dog’s needs. This intent covers a range of expressions about lifestyle fit to help recommend breeds suited to different routines.
 
 nlu:
   - intent: adoption_reason_lifestyle

@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `home_apartment` intent captures users who live in apartments, condos, or similarly compact spaces where indoor room and direct outdoor access may be limited. This reflects the need for breeds that are suitable for small living environments or urban settings. The intent ensures the chatbot can interpret various ways users describe their living situation, helping recommend breeds that thrive in apartment settings.
 
 nlu:
   - intent: home_apartment

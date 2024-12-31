@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `size_large` intent captures users who express a preference for adopting a large dog. These users are interested in breeds with a bigger physical presence, often for companionship, protection, or active lifestyles. This intent ensures the chatbot can interpret various ways users describe their preference for large-sized dogs, helping recommend breeds like Great Danes, German Shepherds, or Labradors.
 
 nlu:
   - intent: size_large

@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `temperament_independent` intent captures users who prefer dogs with a self-reliant and low-maintenance personality. These users value breeds that are comfortable being alone for portions of the day and don’t require constant attention or interaction. This intent ensures the chatbot can recognize various ways users express their preference for independent dogs, helping recommend breeds suited to their lifestyle and availability.
 
 nlu:
   - intent: temperament_independent

@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `children_grown` intent captures users with older children (school-aged or teenagers) who are responsible enough to interact with and care for a dog. It reflects the need for breeds that are playful, patient, and compatible with more independent and active kids. This intent ensures the chatbot can understand various ways users describe households with older children, helping recommend suitable breeds for their family dynamics.
 
 nlu:
   - intent: children_grown

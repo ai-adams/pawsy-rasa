@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `availability_moderate` intent captures users who have a balanced schedule, with some free time to care for a dog but also other commitments that limit their availability. It reflects the need for breeds that can adapt to a mix of interaction and independence. This intent ensures the chatbot can recognize various ways users describe their partially open schedules and guide them toward breeds with moderate care and attention requirements.
 
 nlu:
   - intent: availability_moderate

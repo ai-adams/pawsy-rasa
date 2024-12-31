@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `allergies_severe` intent addresses users who have strong allergic reactions to dogs and require hypoallergenic or low-allergen breeds. It reflects the need for minimal shedding and reduced dander production to accommodate severe allergies. This intent ensures the chatbot understands a wide variety of expressions for severe allergy concerns, helping guide users toward suitable breeds.
 
 nlu:
   - intent: allergies_severe

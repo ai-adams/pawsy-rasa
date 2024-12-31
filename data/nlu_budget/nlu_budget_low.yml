@@ -1,4 +1,5 @@
 version: "3.1"
+# description: The `budget_low` intent captures users who have a constrained or frugal budget, seeking affordable options for adopting and caring for a dog. These users may prioritize breeds or individual dogs that are low-maintenance and come with minimal upfront and ongoing costs. This intent ensures the chatbot can recognize and appropriately assist users with limited financial resources by recommending cost-effective solutions.
 
 nlu:
   - intent: budget_low
